@@ -29,6 +29,7 @@ import com.gudla.tgtourism.divine.DivineNldFragment;
 import com.gudla.tgtourism.divine.DivineNzbFragment;
 import com.gudla.tgtourism.divine.DivineRrFragment;
 import com.gudla.tgtourism.divine.DivineWglFragment;
+import com.gudla.tgtourism.divine.MainFragment;
 
 public class DivineDestinationActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     private ListView listView;
@@ -87,10 +88,10 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
         });
 
         fragmentManager=getSupportFragmentManager();
-            DivineHydFragment divineHydFragment = new DivineHydFragment();
-            fragmentTransaction = fragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.mainDivineContainer, divineHydFragment, "divineHyd");
-            fragmentTransaction.commit();
+        MainFragment mainFragment=new MainFragment();
+        fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.mainDivineContainer, mainFragment, mainFragment.getClass().getSimpleName());
+        fragmentTransaction.commit();
         listView.setOnItemClickListener(this);
     }
 

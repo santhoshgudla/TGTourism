@@ -118,7 +118,66 @@
         <item>MEDAK</item>
         <item>RANGAREDDY</item>
     </string-array>
-
+    <string-array name="divine_main_array">
+        <item>BIRLA MANDIR</item>
+        <item>JAGANNATH TEMPLE</item>
+        <item>YELLAMMA TEMPLE</item>
+        <item>PEDDAMMA TEMPLE</item>
+        <item>St. MARY\'S CHURCH</item>
+        <item>MECCA MASJID</item>
+        <item>UJJAINI MAHANKALI</item>
+        <item>BHADRACHALAM</item>
+        <item>JAMALAPURAM</item>
+        <item>KUSUMANCHI SIVALAYAM</item>
+        <item>Jogulamba Temple</item>
+        <item>Uma Maheshwara</item>
+        <item>Maisamma Temple</item>
+        <item>Anjaneya Swamy</item>
+        <item>Lord Shiva</item>
+        <item>Lakshmi Venkateshwara</item>
+        <item>Yadagirigutta</item>
+        <item>Surendrapuri</item>
+        <item>Chaya Someswara</item>
+        <item>Bhadrakali</item>
+        <item>Thousand Pillars</item>
+        <item>Padmakshi</item>
+        <item>Mallikarjuna Swamy</item>
+        <item>Ramappa Temple</item>
+        <item>Jain Mandir</item>
+        <item>Sammakka Saralamma</item>
+        <item>Basara Saraswathi</item>
+        <item>Jainath Temple</item>
+        <item>Gudem Satyanarayana</item>
+        <item>Kadile Papahareshwar</item>
+        <item>Narsimha Swamy</item>
+        <item>Ramalayam</item>
+        <item>Kanteshwar</item>
+        <item>Quilla Temple</item>
+        <item>Sarangpur Hanuman</item>
+        <item>Lakshmi Narasimha</item>
+        <item>Mukteswara Swamy</item>
+        <item>Anjaneya Swamy</item>
+        <item>Sri Lakshmi Narasimha</item>
+        <item>Raja Rajeshwara Swamy</item>
+        <item>Lakshmi Narasimha Swamy</item>
+        <item>Nagunur Temple</item>
+        <item>Kotilingeshwara</item>
+        <item>Vana Durga Bhavani</item>
+        <item>Lakshmi Narasimh</item>
+        <item>Prakarayutha Durga Bhavani</item>
+        <item>Sangameswara Swamy</item>
+        <item>Joginatha Temple</item>
+        <item>Visweshwara Temple</item>
+        <item>Vidya Saraswathi</item>
+        <item>Veerabhadra Swamy</item>
+        <item>Medak Church</item>
+        <item>Sanghi Temple</item>
+        <item>Karmanghat Hanuman</item>
+        <item>Keesaragutta</item>
+        <item>Chilkur Balaji</item>
+        <item>Lord Shiva Temple</item>
+        <item>AAnantha Padmanabha Swamy</item>
+    </string-array>
     <string-array name="divine_hyd_array">
         <item>BIRLA MANDIR</item>
         <item>JAGANNATH TEMPLE</item>
@@ -197,6 +256,9 @@
         <item>Maheshwaram Lord Shiva Temple</item>
         <item>Ananthagiri Hills Anantha Padmanabha Swamy Temple</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
