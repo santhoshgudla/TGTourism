@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawer_open">Drawer opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="welcome_message">Welcome to Telangana Tourism</string>
+</resources>

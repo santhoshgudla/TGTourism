@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeef00"
+    tools:context="com.gudla.tgtourism.divine.DivineNldFragment">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="120dp"
+        android:stretchMode="spacingWidthUniform"
+        android:id="@+id/gridNldView">
+
+    </GridView>
+
+</FrameLayout>

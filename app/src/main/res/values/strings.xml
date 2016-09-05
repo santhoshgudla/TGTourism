@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">TGTourism</string>
+    <string name="drawer_open">Drawer opened</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string-array name="navlist">
+        <item>About</item>
+        <item>Destinations</item>
+        <item>Regions</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Youtube</item>
+        <item>Blog</item>
+    </string-array>
+    <string-array name="mainarray">
+        <item>Divine Destinations</item>
+        <item>Heritage Spots</item>
+        <item>Nature Discovery</item>
+        <item>Wild Life</item>
+        <item>Adventure Journeys</item>
+    </string-array>
+    <string name="title_activity_scrolling">History of Telangana</string>
+    <string name="large_text">
+        "The name "Telangana" refers to the word Trilinga Desa, earned \n"
+        "due to the presence of three ancient Shiva Temples at \n"
+        "Kaleshwaram, Srisailam, and Draksharamam.A more \n"
+        "historical reasoning is that during the reign of Nizams,\n"
+        "the region was known as Telugu Angana to differentiate it\n"
+        "from the areas where Marathi was spoken.\n\n"
+
+        "Telangana region has been ruled by great dynasties such as\n"
+        "Sathavahanas, Kakatiyas, Chalukyas,Mughals, Qutubshahis,\n"
+        "Asafjahis. Kakathiyas contributions to architecture are\n"
+        "considered most impressive while Sathavahanas ruled\n"
+        "Telangana region for about 400 years right from the 2nd\n"
+        "century B.C. to beyond the 2nd century A.D.Among\n"
+        "Kakathiyas Prataparudra, was a great ruler who ruled\n"
+        "till A.D.1323.\n\n"
+
+        "During the rule of Bahamani, Quli Qutub, born in Persia,\n"
+        "came to Deccan and he had become the Governor of this\n"
+        "region. Quli Qutub later became independent and formed\n"
+        "his own Qutubshahi Dynasty in 1518. The Golkonda fort was\n"
+        "built by Quli qutub. In his reign, two tanks such as \n"
+        "Ibrahim Pantam tank and Hussainsagar were built including\n"
+        "a bridge on river Musi, which is known as Puranapul. \n"
+        "The Hindus of Telangana region remember him for his \n"
+        "immense patronage of Telugu literature. Many Telugu\n"
+        "poets such as Addanki Gangadhar Kavi, Panuganti \n"
+        "Telanganarya, Kandukuri Rudra Kavi had flourished in\n"
+        "his court.\n\n"
+
+        "Qutubshah then shifted the capital from Golkonda to\n"
+        "Hyderabad on the banks of the river Musi. He built\n"
+        "the Jamia mosque at Charminar. The State of Hyderabad\n"
+        "was eventually founded by Mir Qamruddin Chin Qilich\n"
+        "Khan. Later, he conferred himself the title of Asaf Jah,\n"
+        "by which title the dynasty is still known.\n\n"
+
+        "In 1799, the Nizam rulers aided the East India Company\n"
+        "in their war with Tipu Sultan. When the Nizam was \n"
+        "compelled to sign a subsidiary alliance with the \n"
+        "British in the year 1799, he lost his authority over \n"
+        "the state’s defence and its external affairs. The Nizam\n"
+        "also had to give up the Coastal Andhra and the\n"
+        "Rayalaseema regions of his vast kingdom to the British,\n"
+        "as he was unable to pay monetarily for the assistance\n"
+        "the Britishmrendered during the Nizam’s wars against\n"
+        "Tipu Sultan. Coastal Andhra and Rayalaseema then became\n"
+        "part of the British Presidency of Madras, while \n"
+        "Telangana became part of the princely state of Hyderabad.\n"
+        "For a long time, them Nizam lead a privileged and a\n"
+        "charmed life. He was considered to be the world’s richest\n"
+        "man of his time. \n\n"
+
+        "Nizam Mir Usman Ali Khan Bahadur was conferred with the\n"
+        "title of “His Exalted Highness. Geographically, \n"
+        "Hyderabad commanded a pivotal position in the heart\n"
+        "of India with a population of nearly sixteen million\n"
+        "and an area of 82,000 square miles. Hyderabad boasted \n"
+        "of its own coinage, paper currency and stamps. Soon aftern"
+        "the announcement of India’s independence, the Nizam \n"
+        "declared his intention not to send representatives to\n"
+        "either the Constituent.\n\n"
+
+        "The Indian Government refused to entertain a request that\n"
+        "Hyderabad would seek a separate status and Operation\n"
+        "Polo was initiated to annex Hyderabad state. The Kannada\n"
+        "and Marathi speaking areas of Hyderabad state was then\n"
+        "merged with Karnataka and Maharashtra respectively while\n"
+        "Telugu speaking region of Telangana was merged with\n"
+        "Andhra state with Hyderabad as the capital of united\n"
+        "Andhra Pradesh state in 1956. Although there was \n"
+        "resentment against the merger, there was a period of calm. \n\n"
+
+        "After the promises made to respect the rights of Telangana\n"
+        "were not fulfilled, a separate Telangana agitation was\n"
+        "launched in 1969. Following subsequent Gentleman’s\n"
+        "agreement and again a period of broken promises and\n"
+        "injustice, Telangana movement was given a final push by\n"
+        "Shri. K Chandrasekhar Rao in 2001 with the formation of\n"
+        "TRS. Finally due to the whole hearted efforts of\n"
+        "Telangana society and political parties, the Government\n"
+        "of India agreed for creation of a separate Telangana\n"
+        "state in July, 2013 and Telangana came into effect on\n"
+        "June 2, 2014 as ‘Telangana state’, the 29th state of\n"
+        "Indian Union. \n\n"
+    </string>
+    <string name="welcome_message">Welcome to Telangana Tourism</string>
+    <string-array name="regions_array">
+        <item>HYDERABAD</item>
+        <item>KHAMMAM</item>
+        <item>MAHABUBNAGAR</item>
+        <item>NALGONDA</item>
+        <item>WARANGAL</item>
+        <item>ADILABAD</item>
+        <item>NIZAMABAD</item>
+        <item>KARIMNAGAR</item>
+        <item>MEDAK</item>
+        <item>RANGAREDDY</item>
+    </string-array>
+
+    <string-array name="divine_hyd_array">
+        <item>BIRLA MANDIR</item>
+        <item>JAGANNATH TEMPLE</item>
+        <item>YELLAMMA TEMPLE</item>
+        <item>PEDDAMMA TEMPLE</item>
+        <item>St. MARY\'S CHURCH</item>
+        <item>MECCA MASJID</item>
+        <item>UJJAINI MAHANKALI</item>
+    </string-array>
+    <string-array name="divine_khm_array">
+        <item>BHADRACHALAM</item>
+        <item>JAMALAPURAM</item>
+        <item>KUSUMANCHI SIVALAYAM</item>
+    </string-array>
+    <string-array name="divine_mbn_array">
+        <item>Alampur Jogulamba Temple</item>
+        <item>Uma Maheshwara Swamy Temple</item>
+        <item>Maisigandi Maisamma Temple</item>
+        <item>Beechupally Anjaneya Swamy Temple</item>
+        <item>Lord Shiva Temple Nallamala Forest</item>
+        <item>Manyamkonda Sri Lakshmi Venkateshwara Swamy Temple</item>
+    </string-array>
+    <string-array name="divine_nld_array">
+        <item>Yadagirigutta Temple</item>
+        <item>Surendrapuri Temple</item>
+        <item>Chaya Someswara Swamy Temple</item>
+    </string-array>
+    <string-array name="divine_wgl_array">
+        <item>Bhadrakali Temple</item>
+        <item>Thousand Pillars Temple</item>
+        <item>Padmakshi Temple</item>
+        <item>Mallikarjuna Swamy Temple</item>
+        <item>Ramappa Temple</item>
+        <item>Jain Mandir</item>
+        <item>Sammakka Saralamma Temple</item>
+    </string-array>
+    <string-array name="divine_adb_array">
+        <item>Basara Saraswathi</item>
+        <item>Jainath Temple</item>
+        <item>Gudem Satyanarayana Swamy</item>
+        <item>Kadile Papahareshwar</item>
+        <item>Kalwa Narsimha Swamy Temple</item>
+    </string-array>
+    <string-array name="divine_nzb_array">
+        <item>Dichpally Ramalayam</item>
+        <item>Kanteshwar</item>
+        <item>Quilla Temple</item>
+        <item>Sarangpur Hanuman Temple</item>
+    </string-array>
+    <string-array name="divine_knr_array">
+        <item>Dharmapuri Lakshmi Narasimha Swamy Temple</item>
+        <item>Kaleshwara Mukteswara Swamy Temple</item>
+        <item>Kondagattu Anjaneya Swamy temple</item>
+        <item>Sri Lakshmi Narasimha Swamy Temple Nallagonda</item>
+        <item>Sri Raja Rajeshwara Swamy Temple</item>
+        <item>Lakshmi Narasimha Swamy Temple Nampally Gutta</item>
+        <item>Nagunur Temple</item>
+    </string-array>
+    <string-array name="divine_mdk_array">
+        <item>Kotilingeshwara Swamy Temple</item>
+        <item>Edupayala Vana Durga Bhavani Temple</item>
+        <item>Sri Lakshmi Narasimha Swamy Temple</item>
+        <item>Saptha Prakarayutha Durga Bhavani Temple</item>
+        <item>Sri Ketaki Sangameswara Swamy Temple</item>
+        <item>Joginatha Temple</item>
+        <item>Kasi Visweshwara Temple</item>
+        <item>Vidya Saraswathi Kshetram</item>
+        <item>Veerabhadra Swamy Temple</item>
+        <item>Medak Church</item>
+    </string-array>
+    <string-array name="divine_rr_array">
+        <item>Sanghi Temple</item>
+        <item>Karmanghat Hanuman Temple</item>
+        <item>Keesaragutta Temple</item>
+        <item>Chilkur Balaji Temple</item>
+        <item>Maheshwaram Lord Shiva Temple</item>
+        <item>Ananthagiri Hills Anantha Padmanabha Swamy Temple</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
