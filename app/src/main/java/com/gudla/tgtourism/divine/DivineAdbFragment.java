@@ -43,11 +43,11 @@ public class DivineAdbFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] imageId = {R.drawable.divine_adb_basara,
-                        R.drawable.divine_adb_jainath,
-                        R.drawable.divine_adb_satyanaraya,
-                        R.drawable.divine_papahareshwar,
-                        R.drawable.divine_adb_kalwa_narsimha};
+        int[] imageId = {R.drawable.adb_basara,
+                        R.drawable.adb_jainath,
+                        R.drawable.adb_satyanaraya,
+                        R.drawable.adb_papahareshwar,
+                        R.drawable.adb_kalwa_narsimha};
         String[] mainName=getResources().getStringArray(R.array.divine_adb_array);
         mainAdapter=new CustomAdapter(context, imageId, mainName);
         listView.setAdapter(mainAdapter);

@@ -91,6 +91,7 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
         MainFragment mainFragment=new MainFragment();
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.mainDivineContainer, mainFragment, mainFragment.getClass().getSimpleName());
+//        fragmentTransaction.addToBackStack(mainFragment.getClass().getSimpleName());
         fragmentTransaction.commit();
         listView.setOnItemClickListener(this);
     }
@@ -106,7 +107,9 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        onCreate(savedInstanceState);
+        if(savedInstanceState != null) {
+            onCreate(savedInstanceState);
+        }
     }
 
     @Override
@@ -179,11 +182,6 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
 
     private void onItemSelected(int i) {
         listView.setItemChecked(i,true);
-    }
-
-    @Override
-    public void onAttachFragment(android.app.Fragment fragment) {
-        super.onAttachFragment(fragment);
     }
 
     @Override

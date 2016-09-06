@@ -9,14 +9,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomAdapter;
 import com.gudla.tgtourism.util.GridCustomAdapter;
 
 
 public class DivineWglFragment extends Fragment {
-    GridView myGridview;
-    GridCustomAdapter mainAdapter;
+    ListView listView;
+    CustomAdapter mainAdapter;
     private Context context;
 
 
@@ -29,23 +31,23 @@ public class DivineWglFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_divine_wgl, container, false);
-        myGridview= (GridView) view.findViewById(R.id.gridWglView);
+        listView= (ListView) view.findViewById(R.id.listWglView);
         return view;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] imageId = {R.drawable.divine_wgl_bhadrakali,
-                        R.drawable.divine_wgl_thousand_pillars,
-                        R.drawable.divine_wgl_padmakshi,
-                        R.drawable.divine_wgl_mallikarjuna_swamy,
-                        R.drawable.divine_wgl_ramappa,
-                        R.drawable.divine_wgl_jain_mandir,
-                        R.drawable.divine_wgl_sammakka_saralamma};
+        int[] imageId = {R.drawable.wgl_bhadrakali,
+                        R.drawable.wgl_thousand_pillars,
+                        R.drawable.wgl_padmakshi,
+                        R.drawable.wgl_mallikarjuna_swamy,
+                        R.drawable.wgl_ramappa,
+                        R.drawable.wgl_jain_mandir,
+                        R.drawable.wgl_sammakka_saralamma};
         String[] mainName=getResources().getStringArray(R.array.divine_wgl_array);
-        mainAdapter=new GridCustomAdapter(context, imageId, mainName);
-        myGridview.setAdapter(mainAdapter);
+        mainAdapter=new CustomAdapter(context, imageId, mainName);
+        listView.setAdapter(mainAdapter);
     }
 
     @Override

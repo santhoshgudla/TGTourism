@@ -9,14 +9,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomAdapter;
 import com.gudla.tgtourism.util.GridCustomAdapter;
 
 
 public class DivineRrFragment extends Fragment {
-    GridView myGridview;
-    GridCustomAdapter mainAdapter;
+    ListView listView;
+    CustomAdapter mainAdapter;
     private Context context;
 
 
@@ -29,22 +31,22 @@ public class DivineRrFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_divine_rr, container, false);
-        myGridview= (GridView) view.findViewById(R.id.gridRrView);
+        listView= (ListView) view.findViewById(R.id.listRrView);
         return view;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] imageId = {R.drawable.divine_rr_sanghi,
-                        R.drawable.divine_rr_karmanghat,
-                        R.drawable.divine_rr_lingeswara,
-                        R.drawable.divine_rr_chilkur_balaji,
-                        R.drawable.divine_rr_maheshwaram,
-                        R.drawable.divine_rr_ananthagiri};
+        int[] imageId = {R.drawable.rr_sanghi,
+                        R.drawable.rr_karmanghat,
+                        R.drawable.rr_lingeswara,
+                        R.drawable.rr_chilkur_balaji,
+                        R.drawable.rr_maheshwaram,
+                        R.drawable.rr_ananthagiri};
         String[] mainName=getResources().getStringArray(R.array.divine_rr_array);
-        mainAdapter=new GridCustomAdapter(context, imageId, mainName);
-        myGridview.setAdapter(mainAdapter);
+        mainAdapter=new CustomAdapter(context, imageId, mainName);
+        listView.setAdapter(mainAdapter);
     }
 
     @Override

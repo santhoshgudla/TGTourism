@@ -9,13 +9,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomAdapter;
 import com.gudla.tgtourism.util.GridCustomAdapter;
 
 public class DivineMkdFragment extends Fragment {
-    GridView myGridview;
-    GridCustomAdapter mainAdapter;
+    ListView listView;
+    CustomAdapter mainAdapter;
     private Context context;
 
 
@@ -28,26 +30,26 @@ public class DivineMkdFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_divine_mkd, container, false);
-        myGridview= (GridView) view.findViewById(R.id.gridMkdView);
+        listView= (ListView) view.findViewById(R.id.listMkdView);
         return view;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] imageId = {R.drawable.divine_mdk_kotilingeswara,
-                        R.drawable.divine_mdk_edupayala,
-                        R.drawable.divine_mdk_narasimha,
-                        R.drawable.divine_mdk_durga_bhavani,
-                        R.drawable.divine_mdk_sangameswara,
-                        R.drawable.divine_mdk_joginatha,
-                        R.drawable.divine_mdk_visweashwara,
-                        R.drawable.divine_mdk_vidya_saraswathi,
-                        R.drawable.divine_mdk_veerabhadra,
-                        R.drawable.divine_mdk_church};
+        int[] imageId = {R.drawable.mdk_kotilingeswara,
+                        R.drawable.mdk_edupayala,
+                        R.drawable.mdk_narasimha,
+                        R.drawable.mdk_durga_bhavani,
+                        R.drawable.mdk_sangameswara,
+                        R.drawable.mdk_joginatha,
+                        R.drawable.mdk_visweashwara,
+                        R.drawable.mdk_vidya_saraswathi,
+                        R.drawable.mdk_veerabhadra,
+                        R.drawable.mdk_church};
         String[] mainName=getResources().getStringArray(R.array.divine_mdk_array);
-        mainAdapter=new GridCustomAdapter(context, imageId, mainName);
-        myGridview.setAdapter(mainAdapter);
+        mainAdapter=new CustomAdapter(context, imageId, mainName);
+        listView.setAdapter(mainAdapter);
     }
 
     @Override

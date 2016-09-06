@@ -3,10 +3,12 @@ package com.gudla.tgtourism.util;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.GridView;
 
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.util.SourceArray;
@@ -21,14 +23,18 @@ public class GridCustomAdapter extends BaseAdapter {
 
     Context context;
     ArrayList<SourceArray> list;
-    public GridCustomAdapter(Context context,int[] imageId, String[] name){
-        this.context=context;
-        list=new ArrayList<>();
-        for(int i=0; i<imageId.length;i++){
-            SourceArray sourceArray=new SourceArray(imageId[i], name[i]);
+    GridView myGrid;
+
+    public GridCustomAdapter(Context context, int[] imageId, String[] name) {
+        this.context = context;
+        this.myGrid=myGrid;
+        list = new ArrayList<>();
+        for (int i = 0; i < imageId.length; i++) {
+            SourceArray sourceArray = new SourceArray(imageId[i], name[i]);
             list.add(sourceArray);
         }
     }
+
     @Override
     public int getCount() {
         return list.size();
@@ -46,22 +52,22 @@ public class GridCustomAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        View row=view;
+        View row = view;
         ViewHolder viewHolder;
 //        int imageViewId= R.id.gridImageView;
 //        int textViewId=R.id.gridTextView;
-        int imageViewId= R.id.imageLinnerGrid;
-        int textViewId=R.id.textLineerGrid;
-        if(row==null){
-            LayoutInflater inflater= (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
-            row=inflater.inflate(R.layout.custon_grid_lineer,viewGroup,false);
-            viewHolder=new ViewHolder(row,imageViewId,textViewId);
+        int imageViewId = R.id.imageLinnerGrid;
+        int textViewId = R.id.textLineerGrid;
+        if (row == null) {
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+            row = inflater.inflate(R.layout.custon_grid_lineer, viewGroup, false);
+            viewHolder = new ViewHolder(row, imageViewId, textViewId);
             row.setTag(viewHolder);
-        }else {
-            viewHolder= (ViewHolder) row.getTag();
+        } else {
+            viewHolder = (ViewHolder) row.getTag();
         }
-        Bitmap icon = BitmapFactory.decodeResource(context.getResources(),list.get(i).imageId);
-        Bitmap circleImage=viewHolder.getRoundedShape(icon);
+        Bitmap icon = BitmapFactory.decodeResource(context.getResources(), list.get(i).imageId);
+        Bitmap circleImage = viewHolder.getRoundedShape(icon);
         viewHolder.imageView.setImageBitmap(circleImage);
         viewHolder.textView.setText(list.get(i).mainName);
         return row;

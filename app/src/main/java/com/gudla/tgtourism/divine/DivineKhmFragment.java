@@ -17,8 +17,8 @@ import com.gudla.tgtourism.util.GridCustomAdapter;
 
 
 public class DivineKhmFragment extends Fragment {
-    GridView myGridView;
-    GridCustomAdapter mainAdapter;
+    ListView listView;
+    CustomAdapter mainAdapter;
     private Context context;
 
     public DivineKhmFragment() {
@@ -34,7 +34,7 @@ public class DivineKhmFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_divine_khm, container, false);
-        myGridView= (GridView) view.findViewById(R.id.gridKhmView);
+        listView= (ListView) view.findViewById(R.id.listKhmView);
         return view;
     }
 
@@ -42,10 +42,10 @@ public class DivineKhmFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] imageId = {R.drawable.divine_khm_bhadrachalam,R.drawable.divine_khm_jamalapuram,R.drawable.divine_khm_kusumanchipng};
+        int[] imageId = {R.drawable.khm_bhadrachalam,R.drawable.khm_jamalapuram,R.drawable.khm_kusumanchipng};
         String[] mainName=getResources().getStringArray(R.array.divine_khm_array);
-        mainAdapter=new GridCustomAdapter(context, imageId, mainName);
-        myGridView.setAdapter(mainAdapter);
+        mainAdapter=new CustomAdapter(context, imageId, mainName);
+        listView.setAdapter(mainAdapter);
     }
 
     @Override

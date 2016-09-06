@@ -9,13 +9,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomAdapter;
 import com.gudla.tgtourism.util.GridCustomAdapter;
 
 public class DivineNldFragment extends Fragment {
-    GridView myGridview;
-    GridCustomAdapter mainAdapter;
+    ListView listView;
+    CustomAdapter mainAdapter;
     private Context context;
 
 
@@ -28,19 +30,19 @@ public class DivineNldFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_divine_nld, container, false);
-        myGridview= (GridView) view.findViewById(R.id.gridNldView);
+        listView= (ListView) view.findViewById(R.id.listNldView);
         return view;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] imageId = {R.drawable.divine_nld_yadagirigutta,
-                        R.drawable.divine_nld_surendrapuri,
-                        R.drawable.divine_nld_someswara};
+        int[] imageId = {R.drawable.nld_yadagirigutta,
+                        R.drawable.nld_surendrapuri,
+                        R.drawable.nld_someswara};
         String[] mainName=getResources().getStringArray(R.array.divine_nld_array);
-        mainAdapter=new GridCustomAdapter(context, imageId, mainName);
-        myGridview.setAdapter(mainAdapter);
+        mainAdapter=new CustomAdapter(context, imageId, mainName);
+        listView.setAdapter(mainAdapter);
     }
 
     @Override

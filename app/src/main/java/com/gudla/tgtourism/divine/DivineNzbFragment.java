@@ -9,14 +9,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+import android.widget.ListView;
 
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomAdapter;
 import com.gudla.tgtourism.util.GridCustomAdapter;
 
 
 public class DivineNzbFragment extends Fragment {
-    GridView myGridview;
-    GridCustomAdapter mainAdapter;
+    ListView listView;
+    CustomAdapter mainAdapter;
     private Context context;
 
     public DivineNzbFragment() {
@@ -28,20 +30,20 @@ public class DivineNzbFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_divine_nzb, container, false);
-        myGridview= (GridView) view.findViewById(R.id.gridNzbView);
+        listView= (ListView) view.findViewById(R.id.listNzbView);
         return view;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        int[] imageId = {R.drawable.divine_nzb_dichpalli_ramalayam,
-                        R.drawable.divine_nzb_kanteshwar,
-                        R.drawable.divine_nzb_quilla,
-                        R.drawable.divine_nzb_sarangapur_hanuman};
+        int[] imageId = {R.drawable.nzb_dichpalli_ramalayam,
+                        R.drawable.nzb_kanteshwar,
+                        R.drawable.nzb_quilla,
+                        R.drawable.nzb_sarangapur_hanuman};
         String[] mainName=getResources().getStringArray(R.array.divine_nzb_array);
-        mainAdapter=new GridCustomAdapter(context, imageId, mainName);
-        myGridview.setAdapter(mainAdapter);
+        mainAdapter=new CustomAdapter(context, imageId, mainName);
+        listView.setAdapter(mainAdapter);
     }
 
     @Override
