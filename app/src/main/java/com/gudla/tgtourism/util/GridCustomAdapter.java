@@ -23,11 +23,9 @@ public class GridCustomAdapter extends BaseAdapter {
 
     Context context;
     ArrayList<SourceArray> list;
-    GridView myGrid;
 
     public GridCustomAdapter(Context context, int[] imageId, String[] name) {
         this.context = context;
-        this.myGrid=myGrid;
         list = new ArrayList<>();
         for (int i = 0; i < imageId.length; i++) {
             SourceArray sourceArray = new SourceArray(imageId[i], name[i]);
@@ -54,8 +52,6 @@ public class GridCustomAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View row = view;
         ViewHolder viewHolder;
-//        int imageViewId= R.id.gridImageView;
-//        int textViewId=R.id.gridTextView;
         int imageViewId = R.id.imageLinnerGrid;
         int textViewId = R.id.textLineerGrid;
         if (row == null) {

@@ -257,8 +257,42 @@
         <item>Ananthagiri Hills Anantha Padmanabha Swamy Temple</item>
     </string-array>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="main_heritage_array">
+        <item>Charminar</item>
+        <item>Salarjung Museum</item>
+        <item>Qutub Shahi Tombs</item>
+        <item>Paigah Tombs</item>
+        <item>Mecca Masjid</item>
+        <item>Golconda Fort</item>
+        <item>Falaknuma Palace</item>
+        <item>Chowmahalla Palace</item>
+        <item>Nelakondapalli</item>
+        <item>Khammam Fort</item>
+        <item>Parnasala</item>
+        <item>Pillalamarri</item>
+        <item>Alampur</item>
+        <item>Gadwal Fort</item>
+        <item>Nandikonda</item>
+        <item>Nagarjuna Sagar</item>
+        <item>Kolanupaka</item>
+        <item>Devarakonda Fort</item>
+        <item>Bhongir Fort</item>
+        <item>Rachakonda Fort</item>
+        <item>Thousand pillars</item>
+        <item>Warangal Fort</item>
+        <item>Ramappa</item>
+        <item>Nirmal Fort</item>
+        <item>Domakonda Fort</item>
+        <item>Nizamabad Fort</item>
+        <item>Heritage Museum</item>
+        <item>Ramagiri Fort</item>
+        <item>Silver Filighree</item>
+        <item>Dhulikatta</item>
+        <item>Elgandal Fort</item>
+        <item>Jagtial Fort</item>
+        <item>Nagunur Fort</item>
+        <item>Medak Fort</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

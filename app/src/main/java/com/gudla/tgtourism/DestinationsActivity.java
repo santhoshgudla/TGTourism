@@ -45,6 +45,7 @@ public class DestinationsActivity extends AppCompatActivity implements AdapterVi
                 intent=new Intent(this,DivineDestinationActivity.class);
                 break;
             case 1:
+                intent=new Intent(this,HeritageActivity.class);
                 break;
             case 2:
                 break;

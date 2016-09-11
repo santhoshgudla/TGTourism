@@ -29,8 +29,10 @@
                 android:value="com.gudla.tgtourism.MainActivity" />
         </activity>
         <activity android:name=".DestinationsActivity" />
-        <activity android:name=".DivineDestinationActivity"
-            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".DivineDestinationActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".HeritageActivity"></activity>
     </application>
 
 </manifest>
