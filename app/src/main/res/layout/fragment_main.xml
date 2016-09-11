@@ -2,17 +2,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.gudla.tgtourism.divine.MainFragment">
 
-    <GridView
+    <!--<GridView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:columnWidth="120dp"-->
+        <!--android:gravity="center"-->
+        <!--android:stretchMode="spacingWidthUniform"-->
+        <!--android:id="@+id/gridMainView">-->
+
+    <!--</GridView>-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainRecyclerDivine"
+        android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:numColumns="auto_fit"
-        android:columnWidth="120dp"
-        android:gravity="center"
-        android:stretchMode="spacingWidthUniform"
-        android:id="@+id/gridMainView">
+        app:layoutManager="android.support.v7.widget.GridLayoutManager"
+        app:spanCount="3">
 
-    </GridView>
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>
