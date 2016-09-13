@@ -48,10 +48,13 @@ public class DestinationsActivity extends AppCompatActivity implements AdapterVi
                 intent=new Intent(this,HeritageActivity.class);
                 break;
             case 2:
+                intent=new Intent(this,NatureActivity.class);
                 break;
             case 3:
+                intent=new Intent(this,WildLifeActivity.class);
                 break;
             case 4:
+                intent=new Intent(this,AdventureActivity.class);
                 break;
             default:
                 break;

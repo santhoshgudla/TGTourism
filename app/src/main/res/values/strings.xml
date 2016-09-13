@@ -118,6 +118,17 @@
         <item>MEDAK</item>
         <item>RANGAREDDY</item>
     </string-array>
+    <string-array name="her_regions_array">
+        <item>HYDERABAD</item>
+        <item>KHAMMAM</item>
+        <item>MAHABUBNAGAR</item>
+        <item>NALGONDA</item>
+        <item>WARANGAL</item>
+        <item>ADILABAD</item>
+        <item>NIZAMABAD</item>
+        <item>KARIMNAGAR</item>
+        <item>MEDAK</item>
+    </string-array>
     <string-array name="divine_main_array">
         <item>BIRLA MANDIR</item>
         <item>JAGANNATH TEMPLE</item>
@@ -293,6 +304,198 @@
         <item>Nagunur Fort</item>
         <item>Medak Fort</item>
     </string-array>
+    <string-array name="her_hyd_array">
+        <item>Charminar</item>
+        <item>Salarjung Museum</item>
+        <item>Qutub Shahi Tombs</item>
+        <item>Paigah Tombs</item>
+        <item>Mecca Masjid</item>
+        <item>Golconda Fort</item>
+        <item>Falaknuma Palace</item>
+        <item>Chowmahalla Palace</item>
+    </string-array>
+    <string-array name="her_khm_array">
+        <item>Nelakondapalli</item>
+        <item>Khammam Fort</item>
+        <item>Parnasala</item>
+    </string-array>
+    <string-array name="her_mbn_array">
+        <item>Pillalamarri</item>
+        <item>Alampur</item>
+        <item>Gadwal Fort</item>
+    </string-array>
+    <string-array name="her_nld_array">
+        <item>Nandikonda</item>
+        <item>Nagarjuna Sagar</item>
+        <item>Kolanupaka</item>
+        <item>Devarakonda Fort</item>
+        <item>Bhongir Fort</item>
+        <item>Rachakonda Fort</item>
+    </string-array>
+    <string-array name="her_wgl_array">
+        <item>Thousand pillars</item>
+        <item>Warangal Fort</item>
+        <item>Ramappa</item>
+    </string-array>
+    <string-array name="her_adb_array">
+        <item>Nirmal Fort</item>
+    </string-array>
+    <string-array name="her_nzb_array">
+        <item>Domakonda Fort</item>
+        <item>Nizamabad Fort</item>
+        <item>Heritage Museum</item>
+    </string-array>
+    <string-array name="her_knr_array">
+        <item>Ramagiri Fort</item>
+        <item>Silver Filighree</item>
+        <item>Dhulikatta</item>
+        <item>Elgandal Fort</item>
+        <item>Jagtial Fort</item>
+        <item>Nagunur Fort</item>
+    </string-array>
+    <string-array name="her_mdk_array">
+        <item>Medak Fort</item>
+    </string-array>
+    <string-array name="nature_array">
+        <item>Durgam Cheruvu</item>
+        <item>Hussain Sagar</item>
+        <item>Lumbini Park</item>
+        <item>Palair Lake</item>
+        <item>Kinnerasani Dam</item>
+        <item>Bogatha Waterfalls</item>
+        <item>Mallela Theertham Waterfalls</item>
+        <item>Tiger Forest</item>
+        <item>Jurala Dam</item>
+        <item>Koilsagar Dam</item>
+        <item>Nagarjuna Sagar</item>
+        <item>Lakhnavaram Lake</item>
+        <item>Pakhal Lake</item>
+        <item>Kanakai Waterfalls</item>
+        <item>Kuntala Waterfalls</item>
+        <item>Pochera Waterfalls</item>
+        <item>Gayatri Waterfalls</item>
+        <item>Kadam Dam</item>
+        <item>Alisagar Reservoir</item>
+        <item>Nizam Sagar Dam</item>
+        <item>Mallaram forest</item>
+        <item>Pochampadu dam</item>
+        <item>Lower Manair Dam</item>
+        <item>Pocharam Reservoir Lake</item>
+        <item>Singur Dam</item>
+        <item>Manjeera Reservoir</item>
+        <item>Ananthagiri Hills</item>
+        <item>Ramoji Film City</item>
+        <item>Osman Sagar Lake</item>
+    </string-array>
+    <string-array name="nature_hyd_array">
+        <item>Durgam Cheruvu</item>
+        <item>Hussain Sagar</item>
+        <item>Lumbini Park</item>
+    </string-array>
+    <string-array name="nature_khm_array">
+        <item>Palair Lake</item>
+        <item>Kinnerasani Dam</item>
+        <item>Bogatha Waterfalls</item>
+    </string-array>
+    <string-array name="nature_mbn_array">
+        <item>Mallela Theertham Waterfalls</item>
+        <item>Tiger Forest</item>
+        <item>Jurala Dam</item>
+        <item>Koilsagar Dam</item>
+    </string-array>
+    <string-array name="nature_nld_array">
+        <item>Nagarjuna Sagar</item>
+    </string-array>
+    <string-array name="nature_wgl_array">
+        <item>Lakhnavaram Lake</item>
+        <item>Pakhal Lake</item>
+    </string-array>
+    <string-array name="nature_adb_array">
+        <item>Kanakai Waterfalls</item>
+        <item>Kuntala Waterfalls</item>
+        <item>Pochera Waterfalls</item>
+        <item>Gayatri Waterfalls</item>
+        <item>Kadam Dam</item>
+    </string-array>
+    <string-array name="nature_nzb_array">
+        <item>Alisagar Reservoir</item>
+        <item>Nizam Sagar Dam</item>
+        <item>Mallaram forest</item>
+        <item>Pochampadu dam</item>
+    </string-array>
+    <string-array name="nature_knr_array">
+        <item>Lower Manair Dam</item>
+    </string-array>
+    <string-array name="nature_mdk_array">
+        <item>Pocharam Reservoir Lake</item>
+        <item>Singur Dam</item>
+        <item>Manjeera Reservoir</item>
+    </string-array>
+    <string-array name="nature_rr_array">
+        <item>Manjeera Reservoir</item>
+        <item>Ananthagiri Hills</item>
+        <item>Ramoji Film City</item>
+        <item>Osman Sagar Lake</item>
+    </string-array>
+    <string-array name="wildlife_array">
+        <item>Kbr National Park</item>
+        <item>Mrugavani National Park</item>
+        <item>Nehru Zoolagical Park</item>
+        <item>Mahavir Harina National Park</item>
+        <item>Kinnerasani Wildlife</item>
+        <item>Srisailam Tiger Reserve</item>
+        <item>Eturnagaram Wildlife</item>
+        <item>Pakhal Wildlife</item>
+        <item>Kawal Wildlife</item>
+        <item>Pranahita Wildlife</item>
+        <item>Jannaram Wildlife</item>
+        <item>Ali Sagar Deer Park</item>
+        <item>Ujwala Park</item>
+        <item>Shivaram Wildlife</item>
+        <item>Manjira Wildlife</item>
+        <item>Pocharam Sanctuary</item>
+        <item>Shamirpet Deer Park</item>
+    </string-array>
+    <string-array name="wild_hyd_array">
+        <item>Kbr National Park</item>
+        <item>Mrugavani National Park</item>
+        <item>Nehru Zoolagical Park</item>
+        <item>Mahavir Harina National Park</item>
+    </string-array>
+    <string-array name="wild_khm_array">
+        <item>Kinnerasani Wildlife</item>
+    </string-array>
+    <string-array name="wild_mbn_array">
+        <item>Srisailam Tiger Reserve</item>
+    </string-array>
+    <string-array name="wild_wgl_array">
+        <item>Eturnagaram Wildlife</item>
+        <item>Pakhal Wildlife</item>
+    </string-array>
+    <string-array name="wild_adb_array">
+        <item>Kawal Wildlife</item>
+        <item>Pranahita Wildlife</item>
+        <item>Jannaram Wildlife</item>
+    </string-array>
+    <string-array name="wild_nzb_array">
+        <item>Ali Sagar Deer Park</item>
+    </string-array>
+    <string-array name="wild_knr_array">
+        <item>Ujwala Park</item>
+        <item>Shivaram Wildlife</item>
+    </string-array>
+    <string-array name="wild_mdk_array">
+        <item>Manjira Wildlife</item>
+        <item>Pocharam Sanctuary</item>
+    </string-array>
+    <string-array name="wild_rr_array">
+        <item>Shamirpet Deer Park</item>
+    </string-array>
+    <string-array name="adventure_array">
+        <item>Bhuvanagiri Adventure</item>
+        <item>Vikarabad Adventure</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

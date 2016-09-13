@@ -17,13 +17,24 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.gudla.tgtourism.heritage.HerAdbFragment;
+import com.gudla.tgtourism.heritage.HerHydFragment;
+import com.gudla.tgtourism.heritage.HerKhmFragment;
+import com.gudla.tgtourism.heritage.HerKnrFragment;
+import com.gudla.tgtourism.heritage.HerMbnFragment;
+import com.gudla.tgtourism.heritage.HerMdkFragment;
+import com.gudla.tgtourism.heritage.HerNldFragment;
+import com.gudla.tgtourism.heritage.HerNzbFragment;
+import com.gudla.tgtourism.heritage.HerWglFragment;
 import com.gudla.tgtourism.heritage.TestFragment;
+import com.gudla.tgtourism.util.FragmentReplace;
 
 public class HeritageActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     DrawerLayout drawerLayout;
     ListView listView;
     ActionBarDrawerToggle actionBarDrawerToggle;
     FragmentManager fragmentManager;
+    FragmentTransaction mFragmentTransaction;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +49,9 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        listView.setAdapter(new ArrayAdapter<String>(this,R.layout.regions_item,getResources().getStringArray(R.array.regions_array)){
+        listView.setAdapter(new ArrayAdapter<String>(this,R.layout.regions_item,getResources().getStringArray(R.array.her_regions_array)){
 
-            String[] regionName=getResources().getStringArray(R.array.regions_array);
+            String[] regionName=getResources().getStringArray(R.array.her_regions_array);
             @Override
             public int getCount() {
                 return regionName.length;
@@ -69,15 +80,10 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
         });
         listView.setOnItemClickListener(this);
         fragmentManager=getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
-//        MainHeritageFragment mainHeritageFragment=new MainHeritageFragment();
-//        fragmentTransaction.add(R.id.mainheritageContainer,mainHeritageFragment,mainHeritageFragment.getClass().getSimpleName());
+        mFragmentTransaction=fragmentManager.beginTransaction();
         TestFragment testFragment=new TestFragment();
-        fragmentTransaction.add(R.id.mainheritageContainer,testFragment,testFragment.getClass().getSimpleName());
-        fragmentTransaction.commit();
-//        ItemFragment itemFragment=new ItemFragment();
-//        fragmentTransaction.add(R.id.mainheritageContainer,itemFragment,itemFragment.getClass().getSimpleName());
-//        fragmentTransaction.commit();
+        mFragmentTransaction.add(R.id.mainheritageContainer,testFragment,testFragment.getClass().getSimpleName());
+        mFragmentTransaction.commit();
 
 
     }
@@ -105,8 +111,49 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+        int mContainer=R.id.mainheritageContainer;
         onItemSelected(i);
+        switch (i){
+            case 0:
+                HerHydFragment mHerHydFragment=new HerHydFragment();
+                new FragmentReplace(mHerHydFragment,mContainer,fragmentManager);
+                break;
+            case 1:
+                HerKhmFragment mHerKhmFragment=new HerKhmFragment();
+                new FragmentReplace(mHerKhmFragment,mContainer,fragmentManager);
+                break;
+            case 2:
+                HerMbnFragment mHerMbnFragment=new HerMbnFragment();
+                new FragmentReplace(mHerMbnFragment,mContainer,fragmentManager);
+                break;
+            case 3:
+                HerNldFragment mHerNldFragment= new HerNldFragment();
+                new FragmentReplace(mHerNldFragment,mContainer,fragmentManager);
+                break;
+            case 4:
+                HerWglFragment mHerWglFragment= new HerWglFragment();
+                new FragmentReplace(mHerWglFragment, mContainer, fragmentManager);
+                break;
+            case 5:
+                HerAdbFragment mHerAdbFragment= new HerAdbFragment();
+                new FragmentReplace(mHerAdbFragment, mContainer, fragmentManager);
+                break;
+            case 6:
+                HerNzbFragment mHerNzbFragment= new HerNzbFragment();
+                new FragmentReplace(mHerNzbFragment, mContainer, fragmentManager);
+                break;
+            case 7:
+                HerKnrFragment mHerKnrFragment= new HerKnrFragment();
+                new FragmentReplace(mHerKnrFragment, mContainer, fragmentManager);
+                break;
+            case 8:
+                HerMdkFragment mHerMdkFragment= new HerMdkFragment();
+                new FragmentReplace(mHerMdkFragment, mContainer, fragmentManager);
+                break;
+            default:
+                break;
+        }
+
     }
     private void onItemSelected(int i) {
         listView.setItemChecked(i,true);

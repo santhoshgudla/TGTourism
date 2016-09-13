@@ -30,6 +30,7 @@ import com.gudla.tgtourism.divine.DivineNzbFragment;
 import com.gudla.tgtourism.divine.DivineRrFragment;
 import com.gudla.tgtourism.divine.DivineWglFragment;
 import com.gudla.tgtourism.divine.MainFragment;
+import com.gudla.tgtourism.util.FragmentReplace;
 
 public class DivineDestinationActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     private ListView listView;
@@ -91,7 +92,6 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
         MainFragment mainFragment=new MainFragment();
         fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.mainDivineContainer, mainFragment, mainFragment.getClass().getSimpleName());
-//        fragmentTransaction.addToBackStack(mainFragment.getClass().getSimpleName());
         fragmentTransaction.commit();
         listView.setOnItemClickListener(this);
     }
@@ -126,58 +126,53 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        int mContainer=R.id.mainDivineContainer;
         onItemSelected(i);
         switch (i){
             case 0:
                 DivineHydFragment divineHydFragment=new DivineHydFragment();
-                fragementReplace(divineHydFragment);
+                new FragmentReplace(divineHydFragment,mContainer,fragmentManager);
                 break;
             case 1:
                 DivineKhmFragment divineKhmFragment =new DivineKhmFragment();
-                fragementReplace(divineKhmFragment);
+                new FragmentReplace(divineKhmFragment,mContainer,fragmentManager);
                 break;
             case 2:
                 DivineMbnFragment divineMbnFragment=new DivineMbnFragment();
-                fragementReplace(divineMbnFragment);
+                new FragmentReplace(divineMbnFragment,mContainer,fragmentManager);
                 break;
             case 3:
                 DivineNldFragment divineNldFragment=new DivineNldFragment();
-                fragementReplace(divineNldFragment);
+                new FragmentReplace(divineNldFragment,mContainer,fragmentManager);
                 break;
             case 4:
                 DivineWglFragment divineWglFragment=new DivineWglFragment();
-                fragementReplace(divineWglFragment);
+                new FragmentReplace(divineWglFragment,mContainer,fragmentManager);
                 break;
             case 5:
                 DivineAdbFragment divineAdbFragment=new DivineAdbFragment();
-                fragementReplace(divineAdbFragment);
+                new FragmentReplace(divineAdbFragment,mContainer,fragmentManager);
                 break;
             case 6:
                 DivineNzbFragment divineNzbFragment=new DivineNzbFragment();
-                fragementReplace(divineNzbFragment);
+                new FragmentReplace(divineNzbFragment,mContainer,fragmentManager);
                 break;
             case 7:
                 DivineKnrFragment divineKnrFragment=new DivineKnrFragment();
-                fragementReplace(divineKnrFragment);
+                new FragmentReplace(divineKnrFragment,mContainer,fragmentManager);
                 break;
             case 8:
                 DivineMkdFragment divineMkdFragment=new DivineMkdFragment();
-                fragementReplace(divineMkdFragment);
+                new FragmentReplace(divineMkdFragment,mContainer,fragmentManager);
                 break;
             case 9:
                 DivineRrFragment divineRrFragment=new DivineRrFragment();
-                fragementReplace(divineRrFragment);
+                new FragmentReplace(divineRrFragment,mContainer,fragmentManager);
                 break;
             default:
                 break;
         }
 
-    }
-
-    private void fragementReplace(Fragment fragment) {
-        fragmentTransaction=fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.mainDivineContainer,fragment,fragment.getClass().getSimpleName());
-        fragmentTransaction.commit();
     }
 
     private void onItemSelected(int i) {
