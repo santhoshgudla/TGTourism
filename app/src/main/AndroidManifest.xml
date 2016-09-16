@@ -32,10 +32,15 @@
         <activity
             android:name=".DivineDestinationActivity"
             android:configChanges="orientation|screenSize" />
-        <activity android:name=".HeritageActivity" />
-        <activity android:name=".NatureActivity" />
-        <activity android:name=".WildLifeActivity" />
-        <activity android:name=".AdventureActivity" />
-        <activity android:name=".RegionsActivity" />
+        <activity android:name=".HeritageActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".NatureActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".WildLifeActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".AdventureActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".RegionsActivity"
+            android:configChanges="orientation|screenSize"/>
     </application>
 </manifest>

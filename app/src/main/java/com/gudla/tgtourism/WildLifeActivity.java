@@ -28,7 +28,7 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+            super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wild_life);
         mWildLifeDrawer= (DrawerLayout) findViewById(R.id.wildlife_drawer);
         mWildLifeDrawerListner= new ActionBarDrawerToggle(this,mWildLifeDrawer,R.string.drawer_open,R.string.drawer_closed){
@@ -90,13 +90,13 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        if(savedInstanceState != null) {
-            onCreate(savedInstanceState);
-        }
-    }
+//    @Override
+//    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+//        super.onRestoreInstanceState(savedInstanceState);
+//        if(savedInstanceState != null) {
+//            onCreate(savedInstanceState);
+//        }
+//    }
 
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {

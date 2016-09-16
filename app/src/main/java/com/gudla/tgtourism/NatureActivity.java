@@ -17,7 +17,17 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.gudla.tgtourism.nature.NatAdbFragment;
+import com.gudla.tgtourism.nature.NatHydFragment;
+import com.gudla.tgtourism.nature.NatKhmFragment;
+import com.gudla.tgtourism.nature.NatKnrFragment;
+import com.gudla.tgtourism.nature.NatMbnFragment;
+import com.gudla.tgtourism.nature.NatNldFragment;
+import com.gudla.tgtourism.nature.NatNzbFragment;
+import com.gudla.tgtourism.nature.NatRrFragment;
+import com.gudla.tgtourism.nature.NatWglFragment;
 import com.gudla.tgtourism.nature.NatureMainFragment;
+import com.gudla.tgtourism.util.FragmentReplace;
 
 public class NatureActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private ListView mListView;
@@ -30,21 +40,15 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nature);
-        mNatureDrawer= (DrawerLayout) findViewById(R.id.nature_drawer);
-        mNatureDrawerListner= new ActionBarDrawerToggle(this,mNatureDrawer,R.string.drawer_open,R.string.drawer_closed){
-            @Override
-            public void onDrawerOpened(View drawerView) {
-            }
 
-            @Override
-            public void onDrawerClosed(View drawerView) {
-            }
-        };
+        mNatureDrawer= (DrawerLayout) findViewById(R.id.nature_drawer);
+        mListView= (ListView) findViewById(R.id.nature_list);
+
+        mNatureDrawerListner= new ActionBarDrawerToggle(this,mNatureDrawer,R.string.drawer_open,R.string.drawer_closed);
         mNatureDrawer.addDrawerListener(mNatureDrawerListner);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        mListView= (ListView) findViewById(R.id.nature_list);
         mListView.setAdapter(new ArrayAdapter<String>(this,R.layout.regions_item,getResources().getStringArray(R.array.regions_array)){
 
             String[] regionName=getResources().getStringArray(R.array.regions_array);
@@ -114,6 +118,46 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         int mContainer=R.id.mainNatureContainer;
         onItemSelected(i);
+        switch (i){
+            case 0:
+                NatHydFragment mHerHydFragment=new NatHydFragment();
+                new FragmentReplace(mHerHydFragment,mContainer,mFragmentManager);
+                break;
+            case 1:
+                NatKhmFragment mNatKhmFragment=new NatKhmFragment();
+                new FragmentReplace(mNatKhmFragment,mContainer,mFragmentManager);
+                break;
+            case 2:
+                NatMbnFragment mNatMbnFragment=new NatMbnFragment();
+                new FragmentReplace(mNatMbnFragment, mContainer, mFragmentManager);
+                break;
+            case 3:
+                NatNldFragment mNatNldFragment=new NatNldFragment();
+                new FragmentReplace(mNatNldFragment, mContainer, mFragmentManager);
+                break;
+            case 4:
+                NatWglFragment mNatWglFragment=new NatWglFragment();
+                new FragmentReplace(mNatWglFragment, mContainer, mFragmentManager);
+                break;
+            case 5:
+                NatAdbFragment mNatAdbFragment=new NatAdbFragment();
+                new FragmentReplace(mNatAdbFragment, mContainer, mFragmentManager);
+                break;
+            case 6:
+                NatNzbFragment mNatNzbFragment=new NatNzbFragment();
+                new FragmentReplace(mNatNzbFragment, mContainer, mFragmentManager);
+                break;
+            case 7:
+                NatKnrFragment mNatKnrFragment=new NatKnrFragment();
+                new FragmentReplace(mNatKnrFragment, mContainer, mFragmentManager);
+                break;
+            case 8:
+                NatRrFragment mNatRrFragment=new NatRrFragment();
+                new FragmentReplace(mNatRrFragment, mContainer, mFragmentManager);
+                break;
+            default:
+                break;
+        }
 
     }
 
