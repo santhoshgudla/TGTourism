@@ -15,8 +15,19 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Switch;
 import android.widget.TextView;
 
+import com.gudla.tgtourism.util.FragmentReplace;
+import com.gudla.tgtourism.wildlife.WildAdbFragment;
+import com.gudla.tgtourism.wildlife.WildHydFragment;
+import com.gudla.tgtourism.wildlife.WildKhmFragment;
+import com.gudla.tgtourism.wildlife.WildKnrFragment;
+import com.gudla.tgtourism.wildlife.WildMbnFragment;
+import com.gudla.tgtourism.wildlife.WildMdkFragment;
+import com.gudla.tgtourism.wildlife.WildNzbFragment;
+import com.gudla.tgtourism.wildlife.WildRrFragment;
+import com.gudla.tgtourism.wildlife.WildWglFragment;
 import com.gudla.tgtourism.wildlife.WildlifeMainFragment;
 
 public class WildLifeActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
@@ -46,9 +57,9 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mListView= (ListView) findViewById(R.id.wildlife_list);
-        mListView.setAdapter(new ArrayAdapter<String>(this,R.layout.regions_item,getResources().getStringArray(R.array.regions_array)){
+        mListView.setAdapter(new ArrayAdapter<String>(this,R.layout.regions_item,getResources().getStringArray(R.array.regions_wild_array)){
 
-            String[] regionName=getResources().getStringArray(R.array.regions_array);
+            String[] regionName=getResources().getStringArray(R.array.regions_wild_array);
             @Override
             public int getCount() {
                 return regionName.length;
@@ -115,7 +126,55 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         int mContainer=R.id.mainWildLifeContainer;
         onItemSelected(i);
-
+        switch(i){
+            case 0:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildHydFragment mWildHydFragment=new WildHydFragment();
+                new FragmentReplace(mWildHydFragment, mContainer, mFragmentManager);
+                break;
+            case 1:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildKhmFragment mWildKhmFragment=new WildKhmFragment();
+                new FragmentReplace(mWildKhmFragment, mContainer, mFragmentManager);
+                break;
+            case 2:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildMbnFragment mWildMbnFragment=new WildMbnFragment();
+                new FragmentReplace(mWildMbnFragment, mContainer, mFragmentManager);
+                break;
+            case 3:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildWglFragment mWildWglFragment=new WildWglFragment();
+                new FragmentReplace(mWildWglFragment, mContainer, mFragmentManager);
+                break;
+            case 4:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildAdbFragment mWildAdbFragment=new WildAdbFragment();
+                new FragmentReplace(mWildAdbFragment, mContainer, mFragmentManager);
+                break;
+            case 5:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildNzbFragment mWildNzbFragment=new WildNzbFragment();
+                new FragmentReplace(mWildNzbFragment, mContainer, mFragmentManager);
+                break;
+            case 6:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildKnrFragment mWildKnrFragment=new WildKnrFragment();
+                new FragmentReplace(mWildKnrFragment, mContainer, mFragmentManager);
+                break;
+            case 7:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildMdkFragment mWildMdkFragment=new WildMdkFragment();
+                new FragmentReplace(mWildMdkFragment, mContainer, mFragmentManager);
+                break;
+            case 8:
+                mFragmentTransaction=mFragmentManager.beginTransaction();
+                WildRrFragment mWildRrFragment=new WildRrFragment();
+                new FragmentReplace(mWildRrFragment, mContainer, mFragmentManager);
+                break;
+            default:
+                break;
+        }
     }
 
     private void onItemSelected(int i) {

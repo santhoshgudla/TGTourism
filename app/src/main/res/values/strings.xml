@@ -495,7 +495,15 @@
         <item>Bhuvanagiri Adventure</item>
         <item>Vikarabad Adventure</item>
     </string-array>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="regions_wild_array">
+        <item>HYDERABAD</item>
+        <item>KHAMMAM</item>
+        <item>MAHABUBNAGAR</item>
+        <item>WARANGAL</item>
+        <item>ADILABAD</item>
+        <item>NIZAMABAD</item>
+        <item>KARIMNAGAR</item>
+        <item>MEDAK</item>
+        <item>RANGAREDDY</item>
+    </string-array>
 </resources>
