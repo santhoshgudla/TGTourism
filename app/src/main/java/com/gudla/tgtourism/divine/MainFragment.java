@@ -1,6 +1,7 @@
 package com.gudla.tgtourism.divine;
 
 import android.content.Context;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -21,8 +22,6 @@ import com.gudla.tgtourism.util.SourceArray;
 import java.util.ArrayList;
 
 public class MainFragment extends Fragment {
-//    public GridView myGridview;
-//    GridCustomAdapter mainAdapter;
     private Context context;
     RecyclerView mRecyclerView;
 
@@ -42,7 +41,6 @@ public class MainFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_main, container, false);
         mRecyclerView= (RecyclerView) view.findViewById(R.id.mainRecyclerDivine);
-//        myGridview= (GridView) view.findViewById(R.id.gridMainView);
         return view;
     }
 
@@ -109,15 +107,12 @@ public class MainFragment extends Fragment {
                 R.drawable.rr_ananthagiri};
         String[] mainName=getResources().getStringArray(R.array.divine_main_array);
         mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(context, imageId, mainName));
-//        mainAdapter=new GridCustomAdapter(context, imageId, mainName);
-//        myGridview.setAdapter(mainAdapter);
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         this.context=context;
-
     }
 
     @Override

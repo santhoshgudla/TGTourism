@@ -18,6 +18,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.gudla.tgtourism.divine.DivineAdbFragment;
 import com.gudla.tgtourism.divine.DivineHydFragment;
@@ -38,6 +39,7 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
     DrawerLayout divineDrawer;
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
+    MainFragment mainFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,11 +90,11 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
             }
         });
 
-        fragmentManager=getSupportFragmentManager();
-        MainFragment mainFragment=new MainFragment();
-        fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.mainDivineContainer, mainFragment, mainFragment.getClass().getSimpleName());
-        fragmentTransaction.commit();
+            fragmentManager = getSupportFragmentManager();
+            mainFragment = new MainFragment();
+            fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.mainDivineContainer, mainFragment, "main");
+            fragmentTransaction.commit();
         listView.setOnItemClickListener(this);
     }
 
@@ -105,14 +107,6 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
     }
 
     @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        if(savedInstanceState != null) {
-            onCreate(savedInstanceState);
-        }
-    }
-
-    @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         divineDrawerListner.syncState();
@@ -122,6 +116,32 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         divineDrawerListner.onConfigurationChanged(newConfig);
+        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            mainFragment=(MainFragment)getSupportFragmentManager().findFragmentByTag("main");
+            if(mainFragment instanceof MainFragment){
+                fragmentDestroy();
+                fragmentCreate();
+            }
+        }else {
+            mainFragment=(MainFragment)getSupportFragmentManager().findFragmentByTag("main");
+            if(mainFragment instanceof MainFragment){
+                fragmentDestroy();
+                fragmentCreate();
+            }
+        }
+    }
+
+    private void fragmentCreate() {
+        fragmentTransaction = fragmentManager.beginTransaction();
+        mainFragment = new MainFragment();
+        fragmentTransaction.add(R.id.mainDivineContainer, mainFragment, "main");
+        fragmentTransaction.commit();
+    }
+
+    private void fragmentDestroy() {
+        fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.remove(mainFragment);
+        fragmentTransaction.commit();
     }
 
     @Override

@@ -35,6 +35,7 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
     DrawerLayout mNatureDrawer;
     FragmentManager mFragmentManager;
     FragmentTransaction mFragmentTransaction;
+    NatureMainFragment mNatureMainFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,8 +82,8 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
         mListView.setOnItemClickListener(this);
         mFragmentManager=getSupportFragmentManager();
         mFragmentTransaction=mFragmentManager.beginTransaction();
-        NatureMainFragment mNatureMainFragment=new NatureMainFragment();
-        mFragmentTransaction.add(R.id.mainNatureContainer,mNatureMainFragment,mNatureMainFragment.getClass().getSimpleName());
+        mNatureMainFragment=new NatureMainFragment();
+        mFragmentTransaction.add(R.id.mainNatureContainer,mNatureMainFragment,"main");
         mFragmentTransaction.commit();
     }
 
@@ -94,13 +95,13 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        if(savedInstanceState != null) {
-            onCreate(savedInstanceState);
-        }
-    }
+//    @Override
+//    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+//        super.onRestoreInstanceState(savedInstanceState);
+//        if(savedInstanceState != null) {
+//            onCreate(savedInstanceState);
+//        }
+//    }
 
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
@@ -112,6 +113,32 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         mNatureDrawerListner.onConfigurationChanged(newConfig);
+        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            fragmentRecreate();
+        }else {
+            fragmentRecreate();
+        }
+    }
+
+    private void fragmentRecreate() {
+        mNatureMainFragment=(NatureMainFragment) getSupportFragmentManager().findFragmentByTag("main");
+        if(mNatureMainFragment instanceof NatureMainFragment){
+            fragmentDestroy();
+            fragmentCreate();
+        }
+    }
+
+    private void fragmentCreate() {
+        mFragmentTransaction = mFragmentManager.beginTransaction();
+        mNatureMainFragment = new NatureMainFragment();
+        mFragmentTransaction.add(R.id.mainNatureContainer, mNatureMainFragment, "main");
+        mFragmentTransaction.commit();
+    }
+
+    private void fragmentDestroy() {
+        mFragmentTransaction = mFragmentManager.beginTransaction();
+        mFragmentTransaction.remove(mNatureMainFragment);
+        mFragmentTransaction.commit();
     }
 
     @Override

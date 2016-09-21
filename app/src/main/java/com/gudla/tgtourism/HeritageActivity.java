@@ -35,6 +35,7 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
     ActionBarDrawerToggle actionBarDrawerToggle;
     FragmentManager fragmentManager;
     FragmentTransaction mFragmentTransaction;
+    TestFragment testFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,8 +82,8 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
         listView.setOnItemClickListener(this);
         fragmentManager=getSupportFragmentManager();
         mFragmentTransaction=fragmentManager.beginTransaction();
-        TestFragment testFragment=new TestFragment();
-        mFragmentTransaction.add(R.id.mainheritageContainer,testFragment,testFragment.getClass().getSimpleName());
+        testFragment=new TestFragment();
+        mFragmentTransaction.add(R.id.mainheritageContainer,testFragment,"main");
         mFragmentTransaction.commit();
 
 
@@ -97,13 +98,13 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        if(savedInstanceState != null) {
-            onCreate(savedInstanceState);
-        }
-    }
+//    @Override
+//    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+//        super.onRestoreInstanceState(savedInstanceState);
+//        if(savedInstanceState != null) {
+//            onCreate(savedInstanceState);
+//        }
+//    }
 
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
@@ -115,6 +116,32 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         actionBarDrawerToggle.onConfigurationChanged(newConfig);
+        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            fragmentRecreate();
+        }else {
+            fragmentRecreate();
+        }
+    }
+
+    private void fragmentRecreate() {
+        testFragment=(TestFragment) getSupportFragmentManager().findFragmentByTag("main");
+        if(testFragment instanceof TestFragment){
+            fragmentDestroy();
+            fragmentCreate();
+        }
+    }
+
+    private void fragmentCreate() {
+        mFragmentTransaction = fragmentManager.beginTransaction();
+        testFragment = new TestFragment();
+        mFragmentTransaction.add(R.id.mainheritageContainer, testFragment, "main");
+        mFragmentTransaction.commit();
+    }
+
+    private void fragmentDestroy() {
+        mFragmentTransaction = fragmentManager.beginTransaction();
+        mFragmentTransaction.remove(testFragment);
+        mFragmentTransaction.commit();
     }
 
     @Override

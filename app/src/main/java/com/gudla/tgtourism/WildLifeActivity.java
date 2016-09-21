@@ -36,6 +36,7 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
     DrawerLayout mWildLifeDrawer;
     FragmentManager mFragmentManager;
     FragmentTransaction mFragmentTransaction;
+    WildlifeMainFragment mWildlifeMainFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,8 +90,8 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
         mListView.setOnItemClickListener(this);
         mFragmentManager=getSupportFragmentManager();
         mFragmentTransaction=mFragmentManager.beginTransaction();
-        WildlifeMainFragment mWildlifeMainFragment=new WildlifeMainFragment();
-        mFragmentTransaction.add(R.id.mainWildLifeContainer,mWildlifeMainFragment,mWildlifeMainFragment.getClass().getSimpleName());
+        mWildlifeMainFragment=new WildlifeMainFragment();
+        mFragmentTransaction.add(R.id.mainWildLifeContainer,mWildlifeMainFragment,"main");
         mFragmentTransaction.commit();
     }
     @Override
@@ -119,6 +120,32 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         mWildLifeDrawerListner.onConfigurationChanged(newConfig);
+        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            fragmentRecreate();
+        }else {
+            fragmentRecreate();
+        }
+    }
+
+    private void fragmentRecreate() {
+        mWildlifeMainFragment=(WildlifeMainFragment) getSupportFragmentManager().findFragmentByTag("main");
+        if(mWildlifeMainFragment instanceof WildlifeMainFragment){
+            fragmentDestroy();
+            fragmentCreate();
+        }
+    }
+
+    private void fragmentCreate() {
+        mFragmentTransaction = mFragmentManager.beginTransaction();
+        mWildlifeMainFragment = new WildlifeMainFragment();
+        mFragmentTransaction.add(R.id.mainWildLifeContainer, mWildlifeMainFragment, "main");
+        mFragmentTransaction.commit();
+    }
+
+    private void fragmentDestroy() {
+        mFragmentTransaction = mFragmentManager.beginTransaction();
+        mFragmentTransaction.remove(mWildlifeMainFragment);
+        mFragmentTransaction.commit();
     }
 
 
