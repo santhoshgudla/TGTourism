@@ -3,7 +3,7 @@
     <string name="drawer_open">Drawer opened</string>
     <string name="drawer_closed">Drawer Closed</string>
     <string-array name="navlist">
-        <item>About</item>
+        <item>History</item>
         <item>Destinations</item>
         <item>Regions</item>
         <item>Facebook</item>
@@ -20,90 +20,21 @@
     </string-array>
     <string name="title_activity_scrolling">History of Telangana</string>
     <string name="large_text">
-        "The name "Telangana" refers to the word Trilinga Desa, earned \n"
-        "due to the presence of three ancient Shiva Temples at \n"
-        "Kaleshwaram, Srisailam, and Draksharamam.A more \n"
-        "historical reasoning is that during the reign of Nizams,\n"
-        "the region was known as Telugu Angana to differentiate it\n"
-        "from the areas where Marathi was spoken.\n\n"
+        "The name "Telangana" refers to the word Trilinga Desa, earned due to the presence of three ancient Shiva Temples at Kaleshwaram, Srisailam, and Draksharamam.A more historical reasoning is that during the reign of Nizams, the region was known as Telugu Angana to differentiate itfrom the areas where Marathi was spoken.\n\n"
 
-        "Telangana region has been ruled by great dynasties such as\n"
-        "Sathavahanas, Kakatiyas, Chalukyas,Mughals, Qutubshahis,\n"
-        "Asafjahis. Kakathiyas contributions to architecture are\n"
-        "considered most impressive while Sathavahanas ruled\n"
-        "Telangana region for about 400 years right from the 2nd\n"
-        "century B.C. to beyond the 2nd century A.D.Among\n"
-        "Kakathiyas Prataparudra, was a great ruler who ruled\n"
-        "till A.D.1323.\n\n"
+        "Telangana region has been ruled by great dynasties such as Sathavahanas, Kakatiyas, Chalukyas,Mughals, Qutubshahis, Asafjahis. Kakathiyas contributions to architecture are considered most impressive while Sathavahanas ruled Telangana region for about 400 years right from the 2nd century B.C. to beyond the 2nd century A.D.Among Kakathiyas Prataparudra, was a great ruler who ruled till A.D.1323.\n\n"
 
-        "During the rule of Bahamani, Quli Qutub, born in Persia,\n"
-        "came to Deccan and he had become the Governor of this\n"
-        "region. Quli Qutub later became independent and formed\n"
-        "his own Qutubshahi Dynasty in 1518. The Golkonda fort was\n"
-        "built by Quli qutub. In his reign, two tanks such as \n"
-        "Ibrahim Pantam tank and Hussainsagar were built including\n"
-        "a bridge on river Musi, which is known as Puranapul. \n"
-        "The Hindus of Telangana region remember him for his \n"
-        "immense patronage of Telugu literature. Many Telugu\n"
-        "poets such as Addanki Gangadhar Kavi, Panuganti \n"
-        "Telanganarya, Kandukuri Rudra Kavi had flourished in\n"
-        "his court.\n\n"
+        "During the rule of Bahamani, Quli Qutub, born in Persia, came to Deccan and he had become the Governor of this region. Quli Qutub later became independent and formed his own Qutubshahi Dynasty in 1518. The Golkonda fort was built by Quli qutub. In his reign, two tanks such as Ibrahim Pantam tank and Hussainsagar were built including a bridge on river Musi, which is known as Puranapul. The Hindus of Telangana region remember him for his immense patronage of Telugu literature. Many Telugu poets such as Addanki Gangadhar Kavi, Panuganti Telanganarya, Kandukuri Rudra Kavi had flourished in his court.\n\n"
 
-        "Qutubshah then shifted the capital from Golkonda to\n"
-        "Hyderabad on the banks of the river Musi. He built\n"
-        "the Jamia mosque at Charminar. The State of Hyderabad\n"
-        "was eventually founded by Mir Qamruddin Chin Qilich\n"
-        "Khan. Later, he conferred himself the title of Asaf Jah,\n"
-        "by which title the dynasty is still known.\n\n"
+        "Qutubshah then shifted the capital from Golkonda to Hyderabad on the banks of the river Musi. He built the Jamia mosque at Charminar. The State of Hyderabad was eventually founded by Mir Qamruddin Chin Qilich Khan. Later, he conferred himself the title of Asaf Jah, by which title the dynasty is still known.\n\n"
 
-        "In 1799, the Nizam rulers aided the East India Company\n"
-        "in their war with Tipu Sultan. When the Nizam was \n"
-        "compelled to sign a subsidiary alliance with the \n"
-        "British in the year 1799, he lost his authority over \n"
-        "the state’s defence and its external affairs. The Nizam\n"
-        "also had to give up the Coastal Andhra and the\n"
-        "Rayalaseema regions of his vast kingdom to the British,\n"
-        "as he was unable to pay monetarily for the assistance\n"
-        "the Britishmrendered during the Nizam’s wars against\n"
-        "Tipu Sultan. Coastal Andhra and Rayalaseema then became\n"
-        "part of the British Presidency of Madras, while \n"
-        "Telangana became part of the princely state of Hyderabad.\n"
-        "For a long time, them Nizam lead a privileged and a\n"
-        "charmed life. He was considered to be the world’s richest\n"
-        "man of his time. \n\n"
+        "In 1799, the Nizam rulers aided the East India Company in their war with Tipu Sultan. When the Nizam was compelled to sign a subsidiary alliance with the British in the year 1799, he lost his authority over the state’s defence and its external affairs. The Nizam also had to give up the Coastal Andhra and the Rayalaseema regions of his vast kingdom to the British, as he was unable to pay monetarily for the assistance the Britishmrendered during the Nizam’s wars against Tipu Sultan. Coastal Andhra and Rayalaseema then became part of the British Presidency of Madras, while Telangana became part of the princely state of Hyderabad. For a long time, them Nizam lead a privileged and a charmed life. He was considered to be the world’s richest man of his time. \n\n"
 
-        "Nizam Mir Usman Ali Khan Bahadur was conferred with the\n"
-        "title of “His Exalted Highness. Geographically, \n"
-        "Hyderabad commanded a pivotal position in the heart\n"
-        "of India with a population of nearly sixteen million\n"
-        "and an area of 82,000 square miles. Hyderabad boasted \n"
-        "of its own coinage, paper currency and stamps. Soon aftern"
-        "the announcement of India’s independence, the Nizam \n"
-        "declared his intention not to send representatives to\n"
-        "either the Constituent.\n\n"
+        "Nizam Mir Usman Ali Khan Bahadur was conferred with the title of “His Exalted Highness. Geographically, Hyderabad commanded a pivotal position in the heart of India with a population of nearly sixteen million and an area of 82,000 square miles. Hyderabad boasted of its own coinage, paper currency and stamps. Soon afternthe announcement of India’s independence, the Nizam declared his intention not to send representatives to either the Constituent.\n\n"
 
-        "The Indian Government refused to entertain a request that\n"
-        "Hyderabad would seek a separate status and Operation\n"
-        "Polo was initiated to annex Hyderabad state. The Kannada\n"
-        "and Marathi speaking areas of Hyderabad state was then\n"
-        "merged with Karnataka and Maharashtra respectively while\n"
-        "Telugu speaking region of Telangana was merged with\n"
-        "Andhra state with Hyderabad as the capital of united\n"
-        "Andhra Pradesh state in 1956. Although there was \n"
-        "resentment against the merger, there was a period of calm. \n\n"
+        "The Indian Government refused to entertain a request that Hyderabad would seek a separate status and Operation Polo was initiated to annex Hyderabad state. The Kannada and Marathi speaking areas of Hyderabad state was then merged with Karnataka and Maharashtra respectively while Telugu speaking region of Telangana was merged with Andhra state with Hyderabad as the capital of united Andhra Pradesh state in 1956. Although there was resentment against the merger, there was a period of calm. \n
 
-        "After the promises made to respect the rights of Telangana\n"
-        "were not fulfilled, a separate Telangana agitation was\n"
-        "launched in 1969. Following subsequent Gentleman’s\n"
-        "agreement and again a period of broken promises and\n"
-        "injustice, Telangana movement was given a final push by\n"
-        "Shri. K Chandrasekhar Rao in 2001 with the formation of\n"
-        "TRS. Finally due to the whole hearted efforts of\n"
-        "Telangana society and political parties, the Government\n"
-        "of India agreed for creation of a separate Telangana\n"
-        "state in July, 2013 and Telangana came into effect on\n"
-        "June 2, 2014 as ‘Telangana state’, the 29th state of\n"
-        "Indian Union. \n\n"
+        "After the promises made to respect the rights of Telangana were not fulfilled, a separate Telangana agitation was launched in 1969. Following subsequent Gentleman’s agreement and again a period of broken promises and injustice, Telangana movement was given a final push by Shri. K Chandrasekhar Rao in 2001 with the formation of TRS. Finally due to the whole hearted efforts of Telangana society and political parties, the Government of India agreed for creation of a separate Telangana state in July, 2013 and Telangana came into effect on June 2, 2014 as ‘Telangana state’, the 29th state of Indian Union. \n\n"
     </string>
     <string name="welcome_message">Welcome to Telangana Tourism</string>
     <string-array name="regions_array">
@@ -506,4 +437,21 @@
         <item>MEDAK</item>
         <item>RANGAREDDY</item>
     </string-array>
+    <string name="contact_us_td">Telangana Tourism Department</string>
+    <string name="contact_us_td_address">
+        "“D” Block, 3rd Floor, Secretariat\n"
+        "Hyderabad - 500 022\n"
+        "Telangana, India."
+    </string>
+    <string name="contact_us_ttdc">
+        Telangana Tourism Development Corporation
+    </string>
+    <string name="contact_us_ttdc_address">
+        "3-5-891, Tourism House\n"
+        "Himayatnagar, Hyderabad - 500 029,\n"
+        "Telangana, India.\n"
+        "Phone: +91-40-23262151, +91-40-23262152,\n"
+        "+91-40-23262153, +91-40-23262154, +91-40-23262157\n"
+        "Fax: +91-40-23261801."
+    </string>
 </resources>

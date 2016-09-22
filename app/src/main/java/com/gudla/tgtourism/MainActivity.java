@@ -11,6 +11,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,10 +30,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private DrawerLayout drawerLayout;
     private ListView listView;
     ActionBarDrawerToggle drawerListner;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
     private GoogleApiClient client;
 
     @Override
@@ -61,15 +58,23 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         AnimationDrawable frameAnimation = (AnimationDrawable) imageView.getDrawable();
         frameAnimation.start();
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main_menu, menu);
+        return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (drawerListner.onOptionsItemSelected(item))
             return true;
+        if(item.getItemId() == R.id.contactus){
+            Intent intent=new Intent(this,ContactUsActivity.class);
+            startActivity(intent);
+        }
         return super.onOptionsItemSelected(item);
     }
 
