@@ -1,5 +1,6 @@
 package com.gudla.tgtourism;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
@@ -9,6 +10,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -88,20 +90,21 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main_menu, menu);
+        return true;
+    }
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(mNatureDrawerListner.onOptionsItemSelected(item)){
             return true;
         }
+        if(item.getItemId() == R.id.contactus){
+            Intent intent=new Intent(this,ContactUsActivity.class);
+            startActivity(intent);
+        }
         return super.onOptionsItemSelected(item);
     }
-
-//    @Override
-//    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-//        super.onRestoreInstanceState(savedInstanceState);
-//        if(savedInstanceState != null) {
-//            onCreate(savedInstanceState);
-//        }
-//    }
 
     @Override
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {

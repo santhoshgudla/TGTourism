@@ -10,7 +10,6 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:configChanges="orientation|screenSize"
             android:icon="@drawable/tg_tourism_icon"
             android:label="Telangana Tourism">
             <intent-filter>
