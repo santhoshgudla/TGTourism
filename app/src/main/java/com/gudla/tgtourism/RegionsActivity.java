@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.gudla.tgtourism.hyd.HyderabadActivity;
+import com.gudla.tgtourism.khm.KhammamActivity;
 import com.gudla.tgtourism.util.CustomAdapter;
 
 public class RegionsActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
@@ -47,6 +49,20 @@ public class RegionsActivity extends AppCompatActivity implements AdapterView.On
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        Intent intent=null;
+        switch (i){
+            case 0:
+                intent=new Intent(this, HyderabadActivity.class);
+                break;
+            case 1:
+                intent=new Intent(this, KhammamActivity.class);
+                break;
+            default:
+                break;
 
+        }
+        if(intent != null){
+            startActivity(intent);
+        }
     }
 }

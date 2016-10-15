@@ -46,7 +46,26 @@
         <activity
             android:name=".RegionsActivity"
             android:configChanges="orientation|screenSize" />
-        <activity android:name=".ContactUsActivity"></activity>
+        <activity android:name=".ContactUsActivity" />
+        <activity
+            android:name=".hyd.BrilaActivity"
+            android:label="@string/title_activity_brila"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyA5thEPrcS6so_nJNSfBTrUPlHMVFzIXwc" />
+
+        <activity
+            android:name=".hyd.JagannathActivity"
+            android:label="@string/title_activity_jagannath"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hyd.HyderabadActivity" />
+        <activity android:name=".khm.KhammamActivity" />
+        <activity android:name=".mbn.MahabubnagarActivity"></activity>
     </application>
 
 </manifest>

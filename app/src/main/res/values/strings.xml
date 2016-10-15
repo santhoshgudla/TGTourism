@@ -426,6 +426,59 @@
         <item>Bhuvanagiri Adventure</item>
         <item>Vikarabad Adventure</item>
     </string-array>
+    <string-array name="hyd_array">
+        <item>BIRLA MANDIR</item>
+        <item>JAGANNATH TEMPLE</item>
+        <item>YELLAMMA TEMPLE</item>
+        <item>PEDDAMMA TEMPLE</item>
+        <item>St. MARY\'S CHURCH</item>
+        <item>MECCA MASJID</item>
+        <item>UJJAINI MAHANKALI</item>
+        <item>Charminar</item>
+        <item>Salarjung Museum</item>
+        <item>Qutub Shahi Tombs</item>
+        <item>Paigah Tombs</item>
+        <item>Mecca Masjid</item>
+        <item>Golconda Fort</item>
+        <item>Falaknuma Palace</item>
+        <item>Chowmahalla Palace</item>
+        <item>Durgam Cheruvu</item>
+        <item>Hussain Sagar</item>
+        <item>Lumbini Park</item>
+        <item>Kbr National Park</item>
+        <item>Mrugavani National Park</item>
+        <item>Nehru Zoolagical Park</item>
+        <item>Mahavir Harina National Park</item>
+    </string-array>
+    <string-array name="khm_array">
+        <item>BHADRACHALAM</item>
+        <item>JAMALAPURAM</item>
+        <item>KUSUMANCHI SIVALAYAM</item>
+        <item>Nelakondapalli</item>
+        <item>Khammam Fort</item>
+        <item>Parnasala</item>
+        <item>Palair Lake</item>
+        <item>Kinnerasani Dam</item>
+        <item>Bogatha Waterfalls</item>
+        <item>Kinnerasani Wildlife</item>
+    </string-array>
+    <string-array name="mbn_array">
+        <item>Alampur Jogulamba Temple</item>
+        <item>Uma Maheshwara Swamy Temple</item>
+        <item>Maisigandi Maisamma Temple</item>
+        <item>Beechupally Anjaneya Swamy Temple</item>
+        <item>Lord Shiva Temple Nallamala Forest</item>
+        <item>Manyamkonda Sri Lakshmi Venkateshwara Swamy Temple</item>
+        <item>Pillalamarri</item>
+        <item>Alampur</item>
+        <item>Gadwal Fort</item>
+        <item>Mallela Theertham Waterfalls</item>
+        <item>Tiger Forest</item>
+        <item>Jurala Dam</item>
+        <item>Koilsagar Dam</item>
+        <item>Srisailam Tiger Reserve</item>
+    </string-array>
+    
     <string-array name="regions_wild_array">
         <item>HYDERABAD</item>
         <item>KHAMMAM</item>
@@ -454,4 +507,72 @@
         "+91-40-23262153, +91-40-23262154, +91-40-23262157\n"
         "Fax: +91-40-23261801."
     </string>
+    <string name="title_activity_brila">Birla Mandir</string>
+    <string name="birla_history">"  Birla Mandir is a Hindu temple, built on a 280 feet (85 m) high hillock called Naubath Pahad on a 13 acres (53,000 m2) plot. The construction took 10 years and was constructed in 1976 by Swami Ranganathananda of Ramakrishna Mission. The temple was constructed by Birla Foundation, which has also constructed several similar temples across India, all of which are known as Birla Mandir.\n\n"
+    "<b>Architecture\n</b>"
+    "The temple manifests a blend of Dravidian, Rajasthani and Utkala architectures. It is constructed of 2000 tons of pure white marble. The granite idol of presiding deity Lord Venkateswara is about 11 ft (3.4 m) tall and a carved lotus forms an umbrella on the top. There is a brass flagstaff in the temple premises which rises to a height of 42 ft (13 m). The temple does not have traditional bells, as Swami Ranganathananda wished that the temple atmosphere should be conducive for meditation.\n"
+    "<b>About the temple\n</b>"
+        "Apart from the main shrine, the consorts of Lord Venkateswara, Padmavati and Andal are housed in separate shrines. The temple also has separate shrines for various Hindu gods and goddess including Shiva, Shakti, Ganesh, Hanuman, Brahma, Saraswati,Lakshmi and Saibaba. Selected teachings of holy men and Gurbani are engraved on temple walls. Birla temples are open to all, as identified by Mahatma Gandhi and other Hindu leaders.\n"
+    </string>
+    <string name="birla_moreinfo">
+        "<b>How to Reach<br /></b>"
+        "Birla Mandir is easily accessible by road as it located in the heart of Hyderabad city. Lakdi-ka-pul station is the nearest MMTS station, located one kilometer away.<br />"
+    </string>
+    <string name="birla_moreinfo_timings">
+        "<b>Temple Timings<br /></b>"
+        "All days of the week"
+        "7:00 AM to 12:00 PM"
+        "3:00 PM to 9:00 PM<br />"
+    </string>
+    <string name="birla_moreinfo_eat">
+        "<b>Where to Eat\n</b>"
+        "Tourists can please their taste buds with fast food, pani puri and tea close to the temple. Birla Mandir has many eateries and restaurants in the vicinity of the temple, downhill in Lakdi-ka-pul area.\n"
+    </string>
+    <string name="birla_moreinfo_stay">
+      "<b>Where to stay\n</b>"
+        "Telangana Tourism  operates Plaza Hotel in Begumpet, Hyderabad for a comfortable stay. The Plaza hotel is ideal for the tourists who intend to stay in the core business district region of the busting city.\n"
+        "There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms are well maintained and the environs look pleasing. There is also a restaurent attached here offering quality food for the visitors at specified timings. Hoel the Plaza is built in signature style in the midst if the city and is a prominent hotel to Telangana tourism department. The well-laid titles and woodwork of suites are pleasing and indicate world-class construction methods employed to create a landmark hotel of the tourism department\n"
+    </string>
+    <string name="birla_moreinfo_phone">
+        "<b>Phone numbers:\n</b>"
+        "+91 95553833319"
+        "+91 95538555560"
+    </string>
+    <string name="birla_moreinfo_land">
+        "<b>Landline:\n</b>"
+        "040-23450165"
+    </string>
+    <string name="jagannath_history">
+        "   Shri Jagannath means the lord of the universe, the supreme solace and a savior for countless devotees across the globe. Since times immemorial, the powerful god’s magnificent and monumental shrine in Orissa draws lakhs of devotees. Jagannath Temple is dedicated to revered God Shri Krishna. Jagan means Universe and Nath is the Lord. He is one of the incarnations of Vishnu.\n\n"
+        "This temple is a replica of the original Jagannath Temple of Puri. However, this temple is much smaller and its design resembles the one in Puri, Orissa. The Hyderabad version of Puri’s temple was built on 3000-square yard area. It is located adjacent to the Telangana Bhavan in the posh suburbs of Banjara Hills. This temple is so captivating that it is tagged as one of the must-visit places of Hyderabad. The most appealing portion of the temple is its “Shikaram” (the peak or the top). It is about 70 feet in height. Sand stones brought from Orissa have been used in the construction of this temple, and that justifies its red colour and around 60 sculptors were employed to carve this awe-inspiring temple.\n\n"
+        "The main idols of the temple are Lord Krishna along with his brother BalaRama and sister Subhadra. It also houses five small temples in the premises, that are dedicated to Lord Ganesh (which is to the left of main entrance), Lord Shiva (in the front), Goddess Bhimala ( to the the left on back side), Goddess Lakshmi ( to the right) and two shrines for Navagraha and Shri Hanuman. The temple has three entrances while the main entrance opens right in front of the main temple. One cannot miss noticing the intricately done exterior carving which is considered iconic. The exteriors of the temple are completely made of sand stone while the sanctum sanctorum is done in plain brick wall from the inside. It is considered as one of the modern architectural marvels of Hyderabad city and draws hundreds of visitors every day. It is a place where the city’s Oriya community bond together.\n\n"
+    </string>
+    <string name="jagannath_moreinfo">
+        "<b>How to Reach<br /></b>"
+        "Jagannath temple, located in Banjara Hills, Hyderabad is accessible by road from different parts of the city.<br />"
+    </string>
+    <string name="jagannath_moreinfo_timings">
+        "<b>Temple Timings<br /></b>"
+        "All days of the week"
+        "6:00 AM - 11:00 AM"
+        "5:00 PM - 9:00 PM<br />"
+    </string>
+    <string name="jagannath_moreinfo_eat">
+        "<b>Where to Eat\n</b>"
+        "There are many restaurants located close by on Road No. 12 Banjara hills.\n"
+    </string>
+    <string name="jagannath_moreinfo_stay">
+      "<b>Where to stay\n</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 6.4 kms from Jagannath temple is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
+        "Haritha Taramathi baradari resort is located at a distance of 16.3kms from Jagannath temple,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+    </string>
+    <string name="jagannath_moreinfo_phone">
+        "<b>Phone numbers:\n</b>"
+        "+91-40-23303889"
+        "+91-40-64525848"
+    </string>
+    <string name="view_in_map">View in Map</string>
+    <string name="title_activity_jagannath">JagannathActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
