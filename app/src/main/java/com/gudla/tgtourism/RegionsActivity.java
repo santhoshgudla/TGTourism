@@ -19,6 +19,7 @@ import com.gudla.tgtourism.nld.NalgondaActivity;
 import com.gudla.tgtourism.nzb.NizamabadActivity;
 import com.gudla.tgtourism.rr.RangareddyActivity;
 import com.gudla.tgtourism.util.CustomAdapter;
+import com.gudla.tgtourism.wgl.WarangalActivity;
 
 public class RegionsActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     ListView mListView;

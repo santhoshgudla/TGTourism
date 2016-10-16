@@ -1,9 +1,13 @@
 package com.gudla.tgtourism.mdk;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
 
+import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
@@ -14,6 +18,7 @@ public class MedakActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medak);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mRecyclerView= (RecyclerView) findViewById(R.id.mdkRecyclerView);
         int[] mImageId={R.drawable.mdk_kotilingeswara,
                 R.drawable.mdk_edupayala,
@@ -29,5 +34,22 @@ public class MedakActivity extends AppCompatActivity {
                 R.drawable.mdk_manjira_wildlife,R.drawable.mdk_pocharam_wildlife};
         String[] mName=getResources().getStringArray(R.array.mdk_array);
         mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.contactus) {
+            Intent intent = new Intent(this, ContactUsActivity.class);
+            startActivity(intent);
+        }
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

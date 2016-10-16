@@ -67,7 +67,7 @@
         <activity android:name=".khm.KhammamActivity" />
         <activity android:name=".mbn.MahabubnagarActivity" />
         <activity android:name=".nld.NalgondaActivity" />
-        <activity android:name=".WarangalActivity" />
+        <activity android:name=".wgl.WarangalActivity" />
         <activity android:name=".adb.AdilabadActivity" />
         <activity android:name=".nzb.NizamabadActivity" />
         <activity android:name=".knr.KarimnagarActivity" />
