@@ -9,8 +9,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.gudla.tgtourism.adb.AdilabadActivity;
 import com.gudla.tgtourism.hyd.HyderabadActivity;
 import com.gudla.tgtourism.khm.KhammamActivity;
+import com.gudla.tgtourism.knr.KarimnagarActivity;
+import com.gudla.tgtourism.mbn.MahabubnagarActivity;
+import com.gudla.tgtourism.mdk.MedakActivity;
+import com.gudla.tgtourism.nld.NalgondaActivity;
+import com.gudla.tgtourism.nzb.NizamabadActivity;
+import com.gudla.tgtourism.rr.RangareddyActivity;
 import com.gudla.tgtourism.util.CustomAdapter;
 
 public class RegionsActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
@@ -56,6 +63,30 @@ public class RegionsActivity extends AppCompatActivity implements AdapterView.On
                 break;
             case 1:
                 intent=new Intent(this, KhammamActivity.class);
+                break;
+            case 2:
+                intent=new Intent(this, MahabubnagarActivity.class);
+                break;
+            case 3:
+                intent=new Intent(this, NalgondaActivity.class);
+                break;
+            case 4:
+                intent=new Intent(this, WarangalActivity.class);
+                break;
+            case 5:
+                intent=new Intent(this, AdilabadActivity.class);
+                break;
+            case 6:
+                intent=new Intent(this, NizamabadActivity.class);
+                break;
+            case 7:
+                intent=new Intent(this, KarimnagarActivity.class);
+                break;
+            case 8:
+                intent=new Intent(this, MedakActivity.class);
+                break;
+            case 9:
+                intent=new Intent(this, RangareddyActivity.class);
                 break;
             default:
                 break;

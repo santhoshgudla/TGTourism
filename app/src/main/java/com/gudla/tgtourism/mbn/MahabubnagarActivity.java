@@ -14,7 +14,7 @@ public class MahabubnagarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mahabubnagar);
-        mRecyclerView= (RecyclerView) findViewById(R.id.khmRecyclerView);
+        mRecyclerView= (RecyclerView) findViewById(R.id.mbnRecyclerView);
         int[] mImageId={R.drawable.mbn_jogulamba,
                 R.drawable.mbn_maheshwara_swamy,
                 R.drawable.mbn_maisigandi_maisamma,

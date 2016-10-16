@@ -363,7 +363,6 @@
         <item>Manjeera Reservoir</item>
     </string-array>
     <string-array name="nature_rr_array">
-        <item>Manjeera Reservoir</item>
         <item>Ananthagiri Hills</item>
         <item>Ramoji Film City</item>
         <item>Osman Sagar Lake</item>
@@ -478,7 +477,112 @@
         <item>Koilsagar Dam</item>
         <item>Srisailam Tiger Reserve</item>
     </string-array>
-    
+    <string-array name="nld_array">
+        <item>Yadagirigutta Temple</item>
+        <item>Surendrapuri Temple</item>
+        <item>Chaya Someswara Swamy Temple</item>
+        <item>Nandikonda</item>
+        <item>Nagarjuna Sagar</item>
+        <item>Kolanupaka</item>
+        <item>Devarakonda Fort</item>
+        <item>Bhongir Fort</item>
+        <item>Rachakonda Fort</item>
+        <item>Nagarjuna Sagar</item>
+    </string-array>
+    <string-array name="wgl_array">
+        <item>Bhadrakali Temple</item>
+        <item>Thousand Pillars Temple</item>
+        <item>Padmakshi Temple</item>
+        <item>Mallikarjuna Swamy Temple</item>
+        <item>Ramappa Temple</item>
+        <item>Jain Mandir</item>
+        <item>Sammakka Saralamma Temple</item>
+        <item>Thousand pillars</item>
+        <item>Warangal Fort</item>
+        <item>Ramappa</item>
+        <item>Lakhnavaram Lake</item>
+        <item>Pakhal Lake</item>
+        <item>Eturnagaram Wildlife</item>
+        <item>Pakhal Wildlife</item>
+    </string-array>
+    <string-array name="adb_array">
+        <item>Basara Saraswathi</item>
+        <item>Jainath Temple</item>
+        <item>Gudem Satyanarayana Swamy</item>
+        <item>Kadile Papahareshwar</item>
+        <item>Kalwa Narsimha Swamy Temple</item>
+        <item>Nirmal Fort</item>
+        <item>Kanakai Waterfalls</item>
+        <item>Kuntala Waterfalls</item>
+        <item>Pochera Waterfalls</item>
+        <item>Gayatri Waterfalls</item>
+        <item>Kadam Dam</item>
+        <item>Kawal Wildlife</item>
+        <item>Pranahita Wildlife</item>
+        <item>Jannaram Wildlife</item>
+    </string-array>
+    <string-array name="nzb_array">
+        <item>Dichpally Ramalayam</item>
+        <item>Kanteshwar</item>
+        <item>Quilla Temple</item>
+        <item>Sarangpur Hanuman Temple</item>
+        <item>Domakonda Fort</item>
+        <item>Nizamabad Fort</item>
+        <item>Heritage Museum</item>
+        <item>Alisagar Reservoir</item>
+        <item>Nizam Sagar Dam</item>
+        <item>Mallaram forest</item>
+        <item>Pochampadu dam</item>
+        <item>Ali Sagar Deer Park</item>
+    </string-array>
+    <string-array name="knr_array">
+        <item>Dharmapuri Lakshmi Narasimha Swamy Temple</item>
+        <item>Kaleshwara Mukteswara Swamy Temple</item>
+        <item>Kondagattu Anjaneya Swamy temple</item>
+        <item>Sri Lakshmi Narasimha Swamy Temple Nallagonda</item>
+        <item>Sri Raja Rajeshwara Swamy Temple</item>
+        <item>Lakshmi Narasimha Swamy Temple Nampally Gutta</item>
+        <item>Nagunur Temple</item>
+        <item>Ramagiri Fort</item>
+        <item>Silver Filighree</item>
+        <item>Dhulikatta</item>
+        <item>Elgandal Fort</item>
+        <item>Jagtial Fort</item>
+        <item>Nagunur Fort</item>
+        <item>Lower Manair Dam</item>
+        <item>Ujwala Park</item>
+        <item>Shivaram Wildlife</item>
+    </string-array>
+    <string-array name="mdk_array">
+        <item>Kotilingeshwara Swamy Temple</item>
+        <item>Edupayala Vana Durga Bhavani Temple</item>
+        <item>Sri Lakshmi Narasimha Swamy Temple</item>
+        <item>Saptha Prakarayutha Durga Bhavani Temple</item>
+        <item>Sri Ketaki Sangameswara Swamy Temple</item>
+        <item>Joginatha Temple</item>
+        <item>Kasi Visweshwara Temple</item>
+        <item>Vidya Saraswathi Kshetram</item>
+        <item>Veerabhadra Swamy Temple</item>
+        <item>Medak Church</item>
+        <item>Medak Fort</item>
+        <item>Pocharam Reservoir Lake</item>
+        <item>Singur Dam</item>
+        <item>Manjeera Reservoir</item>
+        <item>Manjira Wildlife</item>
+        <item>Pocharam Sanctuary</item>
+    </string-array>
+    <string-array name="rr_array">
+        <item>Sanghi Temple</item>
+        <item>Karmanghat Hanuman Temple</item>
+        <item>Keesaragutta Temple</item>
+        <item>Chilkur Balaji Temple</item>
+        <item>Maheshwaram Lord Shiva Temple</item>
+        <item>Ananthagiri Hills Anantha Padmanabha Swamy Temple</item>
+        <item>Ananthagiri Hills</item>
+        <item>Ramoji Film City</item>
+        <item>Osman Sagar Lake</item>
+        <item>Shamirpet Deer Park</item>
+    </string-array>
     <string-array name="regions_wild_array">
         <item>HYDERABAD</item>
         <item>KHAMMAM</item>

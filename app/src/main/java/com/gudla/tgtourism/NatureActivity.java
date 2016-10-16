@@ -24,6 +24,7 @@ import com.gudla.tgtourism.nature.NatHydFragment;
 import com.gudla.tgtourism.nature.NatKhmFragment;
 import com.gudla.tgtourism.nature.NatKnrFragment;
 import com.gudla.tgtourism.nature.NatMbnFragment;
+import com.gudla.tgtourism.nature.NatMdkFragment;
 import com.gudla.tgtourism.nature.NatNldFragment;
 import com.gudla.tgtourism.nature.NatNzbFragment;
 import com.gudla.tgtourism.nature.NatRrFragment;
@@ -182,6 +183,10 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
                 new FragmentReplace(mNatKnrFragment, mContainer, mFragmentManager);
                 break;
             case 8:
+                NatMdkFragment mNatMdkFragment=new NatMdkFragment();
+                new FragmentReplace(mNatMdkFragment, mContainer, mFragmentManager);
+                break;
+            case 9:
                 NatRrFragment mNatRrFragment=new NatRrFragment();
                 new FragmentReplace(mNatRrFragment, mContainer, mFragmentManager);
                 break;
