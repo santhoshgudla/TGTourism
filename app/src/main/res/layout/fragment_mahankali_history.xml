@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:background="#9cd9ff"
     android:padding="8dp"
-    tools:context="com.gudla.tgtourism.hyd.jagannath.JagannathHistoryFragment">
+    tools:context="com.gudla.tgtourism.hyd.mahankali.MahankaliHistoryFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="20sp"
-        android:text="@string/jagannath_history" />
+        android:text="@string/mahankali_history" />
 
 </android.support.v4.widget.NestedScrollView>

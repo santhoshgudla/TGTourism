@@ -72,7 +72,27 @@
         <activity android:name=".nzb.NizamabadActivity" />
         <activity android:name=".knr.KarimnagarActivity" />
         <activity android:name=".mdk.MedakActivity" />
-        <activity android:name=".rr.RangareddyActivity"></activity>
+        <activity android:name=".rr.RangareddyActivity" />
+        <activity
+            android:name=".hyd.YellammaActivity"
+            android:label="@string/title_activity_yellamma"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hyd.PeddammaActivity"
+            android:label="@string/title_activity_peddamma"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hyd.StMarryActivity"
+            android:label="@string/title_activity_st_marry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hyd.MeccaMasjidActivity"
+            android:label="@string/title_activity_macca_masjid"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hyd.MahankaliActivity"
+            android:label="@string/title_activity_mahankali"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

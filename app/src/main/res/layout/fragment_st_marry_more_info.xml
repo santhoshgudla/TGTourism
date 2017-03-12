@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#d0c4bc"
     android:padding="8dp"
-    tools:context="com.gudla.tgtourism.hyd.jagannath.JagannathMoreInfoFragment">
+    tools:context="com.gudla.tgtourism.hyd.stmarry.StMarryMoreInfoFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,32 +17,32 @@
             android:textSize="20sp"
             android:layout_marginBottom="8dp"
             android:background="#3678f1"
-            android:id="@+id/jagannathViewInMap" />
+            android:id="@+id/stmarryViewInMap" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="@string/jagannath_moreinfo"/>
+            android:text="@string/stmarry_moreinfo"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="@string/jagannath_moreinfo_timings"/>
+            android:text="@string/stmarry_moreinfo_timings"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="@string/jagannath_moreinfo_eat"/>
+            android:text="@string/stmarry_moreinfo_eat"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="@string/jagannath_moreinfo_stay"/>
+            android:text="@string/stmarry_moreinfo_stay"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="@string/jagannath_moreinfo_phone"/>
+            android:text="@string/stmarry_moreinfo_phone"/>
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

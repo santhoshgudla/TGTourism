@@ -21,11 +21,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
-
-
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private DrawerLayout drawerLayout;
     private ListView listView;
@@ -41,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         MyAdapter myAdapter = new MyAdapter(this);
         listView.setAdapter(myAdapter);
         listView.setOnItemClickListener(this);
+
+
         drawerListner = new ActionBarDrawerToggle(this, drawerLayout, R.string.drawer_open, R.string.drawer_closed) {
             @Override
             public void onDrawerOpened(View drawerView) {
@@ -200,8 +197,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 }
 class MyAdapter extends BaseAdapter{
     private Context context;
-    public String[] listNav;
-    int[] images = {R.drawable.ic_logo,R.drawable.ic_destinations,R.drawable.tg_districts,
+    private String[] listNav;
+    private final int[] images = {R.drawable.ic_logo,R.drawable.ic_destinations,R.drawable.tg_districts,
             R.drawable.ic_facebook,R.drawable.ic_twitter,R.drawable.ic_youtube,R.drawable.ic_blog};
     MyAdapter(Context context){
         this.context=context;
@@ -224,7 +221,7 @@ class MyAdapter extends BaseAdapter{
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        View row=null;
+        View row;
         if(view == null){
             LayoutInflater inflater= (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
             row=inflater.inflate(R.layout.custom_layout,viewGroup,false);

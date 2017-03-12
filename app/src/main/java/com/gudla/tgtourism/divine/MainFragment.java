@@ -21,6 +21,11 @@ import android.widget.GridView;
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.hyd.BrilaActivity;
 import com.gudla.tgtourism.hyd.JagannathActivity;
+import com.gudla.tgtourism.hyd.MahankaliActivity;
+import com.gudla.tgtourism.hyd.MeccaMasjidActivity;
+import com.gudla.tgtourism.hyd.PeddammaActivity;
+import com.gudla.tgtourism.hyd.StMarryActivity;
+import com.gudla.tgtourism.hyd.YellammaActivity;
 import com.gudla.tgtourism.util.GridCustomAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 import com.gudla.tgtourism.util.RecyclerItemClickListener;
@@ -116,12 +121,33 @@ public class MainFragment extends Fragment {
             mRecyclerView.addOnItemTouchListener(
                     new RecyclerItemClickListener(context, new RecyclerItemClickListener.OnItemClickListener() {
                         @Override public void onItemClick(View view, int position) {
-                            if(position== 0){
-                                Intent intent=new Intent(context, BrilaActivity.class);
-                                startActivity(intent);
+                            Intent intent=null;
+                            switch (position){
+                                case 0:
+                                    intent=new Intent(context, BrilaActivity.class);
+                                    break;
+                                case 1:
+                                    intent=new Intent(context, JagannathActivity.class);
+                                    break;
+                                case 2:
+                                    intent=new Intent(context, YellammaActivity.class);
+                                    break;
+                                case 3:
+                                    intent=new Intent(context, PeddammaActivity.class);
+                                    break;
+                                case 4:
+                                    intent=new Intent(context, StMarryActivity.class);
+                                    break;
+                                case 5:
+                                    intent=new Intent(context, MeccaMasjidActivity.class);
+                                    break;
+                                case 6:
+                                    intent=new Intent(context, MahankaliActivity.class);
+                                    break;
+                                default:
+                                    break;
                             }
-                            if(position == 1){
-                                Intent intent=new Intent(context, JagannathActivity.class);
+                            if(intent != null){
                                 startActivity(intent);
                             }
                         }
