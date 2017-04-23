@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 public class KarimnagarActivity extends AppCompatActivity {
@@ -31,7 +32,7 @@ public class KarimnagarActivity extends AppCompatActivity {
                 R.drawable.knr_elgandal,R.drawable.knr_jagtial_fort,R.drawable.knr_nagunur,
                 R.drawable.knr_manair,R.drawable.knr_ujwala_park,R.drawable.knr_shivaram_wildlife};
         String[] mName=getResources().getStringArray(R.array.knr_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

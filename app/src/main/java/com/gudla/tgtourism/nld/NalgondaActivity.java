@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 public class NalgondaActivity extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class NalgondaActivity extends AppCompatActivity {
                 R.drawable.nld_someswara,R.drawable.nld_nandikonda,R.drawable.nld_nagarjunasagar,R.drawable.nld_kolanupaka,
                 R.drawable.nld_devarakonda,R.drawable.nld_bhongir,R.drawable.nld_rachakondafort,R.drawable.nld_nagarjunasagar,};
         String[] mName=getResources().getStringArray(R.array.nld_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

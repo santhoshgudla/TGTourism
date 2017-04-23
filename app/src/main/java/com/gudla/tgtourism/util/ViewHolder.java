@@ -15,8 +15,8 @@ import com.gudla.tgtourism.R;
  */
 public class ViewHolder {
 
-    public ImageView imageView;
-    public TextView textView;
+    ImageView imageView;
+    TextView textView;
     public ViewHolder(View view,int imageId, int textId){
         imageView= (ImageView) view.findViewById(imageId);
         textView= (TextView) view.findViewById(textId);
@@ -36,10 +36,9 @@ public class ViewHolder {
                 Path.Direction.CCW);
 
         canvas.clipPath(path);
-        Bitmap sourceBitmap = scaleBitmapImage;
-        canvas.drawBitmap(sourceBitmap,
-                new Rect(0, 0, sourceBitmap.getWidth(),
-                        sourceBitmap.getHeight()),
+        canvas.drawBitmap(scaleBitmapImage,
+                new Rect(0, 0, scaleBitmapImage.getWidth(),
+                        scaleBitmapImage.getHeight()),
                 new Rect(0, 0, targetWidth, targetHeight), null);
         return targetBitmap;
     }

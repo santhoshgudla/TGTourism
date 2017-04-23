@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 /**
@@ -52,7 +53,7 @@ public class WildlifeMainFragment extends Fragment {
         R.drawable.mdk_manjira_wildlife,R.drawable.mdk_pocharam_wildlife,
         R.drawable.rr_shamirpet_deer};
         String[] mName=mContext.getResources().getStringArray(R.array.wildlife_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(mContext, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(mContext, mImageId, mName));
     }
 
     @Override

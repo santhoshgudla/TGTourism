@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 public class AdilabadActivity extends AppCompatActivity {
@@ -28,7 +29,7 @@ public class AdilabadActivity extends AppCompatActivity {
                 R.drawable.adb_kanakai,R.drawable.adb_kuntala,R.drawable.adb_pochera,R.drawable.adb_gayatri,R.drawable.adb_kadam,
                 R.drawable.adb_kawal_wildlife,R.drawable.adb_pranahita_wildlife,R.drawable.adb_jannaram};
         String[] mName=getResources().getStringArray(R.array.adb_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

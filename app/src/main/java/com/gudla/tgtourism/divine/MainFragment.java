@@ -2,22 +2,13 @@ package com.gudla.tgtourism.divine;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
-import android.view.GestureDetector;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.GridView;
-
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.hyd.BrilaActivity;
 import com.gudla.tgtourism.hyd.JagannathActivity;
@@ -26,12 +17,9 @@ import com.gudla.tgtourism.hyd.MeccaMasjidActivity;
 import com.gudla.tgtourism.hyd.PeddammaActivity;
 import com.gudla.tgtourism.hyd.StMarryActivity;
 import com.gudla.tgtourism.hyd.YellammaActivity;
-import com.gudla.tgtourism.util.GridCustomAdapter;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.RecyclerItemClickListener;
-import com.gudla.tgtourism.util.SourceArray;
 
-import java.util.ArrayList;
 
 public class MainFragment extends Fragment {
         private Context context;
@@ -117,7 +105,7 @@ public class MainFragment extends Fragment {
                     R.drawable.rr_maheshwaram,
                     R.drawable.rr_ananthagiri};
             String[] mainName=getResources().getStringArray(R.array.divine_main_array);
-            mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(context, imageId, mainName));
+            mRecyclerView.setAdapter(new CustomRecyclerAdapter(context, imageId, mainName));
             mRecyclerView.addOnItemTouchListener(
                     new RecyclerItemClickListener(context, new RecyclerItemClickListener.OnItemClickListener() {
                         @Override public void onItemClick(View view, int position) {

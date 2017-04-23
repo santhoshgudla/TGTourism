@@ -5,7 +5,6 @@
     <string-array name="navlist">
         <item>History</item>
         <item>Destinations</item>
-        <item>Regions</item>
         <item>Facebook</item>
         <item>Twitter</item>
         <item>Youtube</item>
@@ -36,7 +35,6 @@
 
         "After the promises made to respect the rights of Telangana were not fulfilled, a separate Telangana agitation was launched in 1969. Following subsequent Gentleman’s agreement and again a period of broken promises and injustice, Telangana movement was given a final push by Shri. K Chandrasekhar Rao in 2001 with the formation of TRS. Finally due to the whole hearted efforts of Telangana society and political parties, the Government of India agreed for creation of a separate Telangana state in July, 2013 and Telangana came into effect on June 2, 2014 as ‘Telangana state’, the 29th state of Indian Union. \n\n"
     </string>
-    <string name="welcome_message">Welcome to Telangana Tourism</string>
     <string-array name="regions_array">
         <item>HYDERABAD</item>
         <item>KHAMMAM</item>
@@ -649,7 +647,7 @@
     <string name="jagannath_history">
         "   Shri Jagannath means the lord of the universe, the supreme solace and a savior for countless devotees across the globe. Since times immemorial, the powerful god’s magnificent and monumental shrine in Orissa draws lakhs of devotees. Jagannath Temple is dedicated to revered God Shri Krishna. Jagan means Universe and Nath is the Lord. He is one of the incarnations of Vishnu.\n\n"
         "This temple is a replica of the original Jagannath Temple of Puri. However, this temple is much smaller and its design resembles the one in Puri, Orissa. The Hyderabad version of Puri’s temple was built on 3000-square yard area. It is located adjacent to the Telangana Bhavan in the posh suburbs of Banjara Hills. This temple is so captivating that it is tagged as one of the must-visit places of Hyderabad. The most appealing portion of the temple is its “Shikaram” (the peak or the top). It is about 70 feet in height. Sand stones brought from Orissa have been used in the construction of this temple, and that justifies its red colour and around 60 sculptors were employed to carve this awe-inspiring temple.\n\n"
-        "The main idols of the temple are Lord Krishna along with his brother BalaRama and sister Subhadra. It also houses five small temples in the premises, that are dedicated to Lord Ganesh (which is to the left of main entrance), Lord Shiva (in the front), Goddess Bhimala ( to the the left on back side), Goddess Lakshmi ( to the right) and two shrines for Navagraha and Shri Hanuman. The temple has three entrances while the main entrance opens right in front of the main temple. One cannot miss noticing the intricately done exterior carving which is considered iconic. The exteriors of the temple are completely made of sand stone while the sanctum sanctorum is done in plain brick wall from the inside. It is considered as one of the modern architectural marvels of Hyderabad city and draws hundreds of visitors every day. It is a place where the city’s Oriya community bond together.\n\n"
+        "The main idols of the temple are Lord Krishna along with his brother BalaRama and sister Subhadra. It also houses five small temples in the premises, that are dedicated to Lord Ganesh (which is to the left of main entrance), Lord Shiva (in the front), Goddess Bhimala ( to the left on back side), Goddess Lakshmi ( to the right) and two shrines for Navagraha and Shri Hanuman. The temple has three entrances while the main entrance opens right in front of the main temple. One cannot miss noticing the intricately done exterior carving which is considered iconic. The exteriors of the temple are completely made of sand stone while the sanctum sanctorum is done in plain brick wall from the inside. It is considered as one of the modern architectural marvels of Hyderabad city and draws hundreds of visitors every day. It is a place where the city’s Oriya community bond together.\n\n"
     </string>
     <string name="jagannath_moreinfo">
         "<b>How to Reach<br /></b>"
@@ -815,11 +813,9 @@
     <string name="view_in_map">View in Map</string>
     <string name="title_activity_jagannath">Jagannath Temple</string>
     <string name="title_activity_yellamma">Yellamma Temple</string>
-    <string name="action_settings">Settings</string>
     <string name="title_activity_peddamma">Peddamma Temple</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_st_marry">St. Mary\'s Church</string>
     <string name="title_activity_macca_masjid">MaccaMasjidActivity</string>
     <string name="title_activity_mahankali">MahankaliActivity</string>

@@ -5,10 +5,10 @@
     android:orientation="horizontal"
     android:layout_margin="10dp">
 
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
         android:id="@+id/imageView3"
         android:src="@drawable/divine_destination"
         android:layout_margin="10dp"/>

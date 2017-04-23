@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 public class NizamabadActivity extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class NizamabadActivity extends AppCompatActivity {
                 R.drawable.nzb_alisagar,R.drawable.nzb_nizamsagar,R.drawable.nzb_mallaram_forest,R.drawable.nzb_pochampad,
                 R.drawable.nzb_alisagar_deer};
         String[] mName=getResources().getStringArray(R.array.nzb_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

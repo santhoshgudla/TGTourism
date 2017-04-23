@@ -9,6 +9,7 @@ import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 public class KhammamActivity extends AppCompatActivity {
@@ -25,7 +26,7 @@ public class KhammamActivity extends AppCompatActivity {
                 R.drawable.khm_palair_lake,R.drawable.khm_kinnerasani_dam,R.drawable.khm_bogatha,
                 R.drawable.khm_kinnerasani_wildlife};
         String[] mName=getResources().getStringArray(R.array.khm_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

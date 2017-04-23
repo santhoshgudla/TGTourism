@@ -291,7 +291,7 @@ class MyAdapter extends BaseAdapter{
     public View getView(int i, View view, ViewGroup viewGroup) {
         View row;
         if(view == null){
-            LayoutInflater inflater= (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row=inflater.inflate(R.layout.custom_layout,viewGroup,false);
         }
         else {

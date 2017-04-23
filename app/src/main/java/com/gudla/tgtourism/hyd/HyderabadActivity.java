@@ -1,15 +1,19 @@
 package com.gudla.tgtourism.hyd;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
+import com.gudla.tgtourism.util.RecyclerItemClickListener;
 
 public class HyderabadActivity extends AppCompatActivity {
     RecyclerView mRecyclerView;
@@ -43,7 +47,42 @@ public class HyderabadActivity extends AppCompatActivity {
                 R.drawable.hyd_nehru_zoological,
                 R.drawable.hyd_mahavi};
         String[] mName=getResources().getStringArray(R.array.hyd_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.addOnItemTouchListener(
+                new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override public void onItemClick(View view, int position) {
+                        Intent intent=null;
+                        switch (position){
+                            case 0:
+                                intent=new Intent(HyderabadActivity.this, BrilaActivity.class);
+                                break;
+                            case 1:
+                                intent=new Intent(HyderabadActivity.this, JagannathActivity.class);
+                                break;
+                            case 2:
+                                intent=new Intent(HyderabadActivity.this, YellammaActivity.class);
+                                break;
+                            case 3:
+                                intent=new Intent(HyderabadActivity.this, PeddammaActivity.class);
+                                break;
+                            case 4:
+                                intent=new Intent(HyderabadActivity.this, StMarryActivity.class);
+                                break;
+                            case 5:
+                                intent=new Intent(HyderabadActivity.this, MeccaMasjidActivity.class);
+                                break;
+                            case 6:
+                                intent=new Intent(HyderabadActivity.this, MahankaliActivity.class);
+                                break;
+                            default:
+                                break;
+                        }
+                        if(intent != null){
+                            startActivity(intent);
+                        }
+                    }
+                })
+        );
 
     }
     @Override

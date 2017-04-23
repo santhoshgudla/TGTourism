@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 /**
@@ -55,7 +56,7 @@ public class TestFragment extends Fragment {
         if(mRecyclerView==null){
             Toast.makeText(mContext,"RecyclerView is null",Toast.LENGTH_LONG).show();
         }else {
-            mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(mContext, mImageId, mName));
+            mRecyclerView.setAdapter(new CustomRecyclerAdapter(mContext, mImageId, mName));
         }
     }
 

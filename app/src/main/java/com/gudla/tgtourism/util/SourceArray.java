@@ -1,7 +1,5 @@
 package com.gudla.tgtourism.util;
 
-import android.content.Context;
-
 /**
  * Created by dell on 9/3/2016.
  */

@@ -1,5 +1,6 @@
 package com.gudla.tgtourism;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.annotation.Nullable;
@@ -74,7 +75,7 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 if(convertView == null){
-                    LayoutInflater inflater= (LayoutInflater) getContext().getSystemService(getContext().LAYOUT_INFLATER_SERVICE);
+                    LayoutInflater inflater= (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                     convertView=inflater.inflate(R.layout.regions_item,parent,false);
                 }
                 TextView textView= (TextView) convertView.findViewById(R.id.textView4);
@@ -126,7 +127,7 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
 
     private void fragmentRecreate() {
         mNatureMainFragment=(NatureMainFragment) getSupportFragmentManager().findFragmentByTag("main");
-        if(mNatureMainFragment instanceof NatureMainFragment){
+        if(mNatureMainFragment != null){
             fragmentDestroy();
             fragmentCreate();
         }

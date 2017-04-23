@@ -21,16 +21,16 @@ import java.util.ArrayList;
  * Created by dell on 9/10/2016.
  */
 public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecyclerAdapter.ItemHolder> {
-    LayoutInflater mInflater;
-    public static ArrayList<DataSource> mList;
-    Context mContext;
+    private LayoutInflater mInflater;
+    private static ArrayList<DataSource> mList;
+    private Context mContext;
 
-    public MyCustomRecyclerAdapter(Context mContext, int[] mImageId, String[] mName){
-        this.mContext=mContext;
+    public MyCustomRecyclerAdapter(Context context, int[] imageId, String[] name){
+        this.mContext=context;
         mInflater=LayoutInflater.from(mContext);
-        getSourceArray(mImageId,mName);
+        getSourceArray(imageId,name);
     }
-    public static void getSourceArray(int[] mImageId,String[] mName){
+    private static void getSourceArray(int[] mImageId,String[] mName){
         mList=new ArrayList<>();
         for(int i=0;i<mName.length;i++){
             DataSource sourceArray=new DataSource(mImageId[i], mName[i]);
@@ -42,8 +42,7 @@ public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecycl
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         View view=mInflater.inflate(R.layout.custom_grid_row,parent,false);
-        ItemHolder itemHolder= new ItemHolder(view);
-        return itemHolder;
+        return new ItemHolder(view);
     }
 
     @Override
@@ -62,7 +61,7 @@ public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecycl
     class ItemHolder extends RecyclerView.ViewHolder{
         TextView mTextView;
         ImageView mImageView;
-        public ItemHolder(View itemView) {
+        private ItemHolder(View itemView) {
             super(itemView);
             mImageView= (ImageView) itemView.findViewById(R.id.gridImageView);
             mTextView=(TextView)itemView.findViewById(R.id.gridTextView);

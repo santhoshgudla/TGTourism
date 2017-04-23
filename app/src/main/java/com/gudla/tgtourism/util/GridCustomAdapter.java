@@ -21,8 +21,8 @@ import java.util.ArrayList;
  */
 public class GridCustomAdapter extends BaseAdapter {
 
-    Context context;
-    ArrayList<SourceArray> list;
+    private Context context;
+    private ArrayList<SourceArray> list;
 
     public GridCustomAdapter(Context context, int[] imageId, String[] name) {
         this.context = context;
@@ -55,7 +55,7 @@ public class GridCustomAdapter extends BaseAdapter {
         int imageViewId = R.id.imageLinnerGrid;
         int textViewId = R.id.textLineerGrid;
         if (row == null) {
-            LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = inflater.inflate(R.layout.custon_grid_lineer, viewGroup, false);
             viewHolder = new ViewHolder(row, imageViewId, textViewId);
             row.setTag(viewHolder);

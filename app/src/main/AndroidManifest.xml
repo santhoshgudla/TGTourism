@@ -10,7 +10,6 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:icon="@drawable/tg_tourism_icon"
             android:label="Telangana Tourism">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,9 +41,6 @@
             android:configChanges="orientation|screenSize" />
         <activity
             android:name=".AdventureActivity"
-            android:configChanges="orientation|screenSize" />
-        <activity
-            android:name=".RegionsActivity"
             android:configChanges="orientation|screenSize" />
         <activity android:name=".ContactUsActivity" />
         <activity
@@ -92,7 +88,9 @@
         <activity
             android:name=".hyd.MahankaliActivity"
             android:label="@string/title_activity_mahankali"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>

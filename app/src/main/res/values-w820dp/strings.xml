@@ -2,6 +2,5 @@
 <resources>
     <string name="drawer_open">Drawer opened</string>
     <string name="drawer_closed">Drawer Closed</string>
-    <string name="welcome_message">Welcome to Telangana Tourism</string>
     <string name="view_in_map">View in Map</string>
 </resources>

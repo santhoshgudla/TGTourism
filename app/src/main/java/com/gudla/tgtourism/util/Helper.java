@@ -20,12 +20,7 @@ public class Helper {
     /**
      * An array of sample (dummy) items.
      */
-    public static final List<SourceArray> ITEMS = new ArrayList<>();
-
-    /**
-     * A map of sample (dummy) items, by ID.
-     */
-    public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
+    private static final List<SourceArray> ITEMS = new ArrayList<>();
 
 
     static {
@@ -47,9 +42,9 @@ public class Helper {
     /**
      * A dummy item representing a piece of content.
      */
-    public static class DummyItem {
-        public static int[] mImageId;
-        public static String[] mNames;
+    private static class DummyItem {
+        private static int[] mImageId;
+        private static String[] mNames;
 
         public DummyItem(int[] mImageId,String[] mName) {
             DummyItem.mImageId=mImageId;

@@ -16,8 +16,8 @@ import java.util.ArrayList;
  * Created by dell on 9/3/2016.
  */
 public class CustomAdapter extends BaseAdapter {
-    Context context;
-    ArrayList<SourceArray> list;
+    private Context context;
+    private ArrayList<SourceArray> list;
     public CustomAdapter(Context context,int[] imageId, String[] name){
         this.context=context;
         list=new ArrayList<>();
@@ -45,11 +45,11 @@ public class CustomAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View row=view;
         ViewHolder viewHolder;
-        int imageViewId=R.id.imageView3;
-        int textViewId=R.id.textView3;
+        int imageViewId=R.id.card_list_image;
+        int textViewId=R.id.card_list_text;
         if(row==null){
-            LayoutInflater inflater= (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
-            row=inflater.inflate(R.layout.destination_item,viewGroup,false);
+            LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            row=inflater.inflate(R.layout.card_listview,viewGroup,false);
             viewHolder=new ViewHolder(row,imageViewId,textViewId);
             row.setTag(viewHolder);
         }else {
