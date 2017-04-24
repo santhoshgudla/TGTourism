@@ -43,11 +43,6 @@
             android:name=".AdventureActivity"
             android:configChanges="orientation|screenSize" />
         <activity android:name=".ContactUsActivity" />
-        <activity
-            android:name=".hyd.BrilaActivity"
-            android:label="@string/title_activity_brila"
-            android:theme="@style/AppTheme.NoActionBar" />
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -56,9 +51,29 @@
             android:value="AIzaSyA5thEPrcS6so_nJNSfBTrUPlHMVFzIXwc" />
 
         <activity
+            android:name=".hyd.BrilaActivity"
+            android:label="@string/title_activity_brila" />
+        <activity
             android:name=".hyd.JagannathActivity"
-            android:label="@string/title_activity_jagannath"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_jagannath" />
+        <activity
+            android:name=".hyd.YellammaActivity"
+            android:label="@string/title_activity_yellamma" />
+        <activity
+            android:name=".hyd.PeddammaActivity"
+            android:label="@string/title_activity_peddamma" />
+        <activity
+            android:name=".hyd.StMarryActivity"
+            android:label="@string/title_activity_st_marry" />
+        <activity
+            android:name=".hyd.MeccaMasjidActivity"
+            android:label="@string/title_activity_macca_masjid" />
+        <activity
+            android:name=".hyd.MahankaliActivity"
+            android:label="@string/title_activity_mahankali"/>
+        <activity android:name=".hyd.CharminarActivity"
+            android:label="@string/charminar"/>
+
         <activity android:name=".hyd.HyderabadActivity" />
         <activity android:name=".khm.KhammamActivity" />
         <activity android:name=".mbn.MahabubnagarActivity" />
@@ -69,28 +84,6 @@
         <activity android:name=".knr.KarimnagarActivity" />
         <activity android:name=".mdk.MedakActivity" />
         <activity android:name=".rr.RangareddyActivity" />
-        <activity
-            android:name=".hyd.YellammaActivity"
-            android:label="@string/title_activity_yellamma"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".hyd.PeddammaActivity"
-            android:label="@string/title_activity_peddamma"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".hyd.StMarryActivity"
-            android:label="@string/title_activity_st_marry"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".hyd.MeccaMasjidActivity"
-            android:label="@string/title_activity_macca_masjid"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".hyd.MahankaliActivity"
-            android:label="@string/title_activity_mahankali"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
     </application>
 
 </manifest>

@@ -2,18 +2,13 @@ package com.gudla.tgtourism.hyd;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
-import com.gudla.tgtourism.hyd.jagannath.JagannathMoreInfoFragment;
 import com.gudla.tgtourism.hyd.mecca.MeccaHistoryFragment;
 import com.gudla.tgtourism.hyd.mecca.MeccaMoreInfoFragment;
 import com.gudla.tgtourism.util.MyPagerAdapter;
@@ -25,10 +20,8 @@ public class MeccaMasjidActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_macca_masjid);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mViewPager= (ViewPager) findViewById(R.id.meccaMasjidPager);
+        mViewPager= (ViewPager) findViewById(R.id.macca_viewpager);
         MeccaHistoryFragment mMeccaHistoryFragment=new MeccaHistoryFragment();
         MeccaMoreInfoFragment mMeccaMoreInfoFragment=new MeccaMoreInfoFragment();
         mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mMeccaHistoryFragment, mMeccaMoreInfoFragment));

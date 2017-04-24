@@ -3,13 +3,13 @@ package com.gudla.tgtourism;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -150,6 +150,7 @@ public class NatureActivity extends AppCompatActivity implements AdapterView.OnI
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         int mContainer=R.id.mainNatureContainer;
         onItemSelected(i);
+        mNatureDrawer.closeDrawer(mListView);
         switch (i){
             case 0:
                 NatHydFragment mHerHydFragment=new NatHydFragment();

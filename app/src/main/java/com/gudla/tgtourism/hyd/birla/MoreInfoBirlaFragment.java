@@ -17,8 +17,7 @@ import com.gudla.tgtourism.R;
  * A simple {@link Fragment} subclass.
  */
 public class MoreInfoBirlaFragment extends Fragment implements View.OnClickListener {
-    Button mViewInMap;
-
+    private Button mViewInMap;
 
     public MoreInfoBirlaFragment() {
     }
@@ -28,7 +27,7 @@ public class MoreInfoBirlaFragment extends Fragment implements View.OnClickListe
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_more_info_birla, container, false);
-        mViewInMap= (Button) view.findViewById(R.id.birlaMap);
+        mViewInMap= (Button) view.findViewById(R.id.birlamap);
         return view;
     }
 

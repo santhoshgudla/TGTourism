@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.gudla.tgtourism.R;
-
 /**
  * Created by dell on 9/3/2016.
  */

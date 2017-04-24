@@ -7,12 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#00FFFF"
+    android:background="#9d9e9f"
     tools:context="com.gudla.tgtourism.DestinationsActivity">
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:id="@+id/listView2"
         android:divider="@null" />
 </RelativeLayout>

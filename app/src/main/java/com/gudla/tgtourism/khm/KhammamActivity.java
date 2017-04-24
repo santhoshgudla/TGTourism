@@ -1,8 +1,8 @@
 package com.gudla.tgtourism.khm;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,7 +10,6 @@ import android.view.MenuItem;
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.util.CustomRecyclerAdapter;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 public class KhammamActivity extends AppCompatActivity {
     RecyclerView mRecyclerView;

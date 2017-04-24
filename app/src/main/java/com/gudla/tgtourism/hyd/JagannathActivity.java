@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -21,10 +20,8 @@ public class JagannathActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jagannath);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mViewPager= (ViewPager) findViewById(R.id.jagannathPager);
+        mViewPager= (ViewPager) findViewById(R.id.jagannath_viewpager);
         JagannathHistoryFragment mJagannathHistoryFragment=new JagannathHistoryFragment();
         JagannathMoreInfoFragment mJagannathMoreInfoFragment=new JagannathMoreInfoFragment();
         mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mJagannathHistoryFragment, mJagannathMoreInfoFragment));

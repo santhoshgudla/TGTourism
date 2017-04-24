@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.util.CustomRecyclerAdapter;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 /**
  * A simple {@link Fragment} subclass.

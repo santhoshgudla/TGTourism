@@ -9,24 +9,24 @@ import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
-import com.gudla.tgtourism.hyd.stmarry.StMarryHistoryFragment;
-import com.gudla.tgtourism.hyd.stmarry.StMarryMoreInfoFragment;
+import com.gudla.tgtourism.hyd.charminar.MainCharminarFragment;
+import com.gudla.tgtourism.hyd.charminar.MoreCharminarFragment;
 import com.gudla.tgtourism.util.MyPagerAdapter;
 
-public class StMarryActivity extends AppCompatActivity {
+public class CharminarActivity extends AppCompatActivity {
     ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_st_marry);
+        setContentView(R.layout.activity_charminar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mViewPager= (ViewPager) findViewById(R.id.stmarry_viewpager);
-        StMarryHistoryFragment mStMarryHistoryFragment=new StMarryHistoryFragment();
-        StMarryMoreInfoFragment mStMarryMoreInfoFragment=new StMarryMoreInfoFragment();
-        mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mStMarryHistoryFragment, mStMarryMoreInfoFragment));
-
+        mViewPager = (ViewPager) findViewById(R.id.charminar_viewpager);
+        MainCharminarFragment mainCharminarFragment = new MainCharminarFragment();
+        MoreCharminarFragment moreCharminarFragment = new MoreCharminarFragment();
+        mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mainCharminarFragment, moreCharminarFragment));
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main_menu, menu);

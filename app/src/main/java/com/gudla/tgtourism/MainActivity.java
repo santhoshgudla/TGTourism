@@ -5,14 +5,12 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -74,7 +72,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         drawerLayout.addDrawerListener(drawerListner);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        imageAnimation();
+        if(this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
+            imageAnimation();
+        }
 
         mRecyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener(){
 
@@ -124,13 +124,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     private void imageAnimation() {
+            imageView = (ImageView) findViewById(R.id.drawer_image_animation);
+            imageView.setImageResource(R.drawable.main_image_animations);
+            imageView.setScaleType(ImageView.ScaleType.FIT_XY);
 
-        imageView = (ImageView) findViewById(R.id.drawer_image_animation);
-        imageView.setImageResource(R.drawable.main_image_animations);
-        imageView.setScaleType(ImageView.ScaleType.FIT_XY);
-
-        AnimationDrawable frameAnimation = (AnimationDrawable) imageView.getDrawable();
-        frameAnimation.start();
+            AnimationDrawable frameAnimation = (AnimationDrawable) imageView.getDrawable();
+            frameAnimation.start();
     }
 
     @Override
@@ -173,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         onItemSelect(i);
+        drawerLayout.closeDrawer(mListView);
         Intent intent = null;
         switch (i) {
             case 0:

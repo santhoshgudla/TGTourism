@@ -28,7 +28,7 @@ public class YellammaMoreInfoFragment extends Fragment implements View.OnClickLi
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_yellamma_more_info, container, false);
-        mViewInMap= (Button) view.findViewById(R.id.yellammaViewInMap);
+        mViewInMap= (Button) view.findViewById(R.id.yellammamap);
         return view;
     }
     @Override

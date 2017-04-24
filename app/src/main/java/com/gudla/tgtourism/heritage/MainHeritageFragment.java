@@ -13,17 +13,16 @@ import android.widget.Toast;
 
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.util.CustomRecyclerAdapter;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TestFragment extends Fragment {
+public class MainHeritageFragment extends Fragment {
     RecyclerView mRecyclerView;
     Context mContext;
 
 
-    public TestFragment() {
+    public MainHeritageFragment() {
     }
 
     @Override

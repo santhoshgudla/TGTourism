@@ -2,14 +2,10 @@ package com.gudla.tgtourism.hyd;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
@@ -24,10 +20,8 @@ public class PeddammaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_peddamma);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mViewPager= (ViewPager) findViewById(R.id.peddammaPager);
+        mViewPager= (ViewPager) findViewById(R.id.peddamma_viewpager);
         PeddammaHistoryFragment mPeddammaHistoryFragment=new PeddammaHistoryFragment();
         PeddammaMoreInfoFragment mPeddammaMoreInfoFragment=new PeddammaMoreInfoFragment();
         mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mPeddammaHistoryFragment, mPeddammaMoreInfoFragment));

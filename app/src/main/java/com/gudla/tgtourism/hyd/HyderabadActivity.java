@@ -1,9 +1,8 @@
 package com.gudla.tgtourism.hyd;
 
 import android.content.Intent;
-import android.database.sqlite.SQLiteOpenHelper;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,7 +11,6 @@ import android.view.View;
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.util.CustomRecyclerAdapter;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
 import com.gudla.tgtourism.util.RecyclerItemClickListener;
 
 public class HyderabadActivity extends AppCompatActivity {
@@ -73,6 +71,9 @@ public class HyderabadActivity extends AppCompatActivity {
                                 break;
                             case 6:
                                 intent=new Intent(HyderabadActivity.this, MahankaliActivity.class);
+                                break;
+                            case 7:
+                                intent=new Intent(HyderabadActivity.this, CharminarActivity.class);
                                 break;
                             default:
                                 break;

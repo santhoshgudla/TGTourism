@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.hyd.BrilaActivity;
 import com.gudla.tgtourism.hyd.JagannathActivity;
@@ -21,11 +22,11 @@ import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.RecyclerItemClickListener;
 
 
-public class MainFragment extends Fragment {
+public class MainDivineFragment extends Fragment {
         private Context context;
         RecyclerView mRecyclerView;
 
-    public MainFragment() {
+    public MainDivineFragment() {
         // Required empty public constructor
     }
 

@@ -3,13 +3,13 @@ package com.gudla.tgtourism;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,7 +18,6 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Switch;
 import android.widget.TextView;
 
 import com.gudla.tgtourism.util.FragmentReplace;
@@ -166,6 +165,7 @@ public class WildLifeActivity extends AppCompatActivity implements AdapterView.O
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         int mContainer=R.id.mainWildLifeContainer;
         onItemSelected(i);
+        mWildLifeDrawer.closeDrawer(mListView);
         switch(i){
             case 0:
                 mFragmentTransaction=mFragmentManager.beginTransaction();

@@ -29,7 +29,7 @@ public class PeddammaMoreInfoFragment extends Fragment implements View.OnClickLi
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_peddamma_more_info, container, false);
-        mViewInMap= (Button) view.findViewById(R.id.peddammaViewInMap);
+        mViewInMap= (Button) view.findViewById(R.id.peddammamap);
         return view;
     }
     @Override

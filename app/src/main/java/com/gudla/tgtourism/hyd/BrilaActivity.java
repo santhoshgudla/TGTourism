@@ -3,12 +3,8 @@ package com.gudla.tgtourism.hyd;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -16,6 +12,7 @@ import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
 import com.gudla.tgtourism.hyd.birla.MainBrilaFragment;
 import com.gudla.tgtourism.hyd.birla.MoreInfoBirlaFragment;
+import com.gudla.tgtourism.util.MyPagerAdapter;
 
 public class BrilaActivity extends AppCompatActivity {
     ViewPager mViewPager;
@@ -24,13 +21,11 @@ public class BrilaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brila);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mViewPager = (ViewPager) findViewById(R.id.birlaPager);
+        mViewPager = (ViewPager) findViewById(R.id.birla_viewpager);
         MainBrilaFragment mMainBrilaFragment = new MainBrilaFragment();
         MoreInfoBirlaFragment mMoreInfoBirlaFragment = new MoreInfoBirlaFragment();
-        mViewPager.setAdapter(new com.gudla.tgtourism.util.MyPagerAdapter(getSupportFragmentManager(), mMainBrilaFragment, mMoreInfoBirlaFragment));
+        mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mMainBrilaFragment, mMoreInfoBirlaFragment));
     }
 
     @Override

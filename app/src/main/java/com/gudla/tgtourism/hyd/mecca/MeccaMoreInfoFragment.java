@@ -29,7 +29,7 @@ public class MeccaMoreInfoFragment extends Fragment implements View.OnClickListe
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.fragment_mecca_more_info, container, false);
-        mViewInMap= (Button) view.findViewById(R.id.meccaViewInMap);
+        mViewInMap= (Button) view.findViewById(R.id.meccamap);
         return view;
     }
     @Override

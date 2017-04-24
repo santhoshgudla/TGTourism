@@ -15,14 +15,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_scrollFlags="enterAlways">
-
-            <ImageView
+            <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:id="@+id/drawer_image_animation"
-                android:src="@drawable/about_telangana_potrait"
-                android:contentDescription="@string/app_name" />
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#ca9eb8">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/drawer_image_animation"
+                    android:src="@drawable/about_telangana_potrait"
+                    android:contentDescription="@string/app_name" />
+
+            </android.support.v7.widget.CardView>
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>

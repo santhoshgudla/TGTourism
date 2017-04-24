@@ -29,7 +29,7 @@ public class MahankaliMoreInfoFragment extends Fragment implements View.OnClickL
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_mahankali_more_info, container, false);
-        mViewInMap = (Button) view.findViewById(R.id.mahankaliViewInMap);
+        mViewInMap = (Button) view.findViewById(R.id.mahankalimap);
         return view;
     }
 

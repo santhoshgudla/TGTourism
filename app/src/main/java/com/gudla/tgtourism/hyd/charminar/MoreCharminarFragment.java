@@ -1,9 +1,10 @@
-package com.gudla.tgtourism.hyd.stmarry;
+package com.gudla.tgtourism.hyd.charminar;
 
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,11 +16,11 @@ import com.gudla.tgtourism.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class StMarryMoreInfoFragment extends Fragment implements View.OnClickListener{
+public class MoreCharminarFragment extends Fragment implements View.OnClickListener{
     Button mViewInMap;
 
 
-    public StMarryMoreInfoFragment() {
+    public MoreCharminarFragment() {
         // Required empty public constructor
     }
 
@@ -27,15 +28,21 @@ public class StMarryMoreInfoFragment extends Fragment implements View.OnClickLis
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.fragment_st_marry_more_info, container, false);
-        mViewInMap= (Button) view.findViewById(R.id.stmarrymap);
+        View view = inflater.inflate(R.layout.fragment_more_charminar, container, false);
+        mViewInMap = (Button) view.findViewById(R.id.charminarmap);
         return view;
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewInMap.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.442196,78.5022744"));
+        intent.setData(Uri.parse("geo:17.361431,78.474533"));
         startActivity(intent);
     }
 }

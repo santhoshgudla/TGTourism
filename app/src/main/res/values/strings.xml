@@ -617,14 +617,14 @@
         "Apart from the main shrine, the consorts of Lord Venkateswara, Padmavati and Andal are housed in separate shrines. The temple also has separate shrines for various Hindu gods and goddess including Shiva, Shakti, Ganesh, Hanuman, Brahma, Saraswati,Lakshmi and Saibaba. Selected teachings of holy men and Gurbani are engraved on temple walls. Birla temples are open to all, as identified by Mahatma Gandhi and other Hindu leaders.\n"
     </string>
     <string name="birla_moreinfo">
-        "<b>How to Reach<br /></b>"
+        "<b>How to Reach\n</b>"
         "Birla Mandir is easily accessible by road as it located in the heart of Hyderabad city. Lakdi-ka-pul station is the nearest MMTS station, located one kilometer away.<br />"
     </string>
     <string name="birla_moreinfo_timings">
-        "<b>Temple Timings<br /></b>"
+        "<b>Temple Timings\n</b>"
         "All days of the week"
         "7:00 AM to 12:00 PM"
-        "3:00 PM to 9:00 PM<br />"
+        "3:00 PM to 9:00 PM\n"
     </string>
     <string name="birla_moreinfo_eat">
         "<b>Where to Eat\n</b>"
@@ -637,7 +637,7 @@
     </string>
     <string name="birla_moreinfo_phone">
         "<b>Phone numbers:\n</b>"
-        "+91 95553833319"
+        "+91 95553833319\n"
         "+91 95538555560"
     </string>
     <string name="birla_moreinfo_land">
@@ -650,14 +650,14 @@
         "The main idols of the temple are Lord Krishna along with his brother BalaRama and sister Subhadra. It also houses five small temples in the premises, that are dedicated to Lord Ganesh (which is to the left of main entrance), Lord Shiva (in the front), Goddess Bhimala ( to the left on back side), Goddess Lakshmi ( to the right) and two shrines for Navagraha and Shri Hanuman. The temple has three entrances while the main entrance opens right in front of the main temple. One cannot miss noticing the intricately done exterior carving which is considered iconic. The exteriors of the temple are completely made of sand stone while the sanctum sanctorum is done in plain brick wall from the inside. It is considered as one of the modern architectural marvels of Hyderabad city and draws hundreds of visitors every day. It is a place where the city’s Oriya community bond together.\n\n"
     </string>
     <string name="jagannath_moreinfo">
-        "<b>How to Reach<br /></b>"
+        "<b>How to Reach\n</b>"
         "Jagannath temple, located in Banjara Hills, Hyderabad is accessible by road from different parts of the city.<br />"
     </string>
     <string name="jagannath_moreinfo_timings">
-        "<b>Temple Timings<br /></b>"
+        "<b>Temple Timings\n</b>"
         "All days of the week"
         "6:00 AM - 11:00 AM"
-        "5:00 PM - 9:00 PM<br />"
+        "5:00 PM - 9:00 PM\n"
     </string>
     <string name="jagannath_moreinfo_eat">
         "<b>Where to Eat\n</b>"
@@ -673,21 +673,21 @@
         "+91-40-23303889"
         "+91-40-64525848"
     </string>
-	<string name="yellamma_history">
+    <string name="yellamma_history">
         "   One of the old and among the most revered temples of Hyderabad is the Yellamma Temple located at Balkampet, popularly called the Balkampet Yellamma temple. The temple is thronged by heavy crowd on Sundays and Tuesdays and is quite famous for the annual Bonalu Jathara festivity that takes place in Hyderabad.\n\n"
         "This temple is dedicated to Goddess Yellamma that literally means 'mother of the universe\'. There is also an alternative name called Jagadamba who is considered the same as Goddess Renuka. According to a legend, Renuka, the daughter of Raja Renuka had married Jamadagni, the son of Satyawati and had five sons, one of them being Parashurama. One day, Renuka couldn\'t perform one of her regular household chores and this enraged her husband who then asked her to leave the house.Dejected Renuka was reportedly suggested by saints to perform pujas near a Shivalinga and feed Brahmins for her penance. Jamadagni was reportedly furious at her and demanded his sons as well to punish their mother Renuka. Others refused and they were burnt to ashes by the father\'s gaze while Parashurama searched for his mother who was hiding in a village, beheaded her and even the poor woman who helped her. Jamadagni who was pleased by his son\'s obedience, gave him a boon and in turn Parashurama asked his father to restore the lives of his brothers, his mother and the village woman. However, during the process, the head of Renuka was restored on the other woman\'s head and vice versa. While Jamadagni accepted the woman who had Renuka\'s body, the other form came to be popular known as Yellamma, which means mother to all and is being devoutly worshipped from then by the people ofTelangana people.\n\n"
         "Balkampet Yellamma Goddess is also considered as an incarnation of Goddess Kali. Devotees offer animal sacrifice here. The most important event here is the celestial marriage ceremony of the temple goddess, Yellamma Kalyanotsavam. Bonalu Jathara Festival at Balkampet Yellamma Temple falls in the calendar only after Golconda Bonalu Jathara followed by Ujjaini Mahankali Bonalu Jathara each year.\n\n"
 		"The temple was first constructed in 15th Century AD and later renovated in the early 20th century. The idol of the goddess here is seen 10 feet lower than the ground level and the devouts believe that the water in the well here can cure all ailments. The holy water is treated as Theertham. The temple also has Akhand Jyothi, which was lit during the renovation. It is situated at a distance of 10 km from Secunderabad Railway Station and is just 3 km away from Ameerpet junction.\n\n"
     </string>
     <string name="yellamma_moreinfo">
-        "<b>How to Reach<br /></b>"
+        "<b>How to Reach\n</b>"
         "Balkampet Yellamma Temple, located close to Ameerpet-SR Nagar is in the heart of Hyderabad city and can be reached easily by road.<br />"
     </string>
     <string name="yellamma_moreinfo_timings">
-        "<b>Temple Timings<br /></b>"
+        "<b>Temple Timings\n</b>"
         "All days of the week"
         "6:00 AM - 1:00 PM"
-        "3:00 PM - 8:00 PM<br />"
+        "3:00 PM - 8:00 PM\n"
     </string>
     <string name="yellamma_moreinfo_eat">
         "<b>Where to Eat\n</b>"
@@ -702,18 +702,18 @@
         "<b>Phone numbers:\n</b>"
         "+91-40-23704311"
     </string>
-	<string name="peddamma_history">
+    <string name="peddamma_history">
         "   One of the most revered temples of Hyderabad is the Peddamma Temple in Jubilee Hills. There is no clear evidence on when the temple was established, but people consider that it has been here since 150 years. Earlier, it was a small temple but in the year 1993, it gained immense popularity and the Rajagopuram was constructed. The temple witnesses hundreds of devotees pouring in everyday to seek the blessings of Amma. The Peddamma Temple is quite popular in the twin cities, next only to Ujjaini Mahakali Gudi of Secunderabad. The temple is dedicated to Ammavaru who is seen as the mother and people coming to this temple believe that the Goddess is their saviour. The Telangana festival Bonalu is celebrated once in a year, but at this temple, the Bonalu utsavam is celebrated every Sunday. Besides the common people, scores of VIPs, politicians and industrialists visit this temple to offer prayers to the Amma.\n\n"
         "According to the legend, Lord Shiva, the supreme ascetic, when disturbed by the hostility opened his third eye, which led to the unleashing of fire of doom. Even this couldn\'t arrest Mahishasura\'s march. At that moment, a bright stream of lightning dazzled from the mouths of the creator Brahma, in the form of Goddess Brahmi. Simultaneously, the powers of all the other gods became taking one female form as Mahishasura Mardini, Durga, who killed Mahishasura with her bare hands. The temple is located close to the main road on Jubilee Hills Road No. 55 on the main thoroughfare from Jubilee Hills check post to Hi-tech city.\n\n"
     </string>
     <string name="peddamma_moreinfo">
-        "<b>How to Reach<br /></b>"
+        "<b>How to Reach\n</b>"
         "Peddamma Temple, located in Jubilee Hills area is situated at a distance of nearly seven km from the heart of Hyderabad city. It is accessible by Jubilee Hills Check Post to Hi-tech city road.<br />"
     </string>
     <string name="peddamma_moreinfo_timings">
-        "<b>Temple Timings<br /></b>"
+        "<b>Temple Timings\n</b>"
         "All days of the week"
-        "9:30 AM - 6:30 PM<br />"
+        "9:30 AM - 6:30 PM\n"
     </string>
     <string name="peddamma_moreinfo_eat">
         "<b>Where to Eat\n</b>"
@@ -729,18 +729,18 @@
         "+91-40-23544592"
 		"+91-40-23607284"
     </string>
-	<string name="stmarry_history">
+    <string name="stmarry_history">
         "   The St.Mary\'s Church at Secunderabad, Hyderabad is the oldest Roman Catholic Church in the city. This fascinating Church was built in Indo-Gothic style and was sanctified in 1850.\n\n"
         "The St.Mary\'s Church, dedicated to the revered Virgin Mary is a magnificent landmark in the city. It is praised for both its architectural excellence and incredible history. In the days when the church was the Vicariate of Hyderabad, it was widely known as St. Mary's Cathedral. The most striking features of this church are its curved arches and buttress. This unique church has its several side altars devoted to the saints. It has four bells brought all the way from Italy in the year 1901.The church represents the way of living and worship by the peace loving Christian community of Hyderabad and Secunderabad and is a testimony to the city's reputation as a multi-religious society. The premises of the Church are a delight to one's eyes during Christmas when the entire area is lit with bright lights. People from all faiths visit the Church for its architectural beauty and is considered a vital landmark from decades in Secunderabad region.\n\n"
     </string>
     <string name="stmarry_moreinfo">
-        "<b>How to Reach<br /></b>"
+        "<b>How to Reach\n</b>"
         "St. Mary’s Church located in Secunderabad is at a distance of nearly 2 km Secunderabad railway station and easily accessible by road.<br />"
     </string>
     <string name="stmarry_moreinfo_timings">
-        "<b>Church Timings<br /></b>"
+        "<b>Church Timings\n</b>"
         "All days of the week"
-        "8:00 AM - 7:00 PM<br />"
+        "8:00 AM - 7:00 PM\n"
     </string>
     <string name="stmarry_moreinfo_eat">
         "<b>Where to Eat\n</b>"
@@ -755,19 +755,19 @@
         "<b>Phone numbers:\n</b>"
         "+91-40-27802004"
     </string>
-	<string name="mecca_history">
+    <string name="mecca_history">
         "   The historic Mecca Masjid is located adjacent to Charminar in a south-west direction. The construction of this mosque started in the year 1614 by Sultan Muhammad Qutb Shah and was Aurangzeb completed in 1693. Built with local granite, it finds place among largest mosques in India and is the most important and largest one in the city. The arched gallery displays the tombs of all the Nizam\'s from the year 1803. The mosque has a length of 225 feet and is 180 feet wide with a height of 75 feet. The name is derived from the Grand Mosque in Mecca on which it is modeled. The hall has a dimension of 67 metres x 54 metres x 23 metres. The roof is rested on 15 arches.\n\n"
         "There is a high blocking wall on the western side for Mehrab. It has two huge octagonal columns, which are created from a single piece of granite. This is inturn topped by an arched gallery crowned by a dome. This mosque can accommodate 10,000 worshipers at any time. It is located two hundred yards from Charminar. The mosque was believed to have used bricks during its construction where brought from Mecca. A room in the courtyard is believed to house a sacred relic of the prophet.\n\n"
 		"According to history, Sultan Muhammad Qutub Shah invited the entire devout religious elders in the city to lay the foundation stone but as no one had come forward, Sultan Muhammad himself volunteered to lay foundation and it is said that he never missed his midnight prayer in life right from the age of 12. Visitors coming to Charminar also visit the holy mosque, which lends a divine aura to the Muslim worshippers in the old city of Hyderabad.\n\n"
     </string>
     <string name="mecca_moreinfo">
-        "<b>How to Reach<br /></b>"
+        "<b>How to Reach\n</b>"
         "Mecca Masjid, located few yards away from Charminar is at a distance of 5 km from the heart of Hyderabad and is easily accessible by road.<br />"
     </string>
     <string name="mecca_moreinfo_timings">
-        "<b>Masjid Timings<br /></b>"
+        "<b>Masjid Timings\n</b>"
         "All days of the week"
-        "4:00 AM - 9:30 PM<br />"
+        "4:00 AM - 9:30 PM\n"
     </string>
     <string name="mecca_moreinfo_eat">
         "<b>Where to Eat\n</b>"
@@ -782,20 +782,20 @@
         "<b>Phone numbers:\n</b>"
         "+91-40-66745986"
     </string>
-	<string name="mahankali_history">
+    <string name="mahankali_history">
         "   Sri Ujjaini Mahakaali Temple is a popular temple devoted to Goddess Mahakaali in Secunderabad area of Telangana. Devotees offer their prayers to the goddess every day at this 190-year old temple.\n\n"
         "According to legend, in the year 1813, a Military Battalion was transferred to Ujjaini. This was a time when there was Cholera outbreak and thousands of people had reportedly perished. Suriti Appaiah who was part of the Military Battalion and his associates reportedly went to Mahakali Devasthanam at Ujjaini and offers prayers that if the people were saved from this epidemic, they would be installing the idol of Mahakaali at Secunderabad. Promptly after his return from Ujjaini, Sri Suriti Appaiah and his associates went ahead and installed the idol of Goddess Mahakaali which was made of wood at Secunderabad in July 1815. During the construction of sanctum sanctorum, a stone idol of Manikyalamma was reportedly found and even that idol was reportedly installed beside Sri Mahakaali Ammavaru.\n\n"
 		"Sri Suriti Appaiah later developed the temple with the help of philanthropic people and this was eventually taken over by the endowments department. Thousands of devotees offer prayers during Ashada jathara, which usually falls on Sunday and Monday.\n\n"
 		"The goddess Ujjain Mahakaali is seen in a Padmasana posture with four hands along with a sword, spear and also a essel of amrut damaru in the form of a beautiful stone idol. The idol is covered with silver and devotees make sacrifices after fulfillment of their wishes.\n\n"
     </string>
     <string name="mahankali_moreinfo">
-        "<b>How to Reach<br /></b>"
+        "<b>How to Reach\n</b>"
         "Ujjaini Mahakali temple, located in Secunderabad, more than 8 km away from Secunderabad railways station is easily accessible by road.<br />"
     </string>
     <string name="mahankali_moreinfo_timings">
-        "<b>Temple Timings<br /></b>"
+        "<b>Temple Timings\n</b>"
         "All days of the week"
-        "6:00 AM - 8:00 PM<br />"
+        "6:00 AM - 8:00 PM\n"
     </string>
     <string name="mahankali_moreinfo_eat">
         "<b>Where to Eat\n</b>"
@@ -810,13 +810,44 @@
         "<b>Phone numbers:\n</b>"
         "+91-40-27814744"
     </string>
+    <string name="charminar_history">"  Charminar is a monument and a mosque, which is synonymous with the history of Hyderabad, India. The majestic structure was completed in 1591 CE and is not only a landmark building of Hyderabad but also a famous monument of India. It is believed that Mohammed Quli Qutb Shahi, the fifth sultan of the Qutub Shahi dynasty had built the monument to commemorate the end of a deadly plague menace that had gripped the city then. It is located near the bank of the river Musi. Charminar is derived from two distinct words Char and Minar, which means four towers. Mir Momin Astarabadi of Qutb Shah dynasty played an important role and he ordered extensive preparations for the design and layout. Historians believe that this structure is an example for Indo-Islamic architecture combined with few Persian elements. The monument is located in the heart of old city and it is believed that Hyderabad was measured in four directions from Charminar for administrative purposes.\n\n"
+    "A visit to Hyderabad is incomplete without visiting this grand and majestic centerpiece. It is also considered the Arc de Triomphe of the East. Some of the historians say that it was built it in honor of his wife, Bhagyamathi. There is also legend that tells about the existence of a secret tunnel underneath the monument connecting the fort at Golconda that was created as a means of escape to royal family in an emergency. Each of the sides measure 20 meters while the minarets are located at a height of 48.7 meters from the ground level. Each side of Charminar opens into a plaza like structure where the giant arches overlook the major thoroughfares. It is a clear square structure that measures 31.95 mts. on each side while imposing arches span a distance of 11mts. The four minarets rise to a height of 56 mts. The ornamental arches on the minarets enhance the aesthetic value. There are 149 circular steps inside each minaret and one of them is open for tourists to climb and enjoy a breathtaking view of the city. It also houses the oldest mosque in Hyderabad with prayer spaces for the devout to worship.\n"
+        "Islamic architecture of those times is marked by arches, minarets, and domes. The structure is famous for its profuse stucco decorations and arrangement of impressive balustrades and balconies. The floral design is executed delicately and stands as a masterpiece to the combination of Mughal and Hindu architecture crafted by the local artisans. The four clocks in four cardinal directions were added in the year 1889. The base of Charminar has a water cistern located at center which consists of a small fountain for ablutions, before the faithful offer prayers in the mosque. Charminar has become synonymous with the culture of old city of Hyderabad and the area is also a popular destination for lip smacking Muslim dishes, colorful bangles, pearls, jewellry and other items. The place is a symbol of Hyderabadi culture and stands tall and proud as a reminder of the glorious era.\n"
+    </string>
+    <string name="charminar_moreinfo">
+        "<b>How to Reach\n</b>"
+        "Charminar is located in the heart of old city and is easily accessible by road from various parts of Hyderabad.<br />"
+    </string>
+    <string name="charminar_moreinfo_timings">
+        "<b>Timings\n</b>"
+        "All days of the week"
+        "9:00 AM - 5:30 PM\n"
+    </string>
+    <string name="charminar_moreinfo_eat">
+        "<b>Where to Eat\n</b>"
+        "Close to Charminar, tourists have numerous options for food. Right from delicious eateries, fast foods, fresh fruit juices, dry fruit shops, Ice candies, Irani Chai, Biryani to small and large restaurants, Charminar has a lot to offer on the platter.\n"
+    </string>
+    <string name="charminar_moreinfo_shopping">
+        "<b>Shopping\n</b>
+        "Tourists can enjoy unlimited shopping close to Charminar. Laad Bazaar is a very old market, located on one of the four major thoroughfares emerging from the historic Charminar. Laad Bazaar is a major market for bangles, semi-precious stones, pearls, jewellery, silverware, bidri ware, saris lacquer bangles studded with stones, and hand woven materials of silk, cotton and also velvet, brocade, and gold embroidered fabrics, traditional Khara Dupattas, perfumes and many more.\n"
+    </string>
+    <string name="charminar_moreinfo_stay">
+      "<b>Where to stay\n</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 13.7 kms from Charminar is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
+        "Haritha Taramathi baradari resort is located at a distance of 12.1kms from Charminar ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+    </string>
+    <string name="charminar_moreinfo_land">
+        "<b>Contact No: </b>"
+        "040-66745986"
+    </string>
     <string name="view_in_map">View in Map</string>
     <string name="title_activity_jagannath">Jagannath Temple</string>
     <string name="title_activity_yellamma">Yellamma Temple</string>
     <string name="title_activity_peddamma">Peddamma Temple</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
+    
     <string name="title_activity_st_marry">St. Mary\'s Church</string>
-    <string name="title_activity_macca_masjid">MaccaMasjidActivity</string>
-    <string name="title_activity_mahankali">MahankaliActivity</string>
+    <string name="title_activity_macca_masjid">Macca Masjid</string>
+    <string name="title_activity_mahankali">Mahankali Temple</string>
+
+    <string name="charminar">Charminar</string>
 </resources>

@@ -9,7 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.GridView;
 import android.widget.ListView;
 
 import com.gudla.tgtourism.R;
@@ -21,7 +20,6 @@ import com.gudla.tgtourism.hyd.PeddammaActivity;
 import com.gudla.tgtourism.hyd.StMarryActivity;
 import com.gudla.tgtourism.hyd.YellammaActivity;
 import com.gudla.tgtourism.util.CustomAdapter;
-import com.gudla.tgtourism.util.GridCustomAdapter;
 
 
 public class DivineHydFragment extends Fragment implements AdapterView.OnItemClickListener {

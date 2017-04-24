@@ -3,15 +3,13 @@ package com.gudla.tgtourism;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.os.PersistableBundle;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,7 +19,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.gudla.tgtourism.divine.DivineAdbFragment;
 import com.gudla.tgtourism.divine.DivineHydFragment;
@@ -33,7 +30,7 @@ import com.gudla.tgtourism.divine.DivineNldFragment;
 import com.gudla.tgtourism.divine.DivineNzbFragment;
 import com.gudla.tgtourism.divine.DivineRrFragment;
 import com.gudla.tgtourism.divine.DivineWglFragment;
-import com.gudla.tgtourism.divine.MainFragment;
+import com.gudla.tgtourism.divine.MainDivineFragment;
 import com.gudla.tgtourism.util.FragmentReplace;
 
 public class DivineDestinationActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
@@ -42,7 +39,7 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
     DrawerLayout divineDrawer;
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
-    MainFragment mainFragment;
+    MainDivineFragment mainFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +91,7 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
         });
 
             fragmentManager = getSupportFragmentManager();
-            mainFragment = new MainFragment();
+            mainFragment = new MainDivineFragment();
             fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.mainDivineContainer, mainFragment, "main");
             fragmentTransaction.commit();
@@ -129,13 +126,13 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
         super.onConfigurationChanged(newConfig);
         divineDrawerListner.onConfigurationChanged(newConfig);
         if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE){
-            mainFragment=(MainFragment)getSupportFragmentManager().findFragmentByTag("main");
+            mainFragment=(MainDivineFragment)getSupportFragmentManager().findFragmentByTag("main");
             if(mainFragment != null){
                 fragmentDestroy();
                 fragmentCreate();
             }
         }else {
-            mainFragment=(MainFragment)getSupportFragmentManager().findFragmentByTag("main");
+            mainFragment=(MainDivineFragment)getSupportFragmentManager().findFragmentByTag("main");
             if(mainFragment != null){
                 fragmentDestroy();
                 fragmentCreate();
@@ -145,7 +142,7 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
 
     private void fragmentCreate() {
         fragmentTransaction = fragmentManager.beginTransaction();
-        mainFragment = new MainFragment();
+        mainFragment = new MainDivineFragment();
         fragmentTransaction.add(R.id.mainDivineContainer, mainFragment, "main");
         fragmentTransaction.commit();
     }
@@ -160,6 +157,7 @@ public class DivineDestinationActivity extends AppCompatActivity implements Adap
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         int mContainer=R.id.mainDivineContainer;
         onItemSelected(i);
+        divineDrawer.closeDrawer(listView);
         switch (i){
             case 0:
                 DivineHydFragment divineHydFragment=new DivineHydFragment();

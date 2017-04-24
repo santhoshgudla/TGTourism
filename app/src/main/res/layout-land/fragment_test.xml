@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.gudla.tgtourism.heritage.TestFragment">
+    tools:context="com.gudla.tgtourism.heritage.MainHeritageFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerTest"
@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="android.support.v7.widget.GridLayoutManager"
-        app:spanCount="4">
+        app:spanCount="3">
 
     </android.support.v7.widget.RecyclerView>
 

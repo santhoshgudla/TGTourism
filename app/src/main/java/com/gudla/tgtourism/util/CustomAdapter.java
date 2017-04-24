@@ -1,8 +1,6 @@
 package com.gudla.tgtourism.util;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,8 +43,8 @@ public class CustomAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         View row=view;
         ViewHolder viewHolder;
-        int imageViewId=R.id.card_list_image;
-        int textViewId=R.id.card_list_text;
+        int imageViewId=R.id.card_image;
+        int textViewId=R.id.card_text;
         if(row==null){
             LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row=inflater.inflate(R.layout.card_listview,viewGroup,false);
