@@ -33,7 +33,6 @@ public class HyderabadActivity extends AppCompatActivity {
                 R.drawable.hyd_salarjung,
                 R.drawable.hyd_qutubshahitombs,
                 R.drawable.hyd_paigahtombs,
-                R.drawable.hyd_mecca,
                 R.drawable.hyd_golcondafort,
                 R.drawable.hyd_falaknumapalace,
                 R.drawable.hyd_chaumallapalace,
@@ -74,6 +73,33 @@ public class HyderabadActivity extends AppCompatActivity {
                                 break;
                             case 7:
                                 intent=new Intent(HyderabadActivity.this, CharminarActivity.class);
+                                break;
+                            case 8:
+                                intent=new Intent(HyderabadActivity.this, SalarjungActivity.class);
+                                break;
+                            case 9:
+                                intent=new Intent(HyderabadActivity.this, QutubShahi.class);
+                                break;
+                            case 10:
+                                intent=new Intent(HyderabadActivity.this, PaigahTombs.class);
+                                break;
+                            case 11:
+                                intent=new Intent(HyderabadActivity.this, Golconda.class);
+                                break;
+                            case 12:
+                                intent=new Intent(HyderabadActivity.this, Falaknuma.class);
+                                break;
+                            case 13:
+                                intent=new Intent(HyderabadActivity.this, Chowmahalla.class);
+                                break;
+                            case 14:
+                                intent=new Intent(HyderabadActivity.this, Durgam.class);
+                                break;
+                            case 15:
+                                intent=new Intent(HyderabadActivity.this, HussainSager.class);
+                                break;
+                            case 16:
+                                intent=new Intent(HyderabadActivity.this, Lumbini.class);
                                 break;
                             default:
                                 break;

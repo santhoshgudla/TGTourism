@@ -435,7 +435,6 @@
         <item>Salarjung Museum</item>
         <item>Qutub Shahi Tombs</item>
         <item>Paigah Tombs</item>
-        <item>Mecca Masjid</item>
         <item>Golconda Fort</item>
         <item>Falaknuma Palace</item>
         <item>Chowmahalla Palace</item>
@@ -610,244 +609,590 @@
         "Fax: +91-40-23261801."
     </string>
     <string name="title_activity_brila">Birla Mandir</string>
-    <string name="birla_history">"  Birla Mandir is a Hindu temple, built on a 280 feet (85 m) high hillock called Naubath Pahad on a 13 acres (53,000 m2) plot. The construction took 10 years and was constructed in 1976 by Swami Ranganathananda of Ramakrishna Mission. The temple was constructed by Birla Foundation, which has also constructed several similar temples across India, all of which are known as Birla Mandir.\n\n"
-    "<b>Architecture\n</b>"
-    "The temple manifests a blend of Dravidian, Rajasthani and Utkala architectures. It is constructed of 2000 tons of pure white marble. The granite idol of presiding deity Lord Venkateswara is about 11 ft (3.4 m) tall and a carved lotus forms an umbrella on the top. There is a brass flagstaff in the temple premises which rises to a height of 42 ft (13 m). The temple does not have traditional bells, as Swami Ranganathananda wished that the temple atmosphere should be conducive for meditation.\n"
-    "<b>About the temple\n</b>"
-        "Apart from the main shrine, the consorts of Lord Venkateswara, Padmavati and Andal are housed in separate shrines. The temple also has separate shrines for various Hindu gods and goddess including Shiva, Shakti, Ganesh, Hanuman, Brahma, Saraswati,Lakshmi and Saibaba. Selected teachings of holy men and Gurbani are engraved on temple walls. Birla temples are open to all, as identified by Mahatma Gandhi and other Hindu leaders.\n"
+    <string name="birla_history">"  Birla Mandir is a Hindu temple, built on a 280 feet (85 m) high hillock called Naubath Pahad on a 13 acres (53,000 m2) plot. The construction took 10 years and was constructed in 1976 by Swami Ranganathananda of Ramakrishna Mission. The temple was constructed by Birla Foundation, which has also constructed several similar temples across India, all of which are known as Birla Mandir."
+    "<b>Architecture</b>"
+    "The temple manifests a blend of Dravidian, Rajasthani and Utkala architectures. It is constructed of 2000 tons of pure white marble. The granite idol of presiding deity Lord Venkateswara is about 11 ft (3.4 m) tall and a carved lotus forms an umbrella on the top. There is a brass flagstaff in the temple premises which rises to a height of 42 ft (13 m). The temple does not have traditional bells, as Swami Ranganathananda wished that the temple atmosphere should be conducive for meditation."
+    "<b>About the temple</b>"
+        "Apart from the main shrine, the consorts of Lord Venkateswara, Padmavati and Andal are housed in separate shrines. The temple also has separate shrines for various Hindu gods and goddess including Shiva, Shakti, Ganesh, Hanuman, Brahma, Saraswati,Lakshmi and Saibaba. Selected teachings of holy men and Gurbani are engraved on temple walls. Birla temples are open to all, as identified by Mahatma Gandhi and other Hindu leaders."
     </string>
     <string name="birla_moreinfo">
-        "<b>How to Reach\n</b>"
-        "Birla Mandir is easily accessible by road as it located in the heart of Hyderabad city. Lakdi-ka-pul station is the nearest MMTS station, located one kilometer away.<br />"
+        "<b>How to Reach</b>"
+        "Birla Mandir is easily accessible by road as it located in the heart of Hyderabad city. Lakdi-ka-pul station is the nearest MMTS station, located one kilometer away."
     </string>
     <string name="birla_moreinfo_timings">
-        "<b>Temple Timings\n</b>"
+        "<b>Temple Timings</b>"
         "All days of the week"
         "7:00 AM to 12:00 PM"
-        "3:00 PM to 9:00 PM\n"
+        "3:00 PM to 9:00 PM"
     </string>
     <string name="birla_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "Tourists can please their taste buds with fast food, pani puri and tea close to the temple. Birla Mandir has many eateries and restaurants in the vicinity of the temple, downhill in Lakdi-ka-pul area.\n"
+        "<b>Where to Eat</b>"
+        "Tourists can please their taste buds with fast food, pani puri and tea close to the temple. Birla Mandir has many eateries and restaurants in the vicinity of the temple, downhill in Lakdi-ka-pul area."
     </string>
     <string name="birla_moreinfo_stay">
-      "<b>Where to stay\n</b>"
-        "Telangana Tourism  operates Plaza Hotel in Begumpet, Hyderabad for a comfortable stay. The Plaza hotel is ideal for the tourists who intend to stay in the core business district region of the busting city.\n"
+      "<b>Where to stay</b>"
+        "Telangana Tourism  operates Plaza Hotel in Begumpet, Hyderabad for a comfortable stay. The Plaza hotel is ideal for the tourists who intend to stay in the core business district region of the busting city."
         "There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms are well maintained and the environs look pleasing. There is also a restaurent attached here offering quality food for the visitors at specified timings. Hoel the Plaza is built in signature style in the midst if the city and is a prominent hotel to Telangana tourism department. The well-laid titles and woodwork of suites are pleasing and indicate world-class construction methods employed to create a landmark hotel of the tourism department\n"
     </string>
     <string name="birla_moreinfo_phone">
-        "<b>Phone numbers:\n</b>"
-        "+91 95553833319\n"
+        "<b>Phone numbers:</b>"
+        "+91 95553833319"
         "+91 95538555560"
     </string>
     <string name="birla_moreinfo_land">
-        "<b>Landline:\n</b>"
+        "<b>Landline:</b>"
         "040-23450165"
     </string>
     <string name="jagannath_history">
-        "   Shri Jagannath means the lord of the universe, the supreme solace and a savior for countless devotees across the globe. Since times immemorial, the powerful god’s magnificent and monumental shrine in Orissa draws lakhs of devotees. Jagannath Temple is dedicated to revered God Shri Krishna. Jagan means Universe and Nath is the Lord. He is one of the incarnations of Vishnu.\n\n"
-        "This temple is a replica of the original Jagannath Temple of Puri. However, this temple is much smaller and its design resembles the one in Puri, Orissa. The Hyderabad version of Puri’s temple was built on 3000-square yard area. It is located adjacent to the Telangana Bhavan in the posh suburbs of Banjara Hills. This temple is so captivating that it is tagged as one of the must-visit places of Hyderabad. The most appealing portion of the temple is its “Shikaram” (the peak or the top). It is about 70 feet in height. Sand stones brought from Orissa have been used in the construction of this temple, and that justifies its red colour and around 60 sculptors were employed to carve this awe-inspiring temple.\n\n"
-        "The main idols of the temple are Lord Krishna along with his brother BalaRama and sister Subhadra. It also houses five small temples in the premises, that are dedicated to Lord Ganesh (which is to the left of main entrance), Lord Shiva (in the front), Goddess Bhimala ( to the left on back side), Goddess Lakshmi ( to the right) and two shrines for Navagraha and Shri Hanuman. The temple has three entrances while the main entrance opens right in front of the main temple. One cannot miss noticing the intricately done exterior carving which is considered iconic. The exteriors of the temple are completely made of sand stone while the sanctum sanctorum is done in plain brick wall from the inside. It is considered as one of the modern architectural marvels of Hyderabad city and draws hundreds of visitors every day. It is a place where the city’s Oriya community bond together.\n\n"
+        "   Shri Jagannath means the lord of the universe, the supreme solace and a savior for countless devotees across the globe. Since times immemorial, the powerful god’s magnificent and monumental shrine in Orissa draws lakhs of devotees. Jagannath Temple is dedicated to revered God Shri Krishna. Jagan means Universe and Nath is the Lord. He is one of the incarnations of Vishnu."
+        "This temple is a replica of the original Jagannath Temple of Puri. However, this temple is much smaller and its design resembles the one in Puri, Orissa. The Hyderabad version of Puri’s temple was built on 3000-square yard area. It is located adjacent to the Telangana Bhavan in the posh suburbs of Banjara Hills. This temple is so captivating that it is tagged as one of the must-visit places of Hyderabad. The most appealing portion of the temple is its “Shikaram” (the peak or the top). It is about 70 feet in height. Sand stones brought from Orissa have been used in the construction of this temple, and that justifies its red colour and around 60 sculptors were employed to carve this awe-inspiring temple."
+        "The main idols of the temple are Lord Krishna along with his brother BalaRama and sister Subhadra. It also houses five small temples in the premises, that are dedicated to Lord Ganesh (which is to the left of main entrance), Lord Shiva (in the front), Goddess Bhimala ( to the left on back side), Goddess Lakshmi ( to the right) and two shrines for Navagraha and Shri Hanuman. The temple has three entrances while the main entrance opens right in front of the main temple. One cannot miss noticing the intricately done exterior carving which is considered iconic. The exteriors of the temple are completely made of sand stone while the sanctum sanctorum is done in plain brick wall from the inside. It is considered as one of the modern architectural marvels of Hyderabad city and draws hundreds of visitors every day. It is a place where the city’s Oriya community bond together."
     </string>
     <string name="jagannath_moreinfo">
-        "<b>How to Reach\n</b>"
-        "Jagannath temple, located in Banjara Hills, Hyderabad is accessible by road from different parts of the city.<br />"
+        "<b>How to Reach</b>"
+        "Jagannath temple, located in Banjara Hills, Hyderabad is accessible by road from different parts of the city."
     </string>
     <string name="jagannath_moreinfo_timings">
-        "<b>Temple Timings\n</b>"
+        "<b>Temple Timings</b>"
         "All days of the week"
         "6:00 AM - 11:00 AM"
-        "5:00 PM - 9:00 PM\n"
+        "5:00 PM - 9:00 PM"
     </string>
     <string name="jagannath_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "There are many restaurants located close by on Road No. 12 Banjara hills.\n"
+        "<b>Where to Eat</b>"
+        "There are many restaurants located close by on Road No. 12 Banjara hills."
     </string>
     <string name="jagannath_moreinfo_stay">
-      "<b>Where to stay\n</b>"
-        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 6.4 kms from Jagannath temple is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
-        "Haritha Taramathi baradari resort is located at a distance of 16.3kms from Jagannath temple,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 6.4 kms from Jagannath temple is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 16.3kms from Jagannath temple,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
     </string>
     <string name="jagannath_moreinfo_phone">
-        "<b>Phone numbers:\n</b>"
+        "<b>Phone numbers:</b>"
         "+91-40-23303889"
         "+91-40-64525848"
     </string>
     <string name="yellamma_history">
-        "   One of the old and among the most revered temples of Hyderabad is the Yellamma Temple located at Balkampet, popularly called the Balkampet Yellamma temple. The temple is thronged by heavy crowd on Sundays and Tuesdays and is quite famous for the annual Bonalu Jathara festivity that takes place in Hyderabad.\n\n"
-        "This temple is dedicated to Goddess Yellamma that literally means 'mother of the universe\'. There is also an alternative name called Jagadamba who is considered the same as Goddess Renuka. According to a legend, Renuka, the daughter of Raja Renuka had married Jamadagni, the son of Satyawati and had five sons, one of them being Parashurama. One day, Renuka couldn\'t perform one of her regular household chores and this enraged her husband who then asked her to leave the house.Dejected Renuka was reportedly suggested by saints to perform pujas near a Shivalinga and feed Brahmins for her penance. Jamadagni was reportedly furious at her and demanded his sons as well to punish their mother Renuka. Others refused and they were burnt to ashes by the father\'s gaze while Parashurama searched for his mother who was hiding in a village, beheaded her and even the poor woman who helped her. Jamadagni who was pleased by his son\'s obedience, gave him a boon and in turn Parashurama asked his father to restore the lives of his brothers, his mother and the village woman. However, during the process, the head of Renuka was restored on the other woman\'s head and vice versa. While Jamadagni accepted the woman who had Renuka\'s body, the other form came to be popular known as Yellamma, which means mother to all and is being devoutly worshipped from then by the people ofTelangana people.\n\n"
-        "Balkampet Yellamma Goddess is also considered as an incarnation of Goddess Kali. Devotees offer animal sacrifice here. The most important event here is the celestial marriage ceremony of the temple goddess, Yellamma Kalyanotsavam. Bonalu Jathara Festival at Balkampet Yellamma Temple falls in the calendar only after Golconda Bonalu Jathara followed by Ujjaini Mahankali Bonalu Jathara each year.\n\n"
-		"The temple was first constructed in 15th Century AD and later renovated in the early 20th century. The idol of the goddess here is seen 10 feet lower than the ground level and the devouts believe that the water in the well here can cure all ailments. The holy water is treated as Theertham. The temple also has Akhand Jyothi, which was lit during the renovation. It is situated at a distance of 10 km from Secunderabad Railway Station and is just 3 km away from Ameerpet junction.\n\n"
+        "   One of the old and among the most revered temples of Hyderabad is the Yellamma Temple located at Balkampet, popularly called the Balkampet Yellamma temple. The temple is thronged by heavy crowd on Sundays and Tuesdays and is quite famous for the annual Bonalu Jathara festivity that takes place in Hyderabad."
+        "This temple is dedicated to Goddess Yellamma that literally means 'mother of the universe\'. There is also an alternative name called Jagadamba who is considered the same as Goddess Renuka. According to a legend, Renuka, the daughter of Raja Renuka had married Jamadagni, the son of Satyawati and had five sons, one of them being Parashurama. One day, Renuka couldn\'t perform one of her regular household chores and this enraged her husband who then asked her to leave the house.Dejected Renuka was reportedly suggested by saints to perform pujas near a Shivalinga and feed Brahmins for her penance. Jamadagni was reportedly furious at her and demanded his sons as well to punish their mother Renuka. Others refused and they were burnt to ashes by the father\'s gaze while Parashurama searched for his mother who was hiding in a village, beheaded her and even the poor woman who helped her. Jamadagni who was pleased by his son\'s obedience, gave him a boon and in turn Parashurama asked his father to restore the lives of his brothers, his mother and the village woman. However, during the process, the head of Renuka was restored on the other woman\'s head and vice versa. While Jamadagni accepted the woman who had Renuka\'s body, the other form came to be popular known as Yellamma, which means mother to all and is being devoutly worshipped from then by the people ofTelangana people."
+        "Balkampet Yellamma Goddess is also considered as an incarnation of Goddess Kali. Devotees offer animal sacrifice here. The most important event here is the celestial marriage ceremony of the temple goddess, Yellamma Kalyanotsavam. Bonalu Jathara Festival at Balkampet Yellamma Temple falls in the calendar only after Golconda Bonalu Jathara followed by Ujjaini Mahankali Bonalu Jathara each year."
+		"The temple was first constructed in 15th Century AD and later renovated in the early 20th century. The idol of the goddess here is seen 10 feet lower than the ground level and the devouts believe that the water in the well here can cure all ailments. The holy water is treated as Theertham. The temple also has Akhand Jyothi, which was lit during the renovation. It is situated at a distance of 10 km from Secunderabad Railway Station and is just 3 km away from Ameerpet junction."
     </string>
     <string name="yellamma_moreinfo">
-        "<b>How to Reach\n</b>"
-        "Balkampet Yellamma Temple, located close to Ameerpet-SR Nagar is in the heart of Hyderabad city and can be reached easily by road.<br />"
+        "<b>How to Reach</b>"
+        "Balkampet Yellamma Temple, located close to Ameerpet-SR Nagar is in the heart of Hyderabad city and can be reached easily by road."
     </string>
     <string name="yellamma_moreinfo_timings">
-        "<b>Temple Timings\n</b>"
+        "<b>Temple Timings</b>"
         "All days of the week"
         "6:00 AM - 1:00 PM"
-        "3:00 PM - 8:00 PM\n"
+        "3:00 PM - 8:00 PM"
     </string>
     <string name="yellamma_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "There are many budget restaurants and hotels operating in SR nagar region, which tourists can visit.\n"
+        "<b>Where to Eat</b>"
+        "There are many budget restaurants and hotels operating in SR nagar region, which tourists can visit."
     </string>
     <string name="yellamma_moreinfo_stay">
-      "<b>Where to stay\n</b>"
-        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 2.4 kms from Balkampet Yellamma Temple is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
-        "Haritha Taramathi baradari resort is located at a distance of 17.8 kms from Balkampet Yellamma Temple,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 2.4 kms from Balkampet Yellamma Temple is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 17.8 kms from Balkampet Yellamma Temple,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
     </string>
     <string name="yellamma_moreinfo_phone">
-        "<b>Phone numbers:\n</b>"
+        "<b>Phone numbers:</b>"
         "+91-40-23704311"
     </string>
     <string name="peddamma_history">
-        "   One of the most revered temples of Hyderabad is the Peddamma Temple in Jubilee Hills. There is no clear evidence on when the temple was established, but people consider that it has been here since 150 years. Earlier, it was a small temple but in the year 1993, it gained immense popularity and the Rajagopuram was constructed. The temple witnesses hundreds of devotees pouring in everyday to seek the blessings of Amma. The Peddamma Temple is quite popular in the twin cities, next only to Ujjaini Mahakali Gudi of Secunderabad. The temple is dedicated to Ammavaru who is seen as the mother and people coming to this temple believe that the Goddess is their saviour. The Telangana festival Bonalu is celebrated once in a year, but at this temple, the Bonalu utsavam is celebrated every Sunday. Besides the common people, scores of VIPs, politicians and industrialists visit this temple to offer prayers to the Amma.\n\n"
-        "According to the legend, Lord Shiva, the supreme ascetic, when disturbed by the hostility opened his third eye, which led to the unleashing of fire of doom. Even this couldn\'t arrest Mahishasura\'s march. At that moment, a bright stream of lightning dazzled from the mouths of the creator Brahma, in the form of Goddess Brahmi. Simultaneously, the powers of all the other gods became taking one female form as Mahishasura Mardini, Durga, who killed Mahishasura with her bare hands. The temple is located close to the main road on Jubilee Hills Road No. 55 on the main thoroughfare from Jubilee Hills check post to Hi-tech city.\n\n"
+        "   One of the most revered temples of Hyderabad is the Peddamma Temple in Jubilee Hills. There is no clear evidence on when the temple was established, but people consider that it has been here since 150 years. Earlier, it was a small temple but in the year 1993, it gained immense popularity and the Rajagopuram was constructed. The temple witnesses hundreds of devotees pouring in everyday to seek the blessings of Amma. The Peddamma Temple is quite popular in the twin cities, next only to Ujjaini Mahakali Gudi of Secunderabad. The temple is dedicated to Ammavaru who is seen as the mother and people coming to this temple believe that the Goddess is their saviour. The Telangana festival Bonalu is celebrated once in a year, but at this temple, the Bonalu utsavam is celebrated every Sunday. Besides the common people, scores of VIPs, politicians and industrialists visit this temple to offer prayers to the Amma."
+        "According to the legend, Lord Shiva, the supreme ascetic, when disturbed by the hostility opened his third eye, which led to the unleashing of fire of doom. Even this couldn\'t arrest Mahishasura\'s march. At that moment, a bright stream of lightning dazzled from the mouths of the creator Brahma, in the form of Goddess Brahmi. Simultaneously, the powers of all the other gods became taking one female form as Mahishasura Mardini, Durga, who killed Mahishasura with her bare hands. The temple is located close to the main road on Jubilee Hills Road No. 55 on the main thoroughfare from Jubilee Hills check post to Hi-tech city."
     </string>
     <string name="peddamma_moreinfo">
-        "<b>How to Reach\n</b>"
-        "Peddamma Temple, located in Jubilee Hills area is situated at a distance of nearly seven km from the heart of Hyderabad city. It is accessible by Jubilee Hills Check Post to Hi-tech city road.<br />"
+        "<b>How to Reach</b>"
+        "Peddamma Temple, located in Jubilee Hills area is situated at a distance of nearly seven km from the heart of Hyderabad city. It is accessible by Jubilee Hills Check Post to Hi-tech city road."
     </string>
     <string name="peddamma_moreinfo_timings">
-        "<b>Temple Timings\n</b>"
+        "<b>Temple Timings</b>"
         "All days of the week"
-        "9:30 AM - 6:30 PM\n"
+        "9:30 AM - 6:30 PM"
     </string>
     <string name="peddamma_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "There are several eateries and upmarket restaurants in Jubilee hills region\n"
+        "<b>Where to Eat</b>"
+        "There are several eateries and upmarket restaurants in Jubilee hills region."
     </string>
     <string name="peddamma_moreinfo_stay">
-      "<b>Where to stay\n</b>"
-        "Telangana Tourism operates Plaza Hotel in Begumpet, located at distance of 8.9kms from Peddamma Temple is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
-        "Haritha Taramathi baradari resort is located at a distance of 11 kms from Peddamma temple ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, located at distance of 8.9kms from Peddamma Temple is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 11 kms from Peddamma temple ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
     </string>
     <string name="peddamma_moreinfo_phone">
-        "<b>Phone numbers:\n</b>"
+        "<b>Phone numbers:</b>"
         "+91-40-23544592"
 		"+91-40-23607284"
     </string>
     <string name="stmarry_history">
-        "   The St.Mary\'s Church at Secunderabad, Hyderabad is the oldest Roman Catholic Church in the city. This fascinating Church was built in Indo-Gothic style and was sanctified in 1850.\n\n"
-        "The St.Mary\'s Church, dedicated to the revered Virgin Mary is a magnificent landmark in the city. It is praised for both its architectural excellence and incredible history. In the days when the church was the Vicariate of Hyderabad, it was widely known as St. Mary's Cathedral. The most striking features of this church are its curved arches and buttress. This unique church has its several side altars devoted to the saints. It has four bells brought all the way from Italy in the year 1901.The church represents the way of living and worship by the peace loving Christian community of Hyderabad and Secunderabad and is a testimony to the city's reputation as a multi-religious society. The premises of the Church are a delight to one's eyes during Christmas when the entire area is lit with bright lights. People from all faiths visit the Church for its architectural beauty and is considered a vital landmark from decades in Secunderabad region.\n\n"
+        "   The St.Mary\'s Church at Secunderabad, Hyderabad is the oldest Roman Catholic Church in the city. This fascinating Church was built in Indo-Gothic style and was sanctified in 1850."
+        "The St.Mary\'s Church, dedicated to the revered Virgin Mary is a magnificent landmark in the city. It is praised for both its architectural excellence and incredible history. In the days when the church was the Vicariate of Hyderabad, it was widely known as St. Mary's Cathedral. The most striking features of this church are its curved arches and buttress. This unique church has its several side altars devoted to the saints. It has four bells brought all the way from Italy in the year 1901.The church represents the way of living and worship by the peace loving Christian community of Hyderabad and Secunderabad and is a testimony to the city's reputation as a multi-religious society. The premises of the Church are a delight to one's eyes during Christmas when the entire area is lit with bright lights. People from all faiths visit the Church for its architectural beauty and is considered a vital landmark from decades in Secunderabad region."
     </string>
     <string name="stmarry_moreinfo">
-        "<b>How to Reach\n</b>"
-        "St. Mary’s Church located in Secunderabad is at a distance of nearly 2 km Secunderabad railway station and easily accessible by road.<br />"
+        "<b>How to Reach</b>"
+        "St. Mary’s Church located in Secunderabad is at a distance of nearly 2 km Secunderabad railway station and easily accessible by road."
     </string>
     <string name="stmarry_moreinfo_timings">
-        "<b>Church Timings\n</b>"
+        "<b>Church Timings</b>"
         "All days of the week"
-        "8:00 AM - 7:00 PM\n"
+        "8:00 AM - 7:00 PM"
     </string>
     <string name="stmarry_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "There are many hotels and restaurants close to the church in Secunderabad region, including fast food joints and bakeries.\n"
+        "<b>Where to Eat</b>"
+        "There are many hotels and restaurants close to the church in Secunderabad region, including fast food joints and bakeries."
     </string>
     <string name="stmarry_moreinfo_stay">
-      "<b>Where to stay\n</b>"
-        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 6.9 kms from St. Mary\'s Church is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
-        "Haritha Taramathi baradari resort is located at a distance of 21.5 kms from St. Mary\'s Church,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 6.9 kms from St. Mary\'s Church is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 21.5 kms from St. Mary\'s Church,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
     </string>
     <string name="stmarry_moreinfo_phone">
-        "<b>Phone numbers:\n</b>"
+        "<b>Phone numbers:</b>"
         "+91-40-27802004"
     </string>
     <string name="mecca_history">
-        "   The historic Mecca Masjid is located adjacent to Charminar in a south-west direction. The construction of this mosque started in the year 1614 by Sultan Muhammad Qutb Shah and was Aurangzeb completed in 1693. Built with local granite, it finds place among largest mosques in India and is the most important and largest one in the city. The arched gallery displays the tombs of all the Nizam\'s from the year 1803. The mosque has a length of 225 feet and is 180 feet wide with a height of 75 feet. The name is derived from the Grand Mosque in Mecca on which it is modeled. The hall has a dimension of 67 metres x 54 metres x 23 metres. The roof is rested on 15 arches.\n\n"
-        "There is a high blocking wall on the western side for Mehrab. It has two huge octagonal columns, which are created from a single piece of granite. This is inturn topped by an arched gallery crowned by a dome. This mosque can accommodate 10,000 worshipers at any time. It is located two hundred yards from Charminar. The mosque was believed to have used bricks during its construction where brought from Mecca. A room in the courtyard is believed to house a sacred relic of the prophet.\n\n"
-		"According to history, Sultan Muhammad Qutub Shah invited the entire devout religious elders in the city to lay the foundation stone but as no one had come forward, Sultan Muhammad himself volunteered to lay foundation and it is said that he never missed his midnight prayer in life right from the age of 12. Visitors coming to Charminar also visit the holy mosque, which lends a divine aura to the Muslim worshippers in the old city of Hyderabad.\n\n"
+        "   The historic Mecca Masjid is located adjacent to Charminar in a south-west direction. The construction of this mosque started in the year 1614 by Sultan Muhammad Qutb Shah and was Aurangzeb completed in 1693. Built with local granite, it finds place among largest mosques in India and is the most important and largest one in the city. The arched gallery displays the tombs of all the Nizam\'s from the year 1803. The mosque has a length of 225 feet and is 180 feet wide with a height of 75 feet. The name is derived from the Grand Mosque in Mecca on which it is modeled. The hall has a dimension of 67 metres x 54 metres x 23 metres. The roof is rested on 15 arches."
+        "There is a high blocking wall on the western side for Mehrab. It has two huge octagonal columns, which are created from a single piece of granite. This is inturn topped by an arched gallery crowned by a dome. This mosque can accommodate 10,000 worshipers at any time. It is located two hundred yards from Charminar. The mosque was believed to have used bricks during its construction where brought from Mecca. A room in the courtyard is believed to house a sacred relic of the prophet."
+		"According to history, Sultan Muhammad Qutub Shah invited the entire devout religious elders in the city to lay the foundation stone but as no one had come forward, Sultan Muhammad himself volunteered to lay foundation and it is said that he never missed his midnight prayer in life right from the age of 12. Visitors coming to Charminar also visit the holy mosque, which lends a divine aura to the Muslim worshippers in the old city of Hyderabad."
     </string>
     <string name="mecca_moreinfo">
-        "<b>How to Reach\n</b>"
-        "Mecca Masjid, located few yards away from Charminar is at a distance of 5 km from the heart of Hyderabad and is easily accessible by road.<br />"
+        "<b>How to Reach</b>"
+        "Mecca Masjid, located few yards away from Charminar is at a distance of 5 km from the heart of Hyderabad and is easily accessible by road."
     </string>
     <string name="mecca_moreinfo_timings">
-        "<b>Masjid Timings\n</b>"
+        "<b>Masjid Timings</b>"
         "All days of the week"
-        "4:00 AM - 9:30 PM\n"
+        "4:00 AM - 9:30 PM"
     </string>
     <string name="mecca_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "Visitors to Mecca Masjid can treat themselves to a range of food items right from irani chai, pani puri, lassi, fruit juices to delicious non-vegetarian fare served in the numerous food joints and hotels close to Charminar region.\n"
+        "<b>Where to Eat</b>"
+        "Visitors to Mecca Masjid can treat themselves to a range of food items right from irani chai, pani puri, lassi, fruit juices to delicious non-vegetarian fare served in the numerous food joints and hotels close to Charminar region."
     </string>
     <string name="mecca_moreinfo_stay">
       "<b>Where to stay\n</b>"
-        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 12 kms from Mecca Masjid is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
-        "Haritha Taramathi baradari resort is located at a distance of 12.4 kms from Mecca Masjid,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 12 kms from Mecca Masjid is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 12.4 kms from Mecca Masjid,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
     </string>
     <string name="mecca_moreinfo_phone">
         "<b>Phone numbers:\n</b>"
         "+91-40-66745986"
     </string>
     <string name="mahankali_history">
-        "   Sri Ujjaini Mahakaali Temple is a popular temple devoted to Goddess Mahakaali in Secunderabad area of Telangana. Devotees offer their prayers to the goddess every day at this 190-year old temple.\n\n"
-        "According to legend, in the year 1813, a Military Battalion was transferred to Ujjaini. This was a time when there was Cholera outbreak and thousands of people had reportedly perished. Suriti Appaiah who was part of the Military Battalion and his associates reportedly went to Mahakali Devasthanam at Ujjaini and offers prayers that if the people were saved from this epidemic, they would be installing the idol of Mahakaali at Secunderabad. Promptly after his return from Ujjaini, Sri Suriti Appaiah and his associates went ahead and installed the idol of Goddess Mahakaali which was made of wood at Secunderabad in July 1815. During the construction of sanctum sanctorum, a stone idol of Manikyalamma was reportedly found and even that idol was reportedly installed beside Sri Mahakaali Ammavaru.\n\n"
-		"Sri Suriti Appaiah later developed the temple with the help of philanthropic people and this was eventually taken over by the endowments department. Thousands of devotees offer prayers during Ashada jathara, which usually falls on Sunday and Monday.\n\n"
-		"The goddess Ujjain Mahakaali is seen in a Padmasana posture with four hands along with a sword, spear and also a essel of amrut damaru in the form of a beautiful stone idol. The idol is covered with silver and devotees make sacrifices after fulfillment of their wishes.\n\n"
+        "   Sri Ujjaini Mahakaali Temple is a popular temple devoted to Goddess Mahakaali in Secunderabad area of Telangana. Devotees offer their prayers to the goddess every day at this 190-year old temple."
+        "According to legend, in the year 1813, a Military Battalion was transferred to Ujjaini. This was a time when there was Cholera outbreak and thousands of people had reportedly perished. Suriti Appaiah who was part of the Military Battalion and his associates reportedly went to Mahakali Devasthanam at Ujjaini and offers prayers that if the people were saved from this epidemic, they would be installing the idol of Mahakaali at Secunderabad. Promptly after his return from Ujjaini, Sri Suriti Appaiah and his associates went ahead and installed the idol of Goddess Mahakaali which was made of wood at Secunderabad in July 1815. During the construction of sanctum sanctorum, a stone idol of Manikyalamma was reportedly found and even that idol was reportedly installed beside Sri Mahakaali Ammavaru."
+		"Sri Suriti Appaiah later developed the temple with the help of philanthropic people and this was eventually taken over by the endowments department. Thousands of devotees offer prayers during Ashada jathara, which usually falls on Sunday and Monday."
+		"The goddess Ujjain Mahakaali is seen in a Padmasana posture with four hands along with a sword, spear and also a essel of amrut damaru in the form of a beautiful stone idol. The idol is covered with silver and devotees make sacrifices after fulfillment of their wishes."
     </string>
     <string name="mahankali_moreinfo">
-        "<b>How to Reach\n</b>"
-        "Ujjaini Mahakali temple, located in Secunderabad, more than 8 km away from Secunderabad railways station is easily accessible by road.<br />"
+        "<b>How to Reach</b>"
+        "Ujjaini Mahakali temple, located in Secunderabad, more than 8 km away from Secunderabad railways station is easily accessible by road."
     </string>
     <string name="mahankali_moreinfo_timings">
-        "<b>Temple Timings\n</b>"
+        "<b>Temple Timings</b>"
         "All days of the week"
-        "6:00 AM - 8:00 PM\n"
+        "6:00 AM - 8:00 PM"
     </string>
     <string name="mahankali_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "There are many eateries, budget hotels and deluxe hotels in a 2-3 km radius from the famous temple. Visitors can sip hot chai at many stalls operating near the temple.\n"
+        "<b>Where to Eat</b>"
+        "There are many eateries, budget hotels and deluxe hotels in a 2-3 km radius from the famous temple. Visitors can sip hot chai at many stalls operating near the temple."
     </string>
     <string name="mahankali_moreinfo_stay">
-      "<b>Where to stay\n</b>"
-        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 6.4 kms from Ujjaini Mahankali is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
-        "Haritha Taramathi baradari resort is located at a distance of 18.2kms from Ujjaini Mahankali temple,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,located at distance of 6.4 kms from Ujjaini Mahankali is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 18.2kms from Ujjaini Mahankali temple,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
     </string>
     <string name="mahankali_moreinfo_phone">
-        "<b>Phone numbers:\n</b>"
+        "<b>Phone numbers:</b>"
         "+91-40-27814744"
     </string>
-    <string name="charminar_history">"  Charminar is a monument and a mosque, which is synonymous with the history of Hyderabad, India. The majestic structure was completed in 1591 CE and is not only a landmark building of Hyderabad but also a famous monument of India. It is believed that Mohammed Quli Qutb Shahi, the fifth sultan of the Qutub Shahi dynasty had built the monument to commemorate the end of a deadly plague menace that had gripped the city then. It is located near the bank of the river Musi. Charminar is derived from two distinct words Char and Minar, which means four towers. Mir Momin Astarabadi of Qutb Shah dynasty played an important role and he ordered extensive preparations for the design and layout. Historians believe that this structure is an example for Indo-Islamic architecture combined with few Persian elements. The monument is located in the heart of old city and it is believed that Hyderabad was measured in four directions from Charminar for administrative purposes.\n\n"
-    "A visit to Hyderabad is incomplete without visiting this grand and majestic centerpiece. It is also considered the Arc de Triomphe of the East. Some of the historians say that it was built it in honor of his wife, Bhagyamathi. There is also legend that tells about the existence of a secret tunnel underneath the monument connecting the fort at Golconda that was created as a means of escape to royal family in an emergency. Each of the sides measure 20 meters while the minarets are located at a height of 48.7 meters from the ground level. Each side of Charminar opens into a plaza like structure where the giant arches overlook the major thoroughfares. It is a clear square structure that measures 31.95 mts. on each side while imposing arches span a distance of 11mts. The four minarets rise to a height of 56 mts. The ornamental arches on the minarets enhance the aesthetic value. There are 149 circular steps inside each minaret and one of them is open for tourists to climb and enjoy a breathtaking view of the city. It also houses the oldest mosque in Hyderabad with prayer spaces for the devout to worship.\n"
-        "Islamic architecture of those times is marked by arches, minarets, and domes. The structure is famous for its profuse stucco decorations and arrangement of impressive balustrades and balconies. The floral design is executed delicately and stands as a masterpiece to the combination of Mughal and Hindu architecture crafted by the local artisans. The four clocks in four cardinal directions were added in the year 1889. The base of Charminar has a water cistern located at center which consists of a small fountain for ablutions, before the faithful offer prayers in the mosque. Charminar has become synonymous with the culture of old city of Hyderabad and the area is also a popular destination for lip smacking Muslim dishes, colorful bangles, pearls, jewellry and other items. The place is a symbol of Hyderabadi culture and stands tall and proud as a reminder of the glorious era.\n"
+    <string name="charminar_history">"  Charminar is a monument and a mosque, which is synonymous with the history of Hyderabad, India. The majestic structure was completed in 1591 CE and is not only a landmark building of Hyderabad but also a famous monument of India. It is believed that Mohammed Quli Qutb Shahi, the fifth sultan of the Qutub Shahi dynasty had built the monument to commemorate the end of a deadly plague menace that had gripped the city then. It is located near the bank of the river Musi. Charminar is derived from two distinct words Char and Minar, which means four towers. Mir Momin Astarabadi of Qutb Shah dynasty played an important role and he ordered extensive preparations for the design and layout. Historians believe that this structure is an example for Indo-Islamic architecture combined with few Persian elements. The monument is located in the heart of old city and it is believed that Hyderabad was measured in four directions from Charminar for administrative purposes."
+    "A visit to Hyderabad is incomplete without visiting this grand and majestic centerpiece. It is also considered the Arc de Triomphe of the East. Some of the historians say that it was built it in honor of his wife, Bhagyamathi. There is also legend that tells about the existence of a secret tunnel underneath the monument connecting the fort at Golconda that was created as a means of escape to royal family in an emergency. Each of the sides measure 20 meters while the minarets are located at a height of 48.7 meters from the ground level. Each side of Charminar opens into a plaza like structure where the giant arches overlook the major thoroughfares. It is a clear square structure that measures 31.95 mts. on each side while imposing arches span a distance of 11mts. The four minarets rise to a height of 56 mts. The ornamental arches on the minarets enhance the aesthetic value. There are 149 circular steps inside each minaret and one of them is open for tourists to climb and enjoy a breathtaking view of the city. It also houses the oldest mosque in Hyderabad with prayer spaces for the devout to worship."
+        "Islamic architecture of those times is marked by arches, minarets, and domes. The structure is famous for its profuse stucco decorations and arrangement of impressive balustrades and balconies. The floral design is executed delicately and stands as a masterpiece to the combination of Mughal and Hindu architecture crafted by the local artisans. The four clocks in four cardinal directions were added in the year 1889. The base of Charminar has a water cistern located at center which consists of a small fountain for ablutions, before the faithful offer prayers in the mosque. Charminar has become synonymous with the culture of old city of Hyderabad and the area is also a popular destination for lip smacking Muslim dishes, colorful bangles, pearls, jewellry and other items. The place is a symbol of Hyderabadi culture and stands tall and proud as a reminder of the glorious era."
     </string>
     <string name="charminar_moreinfo">
-        "<b>How to Reach\n</b>"
-        "Charminar is located in the heart of old city and is easily accessible by road from various parts of Hyderabad.<br />"
+        "<b>How to Reach</b>"
+        "Charminar is located in the heart of old city and is easily accessible by road from various parts of Hyderabad."
     </string>
     <string name="charminar_moreinfo_timings">
-        "<b>Timings\n</b>"
+        "<b>Timings</b>"
         "All days of the week"
-        "9:00 AM - 5:30 PM\n"
+        "9:00 AM - 5:30 PM"
     </string>
     <string name="charminar_moreinfo_eat">
-        "<b>Where to Eat\n</b>"
-        "Close to Charminar, tourists have numerous options for food. Right from delicious eateries, fast foods, fresh fruit juices, dry fruit shops, Ice candies, Irani Chai, Biryani to small and large restaurants, Charminar has a lot to offer on the platter.\n"
+        "<b>Where to Eat</b>"
+        "Close to Charminar, tourists have numerous options for food. Right from delicious eateries, fast foods, fresh fruit juices, dry fruit shops, Ice candies, Irani Chai, Biryani to small and large restaurants, Charminar has a lot to offer on the platter."
     </string>
     <string name="charminar_moreinfo_shopping">
-        "<b>Shopping\n</b>
-        "Tourists can enjoy unlimited shopping close to Charminar. Laad Bazaar is a very old market, located on one of the four major thoroughfares emerging from the historic Charminar. Laad Bazaar is a major market for bangles, semi-precious stones, pearls, jewellery, silverware, bidri ware, saris lacquer bangles studded with stones, and hand woven materials of silk, cotton and also velvet, brocade, and gold embroidered fabrics, traditional Khara Dupattas, perfumes and many more.\n"
+        "<b>Shopping</b>
+        "Tourists can enjoy unlimited shopping close to Charminar. Laad Bazaar is a very old market, located on one of the four major thoroughfares emerging from the historic Charminar. Laad Bazaar is a major market for bangles, semi-precious stones, pearls, jewellery, silverware, bidri ware, saris lacquer bangles studded with stones, and hand woven materials of silk, cotton and also velvet, brocade, and gold embroidered fabrics, traditional Khara Dupattas, perfumes and many more."
     </string>
     <string name="charminar_moreinfo_stay">
-      "<b>Where to stay\n</b>"
-        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 13.7 kms from Charminar is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department.\n"
-        "Haritha Taramathi baradari resort is located at a distance of 12.1kms from Charminar ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!\n"
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 13.7 kms from Charminar is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 12.1kms from Charminar ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
     </string>
     <string name="charminar_moreinfo_land">
         "<b>Contact No: </b>"
         "040-66745986"
     </string>
+    <string name="salarjung_history">"  Situated on the southern banks of Musi River, the Salarjung Museum has a unique distinction as the third largest museum in India and has a worldwide fame for its biggest one-man collections of antiques. It is widely known in India for its prized collections dating back to different civilizations. Nawab Mir Yousuf Ali Khan Salar Jung III, the former Prime Minister of the 7th Nizam of Hyderabad, spent most of his income over a period of thirty-five years to gather such priceless collections, which according to historians was his intense passion."
+    "The collections that was left behind in his ancestral Diwan Deodi palace were exhibited earlier as a private museum that was inaugurated by the then PM of India Jawaharlal Nehru in 1951. Later in the year 1968, the museum was shifted to its current location at Afzalgunj. The renowned museum is now administered by a Board of Trustees which also includes Governor of Telangana as an ex-officio chairperson as per the Salar Jung Museum Act of 1961.\n"
+        "The Museum is a royal treat for art collectors with its 43,000 art objects and 50,000 priceless books and manuscripts. The collections range from Indian Art, Middle Eastern Art, European Art, Far Eastern Art, Children Art etc. in addition to a founders gallery and a rare manuscript division. Indian Art forms include collections of stone sculptures, jade carvings, painted textiles, bronze images, miniature paintings, woodcarvings, modern art, textiles, metal-ware, arms and armor, ivory carvings etc. Middle Eastern Art houses an exquisite collection of carpets, glass, furniture, metal-ware, lacquer etc. from Arabia, Persia, Syria, and Egypt. Collection of Far Eastern Art covers lacquer ware, porcelain, enamel, bronze, embroidery, wood and inlay work, paintings from Tibet, China, Japan, Nepal and Thailand etc. Oil and watercolor paintings also constitute an important part of the European Collection."
+        "It also houses the world famous statue of Veiled Rebecca and Marguerite and Mephistopheles, a fine collection of jade, daggers owned by Queen Noor Jahan, Emperors Shah Jahan, Aurangzeb’s sword and other timeless masterpieces. The museum is a semicircular shaped building with 38 galleries spread across two floors. The ground floor covers 20 galleries while the first floor has 18 of them. The exhibits covering different subjects are shown at separate galleries."
+    </string>
+    <string name="salarjung_moreinfo">
+        "<b>How to Reach</b>"
+        "Salarjung Museum, located close to Hyderabad High Court, is at a distance of nearly 5 km from the heart of Hyderabad. Situated on the banks of Musi River, it is accessible easily by road."
+    </string>
+    <string name="salarjung_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "10:00 AM - 5:00 PM"
+    </string>
+    <string name="salarjung_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "There is a canteen located inside the museum for the comfort of tourists. Tourists can enjoy snacks, sodas and ice cream from the eateries outside. They can also choose other hotels, situated close by in the old city and Afzalgunj area of Hyderabad."
+    </string>
+    <string name="salarjung_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Tourists can buy old coins and other antique articles sold by vendors near the museum."
+    </string>
+    <string name="salarjung_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 11.2 kms from Salarjung Museum is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 12.9kms from Salarjung Museum ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="salarjung_moreinfo_land">
+        "<b>Contact No: </b>"
+        "040-24576443"
+    </string>
+    <string name="qutub_history">"  Erected in the memory of the departed kings of Golconda, they are magnificent monuments that have withstood the test of time and nature’s vagaries. They are located one kilometer north of Golconda Fort’s called Banjara Darwaza. They are imposing marvels of architectural excellence that stand as the reminders of the glory of Golconda kings who are buried at the same spot. Built by the Qutub Shahis, these tombs are considered to be among the oldest historical monuments of Hyderabad."
+    "These tombs are present in a large group on a raised platform. They resemble Persian, Pathan and Hindu architectural styles that makes use of grey granite, with stucco ornamentation and is a one-of-its-kind place in the world where the whole dynasty is buried at a single spot. They lie amidst beautifully landscaped gardens with intricately carved stonework."
+        "The Tombs form the most reliable evidence of the Qutub Shahi dynasty and their architectural traditions. These are exquisite structures where every arch, columns, dome minarets, and galleries were created with finessed and are surrounded by landscape gardens called Ibrahim Bagh. It houses seven tombs dedicated to the former kings of Golconda. The tombs are dome like structures built on a square base. This is again surrounded by pointed arches. Each tomb is of quadrangular shape and rises around 9 to 15 meters above the terrace. The smaller tombs constitute single stories while the larger tombs are seen as two storied. The domes actually constituted of blue and green tiles, whereas only few pieces exist now. The Qutub Shahi Tombs are surrounded by enchanting minarets and there is magnificent tomb with a height of 42.5 m covered by large dome. The tombs were furnished with chandeliers and soft canopies on silver poles. These are the splendid mausoleums of the Golconda Sultans. During the Qutub Shahi period, legend says that these tombs were of great significance that even criminals taking refuge there were given pardon. The tombs were neglected after their reign until Salar Jung III took up their restoration works during the early 19th century. Today it is maintained well by the Department of Tourism with due focus on heritage preservation and restoration. It is a popular destination in the tourist circuit of Hyderabad and visitors coming to Golconda fort donot miss the tombs, which are marketed as a clubbed destination."
+    </string>
+    <string name="qutub_moreinfo">
+        "<b>How to Reach</b>"
+        "Qutub Shahi tombs are located at a distance of nearly 12 km from Hyderabad and is accessible by road."
+    </string>
+    <string name="qutub_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "9:30 AM to 4:30 PM"
+    </string>
+    <string name="qutub_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "Telangana Tourism operates a world-class restaurant at Taramati Baradari resorts close by. There are other budget hotels and high-end restaurants owned by private operators."
+    </string>
+    <string name="qutub_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Tourists can buy small gift items and other articles made of craft work near the tombs."
+    </string>
+    <string name="qutub_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,Located at distance of 13.4 kms from Qutub Shahi Tombs is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 4.9 kms from Qutub Shahi Tombs ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="paigah_history">"  The noble families of Paigah, during the 18th century were among the most influential and powerful families of the Princely State of Hyderabad’s aristocracy. Claiming to be the descendents of the Hazrath Omar bin Al-Khattab, Islam’s second caliph, the nobles of Paigah were believed to be wealthier than the average Maharajah of the country and they were the only ones to have the privilege maintaining their own court, palaces, as well as their own private armies, which often numbered several thousands. Paigah is a Farsi world, which says “footstool”. It means Right-hand man in English."
+    "Abdul Fateh Khan Tegh Jung is credited as the founder of the Paigah nobility. He founded the nobility when he served for the second Nizam, Salabat Jang. Sahams-ul-Mulk, Shams-ul-Doula, and Shams-ul-Umara, were the hereditary titles conferred to him by the Nizam. It means “the sun among the masses and nobles”. The Paigahs were given the responsibility to take care of the security and defense of the state. The Paigahs were very close to the Nizams."
+        "The Paigahs, who were the great patrons of tarts have extended their unmatched grace and elegance even to their exquisite tombs. The Paigah Tombs that grace the city among the many wonders that fill the pages of the most promising history. The marvelous artistry of the Paigahs is shown in the mosaic tile work that has been inlaid. The Paigah tombs, located at the Pisal Banda suburbs in Hyderabad, are most intricately carved and are enclosed in facades of pierced marble. The tombs are the finest examples of the enthralling Indo-Islamic architecture, which is a blend of both features of Asaf Jahi and Rajputani style."
+    </string>
+    <string name="paigah_moreinfo">
+        "<b>How to Reach</b>"
+        "Paigah tombs located near Santosh Nagar is at distance of nearly 4.5 km from Charminar and is easily accessible by road from various parts of Hyderabad."
+    </string>
+    <string name="paigah_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "10:00 AM - 5:00 PM"
+    </string>
+    <string name="paigah_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "There are many hotels and eateries in the old city area of Hyderabad."
+    </string>
+    <string name="paigah_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Visitors can buy jewelry, antiques and clothes in the old city area of Hyderabad."
+    </string>
+    <string name="paigah_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 17.4kms from Paigah Tombs is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 24.1kms from Paigah Tombs ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="golconda_history">"  Golconda Fort is located in the western part of Hyderabad city and is about 9 km from the Hussain Sagar Lake. The outer fort occupies an area of three square kilometers, which is 4.8 kilometers in length."
+    "It was originally known as Mankal, and built on a hilltop in the year 1143. It was originally a mud fort under the reign of Rajah of Warangal. Later it was fortified between 14th and 17th centuries by the Bahmani Sultans and then the ruling Qutub Shahi dynasty. Golconda was the principal capital of the Qutub Shahi kings. The inner fort contains ruins of palaces, mosques and a hill top pavilion, which rises about 130 meters high and gives a bird’s eye view of other buildings."
+        "Golconda fort is undoubtedly one of most magnificent fortress complexes in India. The history of Golconda Fort goes back to early 13th century, when it was ruled by the Kakatiya’s followed by Qutub Shahi kings, who ruled the region in 16th and 17th century. The fortress rests on a granite hill 120 meters high while huge crenellated ramparts surround this structure."
+        "It was initially called Shepherd’s Hill, meaning Golla Konda in Telugu while according to legend, on this rocky hill a shepherd boy had come across an idol and the information was conveyed to the ruling Kakatiya king at that time. The king constructed a mud fort around this holy spot and after 200 years, Bahamani rulers took possession of the place. Later the Qutub Shahi kings converted this into massive granite fort extending 5km in circumference. The fort is considered a mute witness to historic events. The Qutub Shahis reign at Golconda ended in 1687 when it was run over by Mughal emperor Aurangzeb, who intentionally left it in ruins."
+        "Golconda still boasts of mounted cannons, four drawbridges, eight gateways, and majestic halls, magazines, stables etc. The outermost enclosure is called Fateh Darwaza meaning Victory gate, after Aurangzeb’s army marched successfully through this gate. At Fateh Darwaza one can witness fantastic acoustical effects, which is one among the many famous engineering marvels at Golconda. Clapping your hand at a certain point near the dome entrance reverberates which is heard clearly at the hill top pavilion, almost one kilometer away. This served as a warning note to the inhabitants of the fort of any impending danger, Ofcourse it now amuses visitors. The fort gains an impressive place among the architectural marvels and heritage structures of India and is a testimony to Hyderabad’s glorious past."
+    </string>
+    <string name="golconda_moreinfo">
+        "<b>How to Reach</b>"
+        "Golconda fort is located at a distance of nearly 11 km from Hyderabad and is accessible by road."
+    </string>
+    <string name="golconda_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "9:00 AM to 5:00 PM"
+    </string>
+    <string name="golconda_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "Telangana Tourism operates a world-class restaurant at Taramati Baradari resorts close by. There are other budget hotels and high-end restaurants owned by private operators."
+    </string>
+    <string name="golconda_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Tourists can buy small gift items and other articles made of craft work near the fort."
+    </string>
+    <string name="golconda_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 11.8kms from Golconda Fort is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 4.3kms from Golconda Fort ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="golconda_moreinfo_land">
+        "<b>Contact No: </b>"
+        "040-23512401"
+    </string>
+    <string name="falaknuma_history">"  A visit to the Falaknuma Palace is like retracing the paths of Nizams, walking in step with the European royalty, feeling the presence of the flamboyant Begums, walking arm-in-arm with distinguished Heads of the State and walk the Kings way, slicing your path through the choicest architecture. It is like walking into the heavens as the palace stands high about 2000 feet above the city. The Falaknuma Palace’s exquisite beauty allows you to enjoy a journey into the blue skies, into the glided ages of time immemorial, where grandeur and lavishness is all you see."
+    "Those who have basked in its opulence have rejoiced in its brilliantly designed Venetian chandeliers, uniquely made furniture, an awe inspiring marble staircases and sloshing fountains, enchanting statues, and objects d’art. The Mughal, Rajasthani and the Japanese gardens that were personally conceived by the Nizam adore the palace. The Falaknuma Palace has a very rich Library, that is every collector’s envy. This replica of the one library at Windsor Castle homes the rarest of manuscripts. It is also graced with one of the most applauded collections of the Holy Quran in India."
+    </string>
+    <string name="falaknuma_moreinfo">
+        "<b>How to Reach</b>"
+        "Falaknuma Palace is located at a distance of 5 km from Charminar in old city and is easily accessible by road from various parts of Hyderabad. It also has a railway station, close to the hillock on which the palace was built. MMTS services run till Falaknuma."
+    </string>
+    <string name="falaknuma_moreinfo_timings">
+        "<b>Timings</b>"
+        "Monday - Friday: 9.00 AM - 6.30 PM"
+        "Saturday: 9.00 AM - 6.30 PM"
+        "Sunday: 9.00 AM - 6.30 PM"
+        "Public Holidays: 9.00 AM - 6.30 PM"
+    </string>
+    <string name="falaknuma_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "There are many hotels and eateries in the old city area of Hyderabad."
+    </string>
+    <string name="falaknuma_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Visitors can buy jewelry and antiques in this area of Hyderabad. There are many fruit stalls near Falaknuma palace."
+    </string>
+    <string name="falaknuma_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,Located at distance of 28.2kms from Falaknuma Palace is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 22.4kms from Falaknuma Palace ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="falaknuma_moreinfo_land">
+        "<b>Contact No: </b>"
+        "040-66298585"
+    </string>
+    <string name="chowmahalla_history">"  The history of Hyderabad is so enticing that it feels like reading a wonderful love story and its glorious past is no less than a fairy tale. And the most interesting part of this novel forms the rule of the Nizams, which fills pages of history with legendary contributions of art, architecture and science."
+    "The history of Hyderabad is so enticing that it feels like reading a wonderful love story and its glorious past is no less than a fairy tale. And the most interesting part of this novel forms the rule of the Nizams, which fills pages of history with legendary contributions of art, architecture and science."
+        "Southern Courtyard is the oldest part of the complex. It comprises of four graceful palaces Tahniyat Mahal, Mahtab Mahal, Afzal Mahal, and Aftab Mahal. Northern Courtyard has been restored and is open to the public. The main attraction of this area is the Bara Imam, which is a long corridor. It has rooms on the east wing, which once served as the administrative wing. Another stunning construction is the Clock Tower. It houses the Khilwat Clock which still works perfectly."
+    </string>
+    <string name="chowmahalla_moreinfo">
+        "<b>How to Reach</b>"
+        "Chowmahalla Palace is located at a distance of 2 km from Charminar in old city and is easily accessible by road from various parts of Hyderabad."
+    </string>
+    <string name="chowmahalla_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week except Friday"
+        "10:00 AM - 5:00 PM"
+    </string>
+    <string name="chowmahalla_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "Close to Chowmahalla Palace, tourists have numerous options for food. Right from delicious eateries, fast foods, fresh fruit juices, dry fruit shops, Ice candies, Irani Chai, Biryani to small and large restaurants, Charminar has a lot to offer on the platter."
+    </string>
+    <string name="chowmahalla_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Tourists can buy small gift items and other articles made of craft work, jewelry and antiques in this area."
+    </string>
+    <string name="chowmahalla_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,Located at distance of 12kms from Chowmahalla Palace is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 12.4kms from Chowmahalla Palace ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="chowmahalla_moreinfo_land">
+        "<b>Contact No: </b>"
+        "040-24522032"
+    </string>
+    <string name="durgam_history">"  Hyderabad has many glorious feathers to its hat. The royal city of Nawabs is home to a secret lake which is popularly known as the Durgam Cheruvu. This secret lake is situated close to Shilparamam craft village, at the city’s software hub, Hitech city. The reason behind this intriguing name is indistinct but old timers assert that for many years the lake remained hidden as there were no roads to reach the place and it was well kept away from naked eye for twenty years. The Durgam Cheruvu is a secluded location that is spread over an area of sixty-three acres and is a picturesque location surrounded by green pastures and scenic hills of the Deccan Plateau. This secret lake has now been developed into a haven for visitors. The authorities maintaining the lake have introduced boating facilities to lure the people visiting the exotic place. The visitors throng this place for the entertaining activities like fishing, which is very rare in the city. There is a restaurant for people looking for some refreshments. This appealing lake serves as one best place for the film shootings. It is also the most recommended picnic spot for busy Hyderabadis who look for a rejuvenating weekend. The lake is shielded by granite rocks which are said to be only one of its kinds in entire Asia. The stones date back to more than some 2,500 million years. Nature lovers are very attracted to this place. The Tourism Department has provided camping, pedal boating, and trekking facilities."
+    </string>
+    <string name="durgam_moreinfo">
+        "<b>How to Reach</b>"
+        "Durgam Cheruvu located near Jubilee Hills is nearly 10 km from the centre of Hyderabad and is well accessible by road."
+    </string>
+    <string name="durgam_moreinfo_timings">
+        "<b>Timings</b>"
+        "Monday - Sunday:"
+        "9.00 AM - 8.30 PM"
+        "Public Holidays:"
+        "9.00 AM - 8.30 PM"
+    </string>
+    <string name="durgam_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "Durgam Cheruvu has a dedicated restaurant and fast food joint and there are also other restaurants close by at Inorbit mall."
+    </string>
+    <string name="durgam_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Tourists can buy a range of apparel, consumer goods and a host of other items at the nearby shopping destination of Inorbit mall."
+    </string>
+    <string name="durgam_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 11.2 kms from Durgam cheruvu is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 13.9kms from Durgam cheruvu,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="hussainsagar_history">"  Large manmade lakes are a testimony to the efforts of our rulers in historical times. Take a stroll across the lake’s boulevards on a pleasant evening and it is when you notice the cool breeze smoothly caressing your senses welcoming you to this place. The tank bund is dotted with elegant statues of eminent historic personalities such as Nannayya, Tikkana, Molla, Sri Sri, Jashua, Annamayya, Tyagayya, Vemana Errana, Rudramma, and Pingali Venkaiah greeting you warmly. The Tank Bund, which is the dam/embankment to the Hussain Sagar, serves as the link between the twin cities of Hyderabad and Secunderabad. It was built by Hazrat Hussain Shah, and today it is a major tourist attraction. A monolithic statue of the Buddha installed with pain staking efforts in the heart of this lake is an added charm. The lake was excavated in the year1562 A.D. by Hussain Shah Wali during the reign of Ibrahim Quli Qutb Shah, the promenade of which is now a busy thoroughfare. Boating and water sports are a regular feature in the Hussain Sagar Lake. It is a large manmade lake of Hyderabad and was constructed on a small tributary of the Musi River. It is a sprawling lake that holds water in all seasons. The Department of culture organizes cultural programmes here regularly."
+        "<b>Buddha Statue</b>"
+        "A monolithic Buddha statue, which is 16 meter tall and weighs 350 tonne (approx.) was installed in the middle of the Hussain Sagar Lake, which is brilliantly silhouetted against the sunset. It is entirely made of white granite and finds place among the tallest statues of the world."
+        "<b>Water Sports</b>"
+        "Boating and other water sports are a common feature at Hussain Sagar including regular yachting and activities by sailing clubs. The annual regatta here draws many sports persons from all over the country. Telangana tourism provides facilities like 48 seater Launch etc, speedboats, and motor boats. Starlit dinners and private parties are arranged on the Launch after prior booking."
+        "<b>Other Attractions</b>"
+        "Close to the Hussain Sagar Lake, you can visit other tourist spots like Lumbini Park, enchanting Birla Mandir, Snow world, NTR gardens and Planetarium. You can take a ride on your vehicle or a lengthy stroll on necklace road, which enhances the beauty of the Hussain Sagar Lake. The ancient and revered shrine of Katta Maisamma, which means goddess of the dam, located here attracts many devotees. The lake is also the spot where annual Ganesh immersion happens with religious fervor. Many events are organized by government, private and corporate sector on the lakeshore regularly. Now it also has a popular multiplex theater close by, called Prasad\’s."
+    </string>
+    <string name="hussainsagar_moreinfo">
+        "<b>How to Reach</b>"
+        "Hussain Sagar Lake located in the heart of Hyderabad is well accessible by road. It is located nearly 3 km from Nampally railway station and 4.5 km from Secunderabad railway station."
+    </string>
+    <string name="hussainsagar_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "8:00 AM - 10:00 PM"
+    </string>
+    <string name="hussainsagar_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "There are many restaurants, eateries, ice cream parlours, fast food joints etc., in the vicinity of Hussain Sagar Lake in all directions, particularly People\'s Plaza."
+    </string>
+    <string name="hussainsagar_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Tourists can buy handicrafts, small gift items and snacks near Hussain Sagar lake."
+    </string>
+    <string name="hussainsagar_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 6.3 kms from Hussain Sagar Lake is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 15.5 kms from Hussain Sagar Lake,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="kbr_history">"  The royal city Hyderabad has seen steady growth, especially in the past ten years. The city went on to become cyber city with its progressive step up for global recognition. Amidst all the corporate hulla bulla and modernization, lies yet another jungle, which belongs to Mother Nature. While there are the busy IT parks in the cyber city, there is this complete antithesis of the megacity, a park that calms your senses and soothes your mind. The Kasu Bramhananda Reddy National Park is teeming with life that is not very sophisticated, more primitive and uncivilized and yet, so enlightening and exotically beautiful. This place is also called the KBR National Park, and yes, this is a must visit place."
+        "Established in the year 1994 with an aim to protect the richness and biodiversity of the area it is built on, the enchanting Kasu Bramhananda Reddy National Park is sprawled over an area of about 156 hectares in the lush lanes of Hyderabad’s Jubilee Hills. The KBR Park is named after former Chief Minister Kasu Bramhananda Reddy. Apart from being breathtakingly picturesque, the park is also home to a variety of flora and fauna like most of the national parks. The park also has the magnificent Chittan Palace of the former Nizam of Hyderabad and a many other historic structures. There are some 600 species of trees and plants within the park’s vicinity, ranging from herbs, shrubs, to climbers and creepers. When it comes to the fauna, the park homes approximately 20 species of reptiles, 13 species of birds, 15 species of butterflies, 20 species of mammals, and a wide variety of invertebrates."
+    </string>
+    <string name="kbr_moreinfo">
+        "<b>How to Reach</b>"
+        "KBR Park is located near Banjara Hills- Jubilee Hills stretch in Hyderabad, around 8 km from the heart of the city and can be accessed easily by road."
+    </string>
+    <string name="kbr_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "There are many eateries, fast food joints, budget hotels and high-end restaurants that offer food for tourists."
+    </string>
+    <string name="kbr_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet,Located at distance of 5.4 kms from KBR national park is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 17.8 kms from KBR national park,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="lumbini_history">"  A major attraction on the Tank Bund Road Hussain Sagar Lake is the Lumbini Park. It boasts of all activities, funny and adventurous to lure kids and young adults. It has several food joints, boating facilities and amenities for the children to play around. The musical fountain has two shows per day (7.15pm and 8pm), is an added attraction, which entices more visitors and tourists. This wonderful entertainment park located on the shores of Hussain Sagar Lake has a perfect landscaping which is a visual treat. The synchronized water fountain and floral clock are major attractions while Lumbini Park jetty is the spot where tourists can enjoy the tourism department’s boating facilities. The boats ply from this spot and tourists can enjoy boat rides by paying prescribed amount at the counter."
+        "Lumbini Park is a beautiful park of the twin cities of Hyderabad and Secunderabad and is conceived as an important part of the Buddha Poornima project that the Hyderabad Urban Development Authority notified in 1994. Revelers consider it as an ideal place for relaxation and amusement. The park is named after the garden, which marks the birthplace of Siddharth, who later becomes Gautham Buddha. It is very popular with kids and families looking to spend an evening away from the noisy corridors of city. The park’s major attractions are colorful floral clock, waterfalls and fountains. The entertaining musical fountain and water cascade are popular with visitors. The fountains swirl to the tunes of popular songs from Hindi and Telugu films. The park is closed every Monday."
+    </string>
+    <string name="lumbini_moreinfo">
+        "<b>How to Reach</b>"
+        "Lumbini Park, on the shores of Hussain Sagar Lake is located in the heart of Hyderabad and is well accessible by road. It is located nearly 3 km from Nampally railway station and 6 km from Secunderabad railway station."
+    </string>
+    <string name="lumbini_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "9:00 AM - 9:00 PM"
+    </string>
+    <string name="lumbini_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "There are restaurants, eateries, ice cream parlours, fast food joints etc., inside Lumbini Park."
+    </string>
+    <string name="lumbini_moreinfo_shopping">
+        "<b>Shopping</b>
+        "Tourists can buy small gift items, soft toys and snacks near Lumbini Park.."
+    </string>
+    <string name="lumbini_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 6 kms from Lumbini Park is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 15.2 kms from Lumbini Park ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="mahavir_history">"  We can see that the park has a topography made up of several rocky exposures that are characteristic of Deccan formation. The fauna of the wildlife sanctuary is as varied as they come. Foxes, black-naped hares, Wild boars, as well as Indian vipers are the most striking species for the curious traveler."
+        "   The Mahavir Harina Vanasthali National Park located in Hyderabad is one such great attraction. The wildlife park, named after the holy saint of the Jains, Lord Mahavir, is located in Vanasthalipuram, which is a residential suburb about 15 kms from the main city. It is particularly known for being a home for endangered animal species, Black Buck deer. The deer, which is also known as Krishna Jinka in the local language, is also the most hunted animal in all of India in the 18th and 19th centuries. The other animals found here are cheetahs, wild board, porcupines, monitor lizards, and several varieties of snakes."
+        "   Visitors can see the animals through sheds and viewing towers. The government has also introduced van safaris to take the visitors on a ride within the park to watch the animals closely."
+    </string>
+    <string name="mahavir_moreinfo">
+        "<b>How to Reach</b>"
+        "The national park is located nearly 18 km away from Hyderabad city towards outskirts, nearby Hyderabad – Vijayawada highway."
+    </string>
+    <string name="mahavir_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "   There are many eateries, fast food joints, budget hotels and high-end restaurants that offer food for tourists visiting this park, in LB Nagar - Dilsukhnagar area while travelling to this destination."
+    </string>
+    <string name="mahavir_moreinfo_stay">
+      "<b>Where to stay</b>"
+        "Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 24.6 kms from Mahavir Harina Vanasthali National Park is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        "Haritha Taramathi baradari resort is located at a distance of 69.8kms from Mahavir Harina Vanasthali National Park,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time. The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="mrugavani_history">"  The present day world has created its orbit around technology and modernism. The modern way of living has extensive demands and more and more of our Earth’s space and resources is what is at stake for. One can observe that national parks have eventually become the last sights of refuge for most indigenous species of animals as well as plants around the globe. Even governments of several countries have now become conscious of the importance of preserving these last species in wildlife sanctuaries."
+        "   The Mrugavani National Park in the state capital is an example of a beautiful national park turned major tourist attraction. What is most exciting is that in a land layered with exotic and immense natural resources like in India, it sure is a great achievement. The Mrugavani National Park, located at Chilkuru in Moinabad, is at a distance of about 25 kms from Hyderabad. The National Park is spread over 3.5 sq kms of pure, untamed land. The Indian government announced it a wildlife sanctuary in the year 1994 and since then, the park has been home to some 600 species of plants and animals. Like in the case of most national parks, even the Mrugavani national park has had least human intervention and interaction in order to make sure that all the precious creatures remain undisturbed in their cozy natural habitat."
+        "   We can see that the park has a topography made up of several rocky exposures that are characteristic of Deccan formation. The fauna of the wildlife sanctuary is as varied as they come. Foxes, black-naped hares, Wild boars, as well as Indian vipers are the most striking species for the curious traveler."
+    </string>
+    <string name="mrugavani_moreinfo">
+        "<b>How to Reach</b>"
+        " Mrugavani National park is accessible by road and located at a distance of nearly 20 km from Hyderabad enroute Chilkur, close to Nehru Outer Ring Road."
+    </string>
+    <string name="mrugavani_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "9:00 AM to 5:00 PM"
+    </string>
+    <string name="mrugavani_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "   Haritha Hotel Chilkur Balaji offers delicious fare for tourists visiting Mrugavani National park."
+    </string>
+    <string name="mrugavani_moreinfo_stay">
+      "<b>Where to stay</b>"
+        " Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 22.4kms from Mrugavani National Park is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        " Haritha Taramati baradari resort is located at a distance of 6.7 kms from Mrugavani National Park,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time.The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
+    <string name="nehruzoological_history">"  One of the well maintained, expansive and among the best zoos in Asia, the Nehru Zoological Park is home to more than 1,500 species of birds, animals, and reptiles. Located in the Bahadurpura area enroute the Acharya N G Ranga Agricultural University in Rajendranagar region of Hyderabad, the zoo can be reached after crossing Afzalgunj and the High Court. The zoo hosts different species such as mynahs, white peacocks, African Elephants, chimpanzees and rhinoceros."
+        "   The major attraction for visitors within the zoo is the Lion Safari. A van fenced with iron will take you through the gates of the safari. Here only one gate opens at a time and you will find yourself surrounded by an entirely different world of wild animals like lions, tigers, rhinos, panthers, wild oxen, etc. that roam freely in the wilderness of a jungle-like environment. Visitors can make their trip more interesting by visiting the pre-historic dinosaur park, a nocturnal zoo, a natural history museum, a mini-train, several parks, and animal rides, which makes it an ideal spot for picnic. The nocturnal animals and the reptiles constitute another interesting and exciting part of the whole experience."
+        "   It easily takes around 6-7 hours to cover the whole zoo located on a 300-acre site consisting of lush green acres. Nehru Zoological Park is a must see for nature and wild life lovers. It also has rare species animals and birds, most of which are houses on conditions resembling their natural habitats as much as possible. This holds the distinction as a first zoo to create moated enclosures for various animals. TSTDC runs a restaurant and other food joints. The Mir Alam tank is the source of water for the zoo and is frequented by foreign travelers, wild life enthusiasts, and researchers and alike. It is located at a distance of 15 kilometers from the Hussain Sagar Lake."
+    </string>
+    <string name="nehruzoological_moreinfo">
+        "<b>How to Reach</b>"
+        "   Nehru Zoological Park is located on Hyderabad – Bangalore National Highway nearly 9 km from Hyderabad."
+    </string>
+    <string name="nehruzoological_moreinfo_timings">
+        "<b>Timings</b>"
+        "All days of the week"
+        "08:30 AM to 05:30 PM"
+    </string>
+    <string name="nehruzoological_moreinfo_eat">
+        "<b>Where to Eat</b>"
+        "   There are many restaurants and eateries being operated in the zoo park."
+    </string>
+    <string name="nehruzoological_moreinfo_stay">
+      "<b>Where to stay</b>"
+        " Telangana Tourism operates Plaza Hotel in Begumpet, Located at distance of 12 kms from Nehru Zoological Park is a comfortable stay. The Plaza hotel here is ideal for tourists visiting destinations in and around Hyderabad. There are standard and deluxe A/C rooms and the interiors are world-class, designed aesthetically to attract tourists. The rooms of the hotel are well-maintained, the environs look pleasing and this hotel is built in signature style in the midst of the city. There is also an attached restaurant here offering quality food for the visitors at specified timings. A prominent hotel of Telangana tourism, Plaza Hotel has well-laid tiles while the woodwork of suites indicate world-class construction, thereby creating a landmark hotel of the tourism department."
+        " Haritha Taramathi baradari resort is located at a distance of 12.3 kms from Nehru Zoological Park ,is an attractive destination in Hyderabad. The resort has an Open Air Auditorium, which is ideal for corporate gatherings and private events. It also has an Air Cooled Theatre and Banquet Hall that are a perfect fit for special events, conferences and exhibitions. It comes with an attached pantry, a multi – cuisine A/C restaurant and a 50 PAX A/c Bar(saqi) for spending some quality time. The resort also has a souvenir shop and swimming pool that comes with a modern health club with best facilities for fitness and leisure. There are A/C suites and A/C rooms that can be an ideal way to enjoy luxury in the vicinity of a prominent monument. Spending time close to a heritage destination with best accommodation and quality food, with all trappings of a resort has never been this wonderful!"
+    </string>
     <string name="view_in_map">View in Map</string>
     <string name="title_activity_jagannath">Jagannath Temple</string>
     <string name="title_activity_yellamma">Yellamma Temple</string>
     <string name="title_activity_peddamma">Peddamma Temple</string>
-    
+
     <string name="title_activity_st_marry">St. Mary\'s Church</string>
     <string name="title_activity_macca_masjid">Macca Masjid</string>
     <string name="title_activity_mahankali">Mahankali Temple</string>
 
     <string name="charminar">Charminar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="salarjung">Salarjung Museum</string>
+    <string name="qutub">Qutub Shahi Tombs</string>
+    <string name="paigah">Paigah Tombs</string>
+    <string name="golconda">Golconda Fort</string>
+    <string name="falaknuma">Falaknuma Palace</string>
+    <string name="chowmahalla">Chowmahalla Palace</string>
+    <string name="durgam">Durgam Cheruvu</string>
+    <string name="hussain">Hussain Sagar</string>
+    <string name="lumbini">Lumbini Park</string>
 </resources>

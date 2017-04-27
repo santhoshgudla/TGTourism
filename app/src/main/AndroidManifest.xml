@@ -43,6 +43,7 @@
             android:name=".AdventureActivity"
             android:configChanges="orientation|screenSize" />
         <activity android:name=".ContactUsActivity" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -70,10 +71,10 @@
             android:label="@string/title_activity_macca_masjid" />
         <activity
             android:name=".hyd.MahankaliActivity"
-            android:label="@string/title_activity_mahankali"/>
-        <activity android:name=".hyd.CharminarActivity"
-            android:label="@string/charminar"/>
-
+            android:label="@string/title_activity_mahankali" />
+        <activity
+            android:name=".hyd.CharminarActivity"
+            android:label="@string/charminar" />
         <activity android:name=".hyd.HyderabadActivity" />
         <activity android:name=".khm.KhammamActivity" />
         <activity android:name=".mbn.MahabubnagarActivity" />
@@ -84,6 +85,35 @@
         <activity android:name=".knr.KarimnagarActivity" />
         <activity android:name=".mdk.MedakActivity" />
         <activity android:name=".rr.RangareddyActivity" />
+        <activity
+            android:name=".hyd.SalarjungActivity"
+            android:label="@string/salarjung" />
+        <activity
+            android:name=".hyd.QutubShahi"
+            android:label="@string/qutub" />
+        <activity
+            android:name=".hyd.PaigahTombs"
+            android:label="@string/paigah" />
+        <activity
+            android:name=".hyd.Golconda"
+            android:label="@string/golconda" />
+        <activity
+            android:name=".hyd.Falaknuma"
+            android:label="@string/falaknuma" />
+        <activity
+            android:name=".hyd.Chowmahalla"
+            android:label="@string/chowmahalla" />
+        <activity
+            android:name=".hyd.Durgam"
+            android:label="@string/durgam" />
+        <activity
+            android:name=".hyd.HussainSager"
+            android:label="@string/hussain" />
+        <activity
+            android:name=".hyd.Lumbini"
+            android:label="@string/lumbini" />
+        <activity android:name=".hyd.KbrNational" />
+        <activity android:name=".hyd.Mahavir"></activity>
     </application>
 
 </manifest>
