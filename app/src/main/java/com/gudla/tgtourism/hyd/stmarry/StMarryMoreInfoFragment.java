@@ -4,6 +4,7 @@ package com.gudla.tgtourism.hyd.stmarry;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,9 +34,15 @@ public class StMarryMoreInfoFragment extends Fragment implements View.OnClickLis
     }
 
     @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewInMap.setOnClickListener(this);
+    }
+
+    @Override
     public void onClick(View v) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.442196,78.5022744"));
+        intent.setData(Uri.parse("geo:17.442196,78.502274"));
         startActivity(intent);
     }
 }

@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.gudla.tgtourism.DestinationsActivity;
 import com.gudla.tgtourism.R;
 
 import java.util.ArrayList;
@@ -35,8 +36,13 @@ public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecycl
 
     @Override
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view;
+        if(mContext instanceof DestinationsActivity){
+            view=mInflater.inflate(R.layout.card_listview,parent,false);
+        }else {
+            view=mInflater.inflate(R.layout.custom_grid_row,parent,false);
 
-        View view=mInflater.inflate(R.layout.custom_grid_row,parent,false);
+        }
         return new ItemHolder(view);
     }
 
@@ -58,8 +64,13 @@ public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecycl
         ImageView mImageView;
         private ItemHolder(View itemView) {
             super(itemView);
-            mImageView= (ImageView) itemView.findViewById(R.id.gridImageView);
-            mTextView=(TextView)itemView.findViewById(R.id.gridTextView);
+            if(mContext instanceof  DestinationsActivity){
+                mImageView= (ImageView) itemView.findViewById(R.id.card_image);
+                mTextView=(TextView)itemView.findViewById(R.id.card_text);
+            }else {
+                mImageView= (ImageView) itemView.findViewById(R.id.gridImageView);
+                mTextView=(TextView)itemView.findViewById(R.id.gridTextView);
+            }
         }
     }
 }

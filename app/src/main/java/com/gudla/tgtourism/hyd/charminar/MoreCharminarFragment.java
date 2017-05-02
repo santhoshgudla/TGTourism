@@ -42,7 +42,7 @@ public class MoreCharminarFragment extends Fragment implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.361431,78.474533"));
+        intent.setData(Uri.parse("geo:17.361564,78.474665"));
         startActivity(intent);
     }
 }

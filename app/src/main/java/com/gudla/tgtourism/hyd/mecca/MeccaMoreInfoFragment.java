@@ -41,7 +41,7 @@ public class MeccaMoreInfoFragment extends Fragment implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.3604416,17.3604416"));
+        intent.setData(Uri.parse("geo:17.360442,78.473571"));
         startActivity(intent);
     }
 }

@@ -40,7 +40,7 @@ public class MoreSalarjungFragment extends Fragment implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.371426, 78.480347"));
+        intent.setData(Uri.parse("geo:17.371253, 78.480377"));
         startActivity(intent);
     }
 

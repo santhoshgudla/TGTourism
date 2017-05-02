@@ -42,7 +42,7 @@ public class MahankaliMoreInfoFragment extends Fragment implements View.OnClickL
     @Override
     public void onClick(View v) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.4507133,78.5369843"));
+        intent.setData(Uri.parse("geo:17.372179,78.458919"));
         startActivity(intent);
     }
 }

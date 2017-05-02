@@ -12,13 +12,13 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.gudla.tgtourism.R;
-import com.gudla.tgtourism.hyd.BrilaActivity;
-import com.gudla.tgtourism.hyd.JagannathActivity;
-import com.gudla.tgtourism.hyd.MahankaliActivity;
-import com.gudla.tgtourism.hyd.MeccaMasjidActivity;
-import com.gudla.tgtourism.hyd.PeddammaActivity;
-import com.gudla.tgtourism.hyd.StMarryActivity;
-import com.gudla.tgtourism.hyd.YellammaActivity;
+import com.gudla.tgtourism.hyd.birla.BrilaActivity;
+import com.gudla.tgtourism.hyd.jagannath.JagannathActivity;
+import com.gudla.tgtourism.hyd.mahankali.MahankaliActivity;
+import com.gudla.tgtourism.hyd.mecca.MeccaMasjidActivity;
+import com.gudla.tgtourism.hyd.peddamma.PeddammaActivity;
+import com.gudla.tgtourism.hyd.stmarry.StMarryActivity;
+import com.gudla.tgtourism.hyd.yellamma.YellammaActivity;
 import com.gudla.tgtourism.util.CustomAdapter;
 
 

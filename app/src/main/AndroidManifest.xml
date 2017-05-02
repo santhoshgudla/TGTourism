@@ -52,68 +52,174 @@
             android:value="AIzaSyA5thEPrcS6so_nJNSfBTrUPlHMVFzIXwc" />
 
         <activity
-            android:name=".hyd.BrilaActivity"
+            android:name=".hyd.HyderabadActivity"
+            android:label="@string/hyderabad" />
+        <activity
+            android:name=".khm.KhammamActivity"
+            android:label="@string/khammam" />
+        <activity
+            android:name=".mbn.MahabubnagarActivity"
+            android:label="@string/mahabubnagar" />
+        <activity
+            android:name=".nld.NalgondaActivity"
+            android:label="@string/nalgonda" />
+        <activity
+            android:name=".wgl.WarangalActivity"
+            android:label="@string/warangal" />
+        <activity
+            android:name=".adb.AdilabadActivity"
+            android:label="@string/adilabad" />
+        <activity
+            android:name=".nzb.NizamabadActivity"
+            android:label="@string/nizamabad" />
+        <activity
+            android:name=".knr.KarimnagarActivity"
+            android:label="@string/karimnagar" />
+        <activity
+            android:name=".mdk.MedakActivity"
+            android:label="@string/medak" />
+        <activity
+            android:name=".rr.RangareddyActivity"
+            android:label="@string/rangareddy" />
+        <activity
+            android:name=".hyd.birla.BrilaActivity"
             android:label="@string/title_activity_brila" />
         <activity
-            android:name=".hyd.JagannathActivity"
+            android:name=".hyd.jagannath.JagannathActivity"
             android:label="@string/title_activity_jagannath" />
         <activity
-            android:name=".hyd.YellammaActivity"
+            android:name=".hyd.yellamma.YellammaActivity"
             android:label="@string/title_activity_yellamma" />
         <activity
-            android:name=".hyd.PeddammaActivity"
+            android:name=".hyd.peddamma.PeddammaActivity"
             android:label="@string/title_activity_peddamma" />
         <activity
-            android:name=".hyd.StMarryActivity"
+            android:name=".hyd.stmarry.StMarryActivity"
             android:label="@string/title_activity_st_marry" />
         <activity
-            android:name=".hyd.MeccaMasjidActivity"
+            android:name=".hyd.mecca.MeccaMasjidActivity"
             android:label="@string/title_activity_macca_masjid" />
         <activity
-            android:name=".hyd.MahankaliActivity"
+            android:name=".hyd.mahankali.MahankaliActivity"
             android:label="@string/title_activity_mahankali" />
         <activity
-            android:name=".hyd.CharminarActivity"
+            android:name=".hyd.charminar.CharminarActivity"
             android:label="@string/charminar" />
-        <activity android:name=".hyd.HyderabadActivity" />
-        <activity android:name=".khm.KhammamActivity" />
-        <activity android:name=".mbn.MahabubnagarActivity" />
-        <activity android:name=".nld.NalgondaActivity" />
-        <activity android:name=".wgl.WarangalActivity" />
-        <activity android:name=".adb.AdilabadActivity" />
-        <activity android:name=".nzb.NizamabadActivity" />
-        <activity android:name=".knr.KarimnagarActivity" />
-        <activity android:name=".mdk.MedakActivity" />
-        <activity android:name=".rr.RangareddyActivity" />
         <activity
-            android:name=".hyd.SalarjungActivity"
+            android:name=".hyd.salarjung.SalarjungActivity"
             android:label="@string/salarjung" />
         <activity
-            android:name=".hyd.QutubShahi"
+            android:name=".hyd.qutub.QutubShahi"
             android:label="@string/qutub" />
         <activity
-            android:name=".hyd.PaigahTombs"
+            android:name=".hyd.paigah.PaigahTombs"
             android:label="@string/paigah" />
         <activity
-            android:name=".hyd.Golconda"
+            android:name=".hyd.golconda.Golconda"
             android:label="@string/golconda" />
         <activity
-            android:name=".hyd.Falaknuma"
+            android:name=".hyd.falaknuma.Falaknuma"
             android:label="@string/falaknuma" />
         <activity
-            android:name=".hyd.Chowmahalla"
+            android:name=".hyd.chowmahalla.Chowmahalla"
             android:label="@string/chowmahalla" />
         <activity
-            android:name=".hyd.Durgam"
+            android:name=".hyd.durgam.Durgam"
             android:label="@string/durgam" />
         <activity
-            android:name=".hyd.HussainSager"
+            android:name=".hyd.hussain.HussainSager"
             android:label="@string/hussain" />
         <activity
-            android:name=".hyd.Lumbini"
+            android:name=".hyd.lumbini.Lumbini"
             android:label="@string/lumbini" />
-        <activity android:name=".hyd.KbrNational" />
-        <activity android:name=".hyd.Mahavir"></activity>
+        <activity
+            android:name=".hyd.kbr.KbrNational"
+            android:label="@string/kbr_national_park" />
+        <activity
+            android:name=".hyd.mahavir.Mahavir"
+            android:label="@string/mahavir_national_park" />
+        <activity
+            android:name=".hyd.mrugavani.Mrugavani"
+            android:label="@string/mrugavani_national_park" />
+        <activity
+            android:name=".hyd.nehru.Nehru"
+            android:label="@string/nehru_zoological" />
+        <activity
+            android:name=".khm.jamala.Jamalapuram"
+            android:label="@string/jamalapuram" />
+        <activity
+            android:name=".khm.kusumanchi.Kusumanchi"
+            android:label="@string/kusumanchi" />
+        <activity
+            android:name=".khm.nela.Nelakondapalli"
+            android:label="@string/nelakondapalli" />
+        <activity
+            android:name=".khm.fort.KhammamFort"
+            android:label="@string/khammam_fort" />
+        <activity
+            android:name=".khm.parnasala.Parnasala"
+            android:label="@string/parnasala" />
+        <activity
+            android:name=".khm.palair.Palair"
+            android:label="@string/palair" />
+        <activity
+            android:name=".khm.dam.KinnerasaniDam"
+            android:label="@string/kinnerasani_dam" />
+        <activity
+            android:name=".khm.bagatha.Bagatha"
+            android:label="@string/bogatha" />
+        <activity
+            android:name=".khm.kinnerasani.KinnerasaniWildLife"
+            android:label="@string/kinnerasani" />
+        <activity
+            android:name=".khm.bhadra.Bhadrachalam"
+            android:label="@string/bhadrachalam" />
+        <activity android:name=".mbn.jogu.JogulambaActivity"
+            android:label="@string/jogulamba"/>
+        <activity android:name=".mbn.uma.UmaMaheshwara"
+            android:label="@string/uma_maheshwara"/>
+        <activity android:name=".mbn.maisi.Maisigandi"
+            android:label="@string/maisigandi"/>
+        <activity android:name=".mbn.beechu.Beechupally"
+            android:label="@string/beechupally"/>
+        <activity android:name=".mbn.lord.LordShiva"
+            android:label="@string/lord_shiva"/>
+        <activity android:name=".mbn.manyam.Manyamkonda"
+            android:label="@string/manyamkonda"/>
+        <activity android:name=".mbn.pillala.Pillalamarri"
+            android:label="@string/pillalamarri"/>
+        <activity android:name=".mbn.alam.Alampur"
+            android:label="@string/alampur"/>
+        <activity android:name=".mbn.gadwal.GadwalFort"
+            android:label="@string/gadwal_fort"/>
+        <activity android:name=".mbn.mallela.Mallela"
+            android:label="@string/mallela"/>
+        <activity android:name=".mbn.tiger.TigerForest"
+            android:label="@string/tiger_forest"/>
+        <activity android:name=".mbn.jurala.Jurala"
+            android:label="@string/jurala_dam"/>
+        <activity android:name=".mbn.koilsagar.Koilsagar"
+            android:label="@string/koilsagar"/>
+        <activity android:name=".mbn.srisailam.Srisailam"
+            android:label="@string/srisailam"/>
+        <activity android:name=".nld.yadagi.Yadagirigutta"
+            android:label="@string/yadagirigutta"/>
+        <activity android:name=".nld.surendra.Surendrapuri"
+            android:label="@string/surendrapuri"/>
+        <activity android:name=".nld.chaya.ChayaSomeswara"
+            android:label="@string/chaya_someswara"/>
+        <activity android:name=".nld.nandi.Nandikonda"
+            android:label="@string/nandikonda"/>
+        <activity android:name=".nld.sagar.Nagarjuna"
+            android:label="@string/nagarjuna"/>
+        <activity android:name=".nld.kolanupaka.Kolanupaka"
+            android:label="@string/kolanupaka"/>
+        <activity android:name=".nld.devara.Devarakonda"
+            android:label="@string/devarakonda"/>
+        <activity android:name=".nld.bhongir.Bhongir"
+            android:label="@string/bhongir"/>
+        <activity android:name=".nld.racha.Rachakonda"
+            android:label="@string/rachakonda"/>
     </application>
 
 </manifest>

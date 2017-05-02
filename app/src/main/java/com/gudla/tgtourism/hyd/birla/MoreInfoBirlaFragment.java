@@ -41,7 +41,7 @@ public class MoreInfoBirlaFragment extends Fragment implements View.OnClickListe
     @Override
     public void onClick(View view) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.4062367,78.4690601"));
+        intent.setData(Uri.parse("geo:17.406237,78.469060"));
         startActivity(intent);
     }
 }

@@ -10,6 +10,27 @@ import android.view.View;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
+import com.gudla.tgtourism.hyd.birla.BrilaActivity;
+import com.gudla.tgtourism.hyd.charminar.CharminarActivity;
+import com.gudla.tgtourism.hyd.chowmahalla.Chowmahalla;
+import com.gudla.tgtourism.hyd.durgam.Durgam;
+import com.gudla.tgtourism.hyd.falaknuma.Falaknuma;
+import com.gudla.tgtourism.hyd.golconda.Golconda;
+import com.gudla.tgtourism.hyd.hussain.HussainSager;
+import com.gudla.tgtourism.hyd.jagannath.JagannathActivity;
+import com.gudla.tgtourism.hyd.kbr.KbrNational;
+import com.gudla.tgtourism.hyd.lumbini.Lumbini;
+import com.gudla.tgtourism.hyd.mahankali.MahankaliActivity;
+import com.gudla.tgtourism.hyd.mahavir.Mahavir;
+import com.gudla.tgtourism.hyd.mecca.MeccaMasjidActivity;
+import com.gudla.tgtourism.hyd.mrugavani.Mrugavani;
+import com.gudla.tgtourism.hyd.nehru.Nehru;
+import com.gudla.tgtourism.hyd.paigah.PaigahTombs;
+import com.gudla.tgtourism.hyd.peddamma.PeddammaActivity;
+import com.gudla.tgtourism.hyd.qutub.QutubShahi;
+import com.gudla.tgtourism.hyd.salarjung.SalarjungActivity;
+import com.gudla.tgtourism.hyd.stmarry.StMarryActivity;
+import com.gudla.tgtourism.hyd.yellamma.YellammaActivity;
 import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 import com.gudla.tgtourism.util.RecyclerItemClickListener;
 
@@ -100,6 +121,18 @@ public class HyderabadActivity extends AppCompatActivity {
                                 break;
                             case 16:
                                 intent=new Intent(HyderabadActivity.this, Lumbini.class);
+                                break;
+                            case 17:
+                                intent=new Intent(HyderabadActivity.this, KbrNational.class);
+                                break;
+                            case 18:
+                                intent=new Intent(HyderabadActivity.this, Mrugavani.class);
+                                break;
+                            case 19:
+                                intent=new Intent(HyderabadActivity.this, Nehru.class);
+                                break;
+                            case 20:
+                                intent=new Intent(HyderabadActivity.this, Mahavir.class);
                                 break;
                             default:
                                 break;

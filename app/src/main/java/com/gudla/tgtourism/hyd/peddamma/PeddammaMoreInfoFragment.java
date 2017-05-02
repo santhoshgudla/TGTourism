@@ -41,7 +41,7 @@ public class PeddammaMoreInfoFragment extends Fragment implements View.OnClickLi
     @Override
     public void onClick(View view) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.4304396,78.4062613"));
+        intent.setData(Uri.parse("geo:17.492074,78.407306"));
         startActivity(intent);
     }
 

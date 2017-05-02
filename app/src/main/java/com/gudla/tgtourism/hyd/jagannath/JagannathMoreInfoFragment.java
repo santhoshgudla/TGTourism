@@ -41,7 +41,7 @@ public class JagannathMoreInfoFragment extends Fragment implements View.OnClickL
     @Override
     public void onClick(View view) {
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:17.4151319,78.4262336"));
+        intent.setData(Uri.parse("geo:17.415132,78.426234"));
         startActivity(intent);
     }
 }
