@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.gudla.tgtourism.R;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -53,7 +53,7 @@ public class NatureMainFragment extends Fragment {
                         R.drawable.mdk_pocharam,R.drawable.mdk_singur,R.drawable.mdk_manjeera,
                         R.drawable.rr_ananthagiri_hills,R.drawable.rr_ramoji,R.drawable.rr_osman_sagar};
         String[] mName=mContext.getResources().getStringArray(R.array.nature_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(mContext, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(mContext, mImageId, mName));
     }
 
     @Override

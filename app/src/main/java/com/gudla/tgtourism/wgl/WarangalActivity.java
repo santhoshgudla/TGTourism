@@ -1,15 +1,15 @@
 package com.gudla.tgtourism.wgl;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 
 public class WarangalActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
@@ -29,7 +29,7 @@ public class WarangalActivity extends AppCompatActivity {
                 R.drawable.wgl_sammakka_saralamma,R.drawable.wgl_thousand_pillars,R.drawable.wgl_warangalfort,R.drawable.wgl_ramappa,
                 R.drawable.wgl_laknavaram,R.drawable.wgl_pakhallake,R.drawable.etunagaram,R.drawable.wgl_pakhal_wildlife};
         String[] mName=getResources().getStringArray(R.array.wgl_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

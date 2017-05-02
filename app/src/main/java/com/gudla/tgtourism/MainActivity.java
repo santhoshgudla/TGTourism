@@ -5,11 +5,12 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.drawable.AnimationDrawable;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -21,26 +22,44 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
-
+import com.gudla.tgtourism.adb.AdilabadActivity;
+import com.gudla.tgtourism.hyd.HyderabadActivity;
+import com.gudla.tgtourism.khm.KhammamActivity;
+import com.gudla.tgtourism.knr.KarimnagarActivity;
+import com.gudla.tgtourism.mbn.MahabubnagarActivity;
+import com.gudla.tgtourism.mdk.MedakActivity;
+import com.gudla.tgtourism.nld.NalgondaActivity;
+import com.gudla.tgtourism.nzb.NizamabadActivity;
+import com.gudla.tgtourism.rr.RangareddyActivity;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
+import com.gudla.tgtourism.util.RecyclerItemClickListener;
+import com.gudla.tgtourism.wgl.WarangalActivity;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private DrawerLayout drawerLayout;
-    private ListView listView;
+    private ListView mListView;
+    private RecyclerView mRecyclerView;
     ActionBarDrawerToggle drawerListner;
     ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
-        listView = (ListView) findViewById(R.id.drawerList);
+        setContentView(R.layout.main_drawer_layout);
+        mRecyclerView = (RecyclerView) findViewById(R.id.drawer_recycler);
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mListView = (ListView) findViewById(R.id.drawer_main_list);
         MyAdapter myAdapter = new MyAdapter(this);
-        listView.setAdapter(myAdapter);
-        listView.setOnItemClickListener(this);
+        mListView.setAdapter(myAdapter);
+        mListView.setOnItemClickListener(this);
+        int[] mImageId={R.drawable.hyd_charminar,R.drawable.khm_parnashala,R.drawable.mbn_gadwalfort,R.drawable.nld_nagarjunasagar,
+                R.drawable.wgl_warangalfort,R.drawable.adb_nirmalfort,R.drawable.nzb_domakonda,R.drawable.knr_elgandalfort,
+                R.drawable.mdk_medakfort,R.drawable.rr_ramoji};
+        String[] mName=getResources().getStringArray(R.array.regions_array);
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setScrollContainer(true);
+        mRecyclerView.setNestedScrollingEnabled(false);
+
         drawerListner = new ActionBarDrawerToggle(this, drawerLayout, R.string.drawer_open, R.string.drawer_closed) {
             @Override
             public void onDrawerOpened(View drawerView) {
@@ -53,16 +72,64 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         drawerLayout.addDrawerListener(drawerListner);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        imageAnimation();
+        if(this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
+            imageAnimation();
+        }
+
+        mRecyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener(){
+
+            @Override
+            public void onItemClick(View view, int position) {
+                Intent intent=null;
+                switch (position){
+                    case 0:
+                        intent=new Intent(MainActivity.this, HyderabadActivity.class);
+                        break;
+                    case 1:
+                        intent=new Intent(MainActivity.this, KhammamActivity.class);
+                        break;
+                    case 2:
+                        intent=new Intent(MainActivity.this, MahabubnagarActivity.class);
+                        break;
+                    case 3:
+                        intent=new Intent(MainActivity.this, NalgondaActivity.class);
+                        break;
+                    case 4:
+                        intent=new Intent(MainActivity.this, WarangalActivity.class);
+                        break;
+                    case 5:
+                        intent=new Intent(MainActivity.this, AdilabadActivity.class);
+                        break;
+                    case 6:
+                        intent=new Intent(MainActivity.this, NizamabadActivity.class);
+                        break;
+                    case 7:
+                        intent=new Intent(MainActivity.this, KarimnagarActivity.class);
+                        break;
+                    case 8:
+                        intent=new Intent(MainActivity.this, MedakActivity.class);
+                        break;
+                    case 9:
+                        intent=new Intent(MainActivity.this, RangareddyActivity.class);
+                        break;
+                    default:
+                        break;
+
+                }
+                if(intent != null){
+                    startActivity(intent);
+                }
+            }
+        }));
     }
 
     private void imageAnimation() {
+            imageView = (ImageView) findViewById(R.id.drawer_image_animation);
+            imageView.setImageResource(R.drawable.main_image_animations);
+            imageView.setScaleType(ImageView.ScaleType.FIT_XY);
 
-        imageView = (ImageView) findViewById(R.id.main_imageView);
-        imageView.setImageResource(R.drawable.main_image_animations);
-
-        AnimationDrawable frameAnimation = (AnimationDrawable) imageView.getDrawable();
-        frameAnimation.start();
+            AnimationDrawable frameAnimation = (AnimationDrawable) imageView.getDrawable();
+            frameAnimation.start();
     }
 
     @Override
@@ -105,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         onItemSelect(i);
+        drawerLayout.closeDrawer(mListView);
         Intent intent = null;
         switch (i) {
             case 0:
@@ -114,18 +182,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 intent = new Intent(this, DestinationsActivity.class);
                 break;
             case 2:
-                intent = new Intent(this, RegionsActivity.class);
-                break;
-            case 3:
                 intent = getOpenFacebookIntent(this);
                 break;
-            case 4:
+            case 3:
                 intent = getOpenTwitterIntent(this);
                 break;
-            case 5:
+            case 4:
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/user/tstourism"));
                 break;
-            case 6:
+            case 5:
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.telanganatourism.gov.in/blog/blog.html"));
                 break;
             default:
@@ -155,7 +220,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     private void onItemSelect(int i) {
-        listView.setItemChecked(i, true);
+        mListView.setItemChecked(i, true);
     }
 
 //    @Override
@@ -200,8 +265,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 }
 class MyAdapter extends BaseAdapter{
     private Context context;
-    public String[] listNav;
-    int[] images = {R.drawable.ic_logo,R.drawable.ic_destinations,R.drawable.tg_districts,
+    private String[] listNav;
+    private final int[] images = {R.drawable.ic_logo,R.drawable.ic_destinations,
             R.drawable.ic_facebook,R.drawable.ic_twitter,R.drawable.ic_youtube,R.drawable.ic_blog};
     MyAdapter(Context context){
         this.context=context;
@@ -224,9 +289,9 @@ class MyAdapter extends BaseAdapter{
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        View row=null;
+        View row;
         if(view == null){
-            LayoutInflater inflater= (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row=inflater.inflate(R.layout.custom_layout,viewGroup,false);
         }
         else {

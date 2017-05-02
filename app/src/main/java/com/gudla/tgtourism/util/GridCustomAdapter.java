@@ -3,16 +3,12 @@ package com.gudla.tgtourism.util;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 
 import com.gudla.tgtourism.R;
-import com.gudla.tgtourism.util.SourceArray;
-import com.gudla.tgtourism.util.ViewHolder;
 
 import java.util.ArrayList;
 
@@ -21,8 +17,8 @@ import java.util.ArrayList;
  */
 public class GridCustomAdapter extends BaseAdapter {
 
-    Context context;
-    ArrayList<SourceArray> list;
+    private Context context;
+    private ArrayList<SourceArray> list;
 
     public GridCustomAdapter(Context context, int[] imageId, String[] name) {
         this.context = context;
@@ -55,7 +51,7 @@ public class GridCustomAdapter extends BaseAdapter {
         int imageViewId = R.id.imageLinnerGrid;
         int textViewId = R.id.textLineerGrid;
         if (row == null) {
-            LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             row = inflater.inflate(R.layout.custon_grid_lineer, viewGroup, false);
             viewHolder = new ViewHolder(row, imageViewId, textViewId);
             row.setTag(viewHolder);

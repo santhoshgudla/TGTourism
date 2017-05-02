@@ -8,15 +8,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.gudla.tgtourism.R;
-
 /**
  * Created by dell on 9/3/2016.
  */
 public class ViewHolder {
 
-    public ImageView imageView;
-    public TextView textView;
+    ImageView imageView;
+    TextView textView;
     public ViewHolder(View view,int imageId, int textId){
         imageView= (ImageView) view.findViewById(imageId);
         textView= (TextView) view.findViewById(textId);
@@ -36,10 +34,9 @@ public class ViewHolder {
                 Path.Direction.CCW);
 
         canvas.clipPath(path);
-        Bitmap sourceBitmap = scaleBitmapImage;
-        canvas.drawBitmap(sourceBitmap,
-                new Rect(0, 0, sourceBitmap.getWidth(),
-                        sourceBitmap.getHeight()),
+        canvas.drawBitmap(scaleBitmapImage,
+                new Rect(0, 0, scaleBitmapImage.getWidth(),
+                        scaleBitmapImage.getHeight()),
                 new Rect(0, 0, targetWidth, targetHeight), null);
         return targetBitmap;
     }

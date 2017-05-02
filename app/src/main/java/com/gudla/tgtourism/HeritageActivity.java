@@ -1,14 +1,15 @@
 package com.gudla.tgtourism;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,7 +29,7 @@ import com.gudla.tgtourism.heritage.HerMdkFragment;
 import com.gudla.tgtourism.heritage.HerNldFragment;
 import com.gudla.tgtourism.heritage.HerNzbFragment;
 import com.gudla.tgtourism.heritage.HerWglFragment;
-import com.gudla.tgtourism.heritage.TestFragment;
+import com.gudla.tgtourism.heritage.MainHeritageFragment;
 import com.gudla.tgtourism.util.FragmentReplace;
 
 public class HeritageActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
@@ -37,7 +38,7 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
     ActionBarDrawerToggle actionBarDrawerToggle;
     FragmentManager fragmentManager;
     FragmentTransaction mFragmentTransaction;
-    TestFragment testFragment;
+    MainHeritageFragment testFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,7 +74,7 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
                 if(convertView == null){
-                    LayoutInflater inflater= (LayoutInflater) getContext().getSystemService(getContext().LAYOUT_INFLATER_SERVICE);
+                    LayoutInflater inflater= (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                     convertView=inflater.inflate(R.layout.regions_item,parent,false);
                 }
                 TextView textView= (TextView) convertView.findViewById(R.id.textView4);
@@ -84,7 +85,7 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
         listView.setOnItemClickListener(this);
         fragmentManager=getSupportFragmentManager();
         mFragmentTransaction=fragmentManager.beginTransaction();
-        testFragment=new TestFragment();
+        testFragment=new MainHeritageFragment();
         mFragmentTransaction.add(R.id.mainheritageContainer,testFragment,"main");
         mFragmentTransaction.commit();
 
@@ -135,8 +136,8 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
     }
 
     private void fragmentRecreate() {
-        testFragment=(TestFragment) getSupportFragmentManager().findFragmentByTag("main");
-        if(testFragment instanceof TestFragment){
+        testFragment=(MainHeritageFragment) getSupportFragmentManager().findFragmentByTag("main");
+        if(testFragment != null){
             fragmentDestroy();
             fragmentCreate();
         }
@@ -144,7 +145,7 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
 
     private void fragmentCreate() {
         mFragmentTransaction = fragmentManager.beginTransaction();
-        testFragment = new TestFragment();
+        testFragment = new MainHeritageFragment();
         mFragmentTransaction.add(R.id.mainheritageContainer, testFragment, "main");
         mFragmentTransaction.commit();
     }
@@ -159,6 +160,7 @@ public class HeritageActivity extends AppCompatActivity implements AdapterView.O
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         int mContainer=R.id.mainheritageContainer;
         onItemSelected(i);
+        drawerLayout.closeDrawer(listView);
         switch (i){
             case 0:
                 HerHydFragment mHerHydFragment=new HerHydFragment();

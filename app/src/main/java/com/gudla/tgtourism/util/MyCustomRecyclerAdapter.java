@@ -1,11 +1,6 @@
 package com.gudla.tgtourism.util;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Path;
-import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.gudla.tgtourism.DestinationsActivity;
 import com.gudla.tgtourism.R;
 
 import java.util.ArrayList;
@@ -21,16 +17,16 @@ import java.util.ArrayList;
  * Created by dell on 9/10/2016.
  */
 public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecyclerAdapter.ItemHolder> {
-    LayoutInflater mInflater;
-    public static ArrayList<DataSource> mList;
-    Context mContext;
+    private LayoutInflater mInflater;
+    private static ArrayList<DataSource> mList;
+    private Context mContext;
 
-    public MyCustomRecyclerAdapter(Context mContext, int[] mImageId, String[] mName){
-        this.mContext=mContext;
+    public MyCustomRecyclerAdapter(Context context, int[] imageId, String[] name){
+        this.mContext=context;
         mInflater=LayoutInflater.from(mContext);
-        getSourceArray(mImageId,mName);
+        getSourceArray(imageId,name);
     }
-    public static void getSourceArray(int[] mImageId,String[] mName){
+    private static void getSourceArray(int[] mImageId,String[] mName){
         mList=new ArrayList<>();
         for(int i=0;i<mName.length;i++){
             DataSource sourceArray=new DataSource(mImageId[i], mName[i]);
@@ -40,10 +36,14 @@ public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecycl
 
     @Override
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view;
+        if(mContext instanceof DestinationsActivity){
+            view=mInflater.inflate(R.layout.card_listview,parent,false);
+        }else {
+            view=mInflater.inflate(R.layout.custom_grid_row,parent,false);
 
-        View view=mInflater.inflate(R.layout.custom_grid_row,parent,false);
-        ItemHolder itemHolder= new ItemHolder(view);
-        return itemHolder;
+        }
+        return new ItemHolder(view);
     }
 
     @Override
@@ -62,10 +62,15 @@ public class MyCustomRecyclerAdapter extends RecyclerView.Adapter<MyCustomRecycl
     class ItemHolder extends RecyclerView.ViewHolder{
         TextView mTextView;
         ImageView mImageView;
-        public ItemHolder(View itemView) {
+        private ItemHolder(View itemView) {
             super(itemView);
-            mImageView= (ImageView) itemView.findViewById(R.id.gridImageView);
-            mTextView=(TextView)itemView.findViewById(R.id.gridTextView);
+            if(mContext instanceof  DestinationsActivity){
+                mImageView= (ImageView) itemView.findViewById(R.id.card_image);
+                mTextView=(TextView)itemView.findViewById(R.id.card_text);
+            }else {
+                mImageView= (ImageView) itemView.findViewById(R.id.gridImageView);
+                mTextView=(TextView)itemView.findViewById(R.id.gridTextView);
+            }
         }
     }
 }

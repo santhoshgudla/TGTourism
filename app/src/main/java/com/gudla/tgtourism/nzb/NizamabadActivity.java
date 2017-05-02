@@ -1,15 +1,15 @@
 package com.gudla.tgtourism.nzb;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 
 import com.gudla.tgtourism.ContactUsActivity;
 import com.gudla.tgtourism.R;
-import com.gudla.tgtourism.util.MyCustomRecyclerAdapter;
+import com.gudla.tgtourism.util.CustomRecyclerAdapter;
 
 public class NizamabadActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
@@ -27,7 +27,7 @@ public class NizamabadActivity extends AppCompatActivity {
                 R.drawable.nzb_alisagar,R.drawable.nzb_nizamsagar,R.drawable.nzb_mallaram_forest,R.drawable.nzb_pochampad,
                 R.drawable.nzb_alisagar_deer};
         String[] mName=getResources().getStringArray(R.array.nzb_array);
-        mRecyclerView.setAdapter(new MyCustomRecyclerAdapter(this, mImageId, mName));
+        mRecyclerView.setAdapter(new CustomRecyclerAdapter(this, mImageId, mName));
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
